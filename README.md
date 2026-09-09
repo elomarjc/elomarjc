@@ -44,15 +44,27 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 > **Interactive Physical-Layer (PHY) Channel Emulator & Automated 3GPP TS 38.104 Testbench**  
 > *Pillars: Software • Digital (DSP) • Kommunikation*  
 > *Stack: Vanilla ES6 • HTML5 Canvas (60 FPS Phosphor Scope) • 3GPP TDL Fading • Clarke/Jakes Doppler • AWGN • BPSK-256QAM • OFDM*
-* **Real-Time Instrumentation**: High-performance in-browser Vector Signal Analyzer (VSA) running at 60 FPS with digital phosphor persistence and interactive 5G NR OFDM resource grid (14 symbols $	imes$ 24 subcarriers).
+* **Real-Time Instrumentation**: High-performance in-browser Vector Signal Analyzer (VSA) running at 60 FPS with digital phosphor persistence and interactive 5G NR OFDM resource grid (14 symbols $\times$ 24 subcarriers).
 * **3GPP Radio Channel Emulation**: Mathematically modeled Rayleigh/Rician multipath fading with tunable $K$-factor, vehicle Doppler frequency shifts up to 300+ km/h at 3.5 GHz mid-band, local oscillator phase noise, and transceiver mixer I/Q imbalance.
-* **Automated Compliance Verification**: Implemented automated Monte Carlo sweeps benchmarking empirical Bit Error Rates against closed-form theoretical AWGN error functions ($	ext{erfc}$ / $Q$-function) and official 3GPP TS 38.104 EVM limits ($<3.5\%$ for 256-QAM, $<8\%$ for 64-QAM).
+* **Automated Compliance Verification**: Implemented automated Monte Carlo sweeps benchmarking empirical Bit Error Rates against closed-form theoretical AWGN error functions ($\text{erfc}$ / $Q$-function) and official 3GPP TS 38.104 EVM limits ($<3.5\%$ for 256-QAM, $<8\%$ for 64-QAM).
 * **Dataset Generation**: Built-in one-click telemetry export to Keysight PathWave-compatible CSV logs and structured JSON datasets for offline AI/ML channel estimation.
 * **[🚀 Launch Live WebApp →](https://elomarjc.github.io/5g-rf-channel-studio/)** • **[View Repository →](https://github.com/elomarjc/5g-rf-channel-studio)**
 
 ---
 
-### 2. 🐠 [Grow A Fish — Technical Case Study](https://github.com/elomarjc/grow-a-fish-case-study)
+### 2. 🛰️ [CubeSat AOCS Flight Simulator](https://github.com/elomarjc/cubesat-aocs-simulator) • [🚀 Live WebApp](https://elomarjc.github.io/cubesat-aocs-simulator/)
+> **3D Interactive Spacecraft Attitude Determination & Control System (AOCS) & LEO Orbit Simulator**  
+> *Pillars: Regulation (Control) • Software • Digital • Space Systems*  
+> *Stack: Vanilla ES6 • Three.js (WebGL) • RK4 Numerical Integrator • Quaternion Kinematics • B-dot Detumble • Reaction Wheels*
+* **3D Interactive Space Operations**: High-detail procedural 3U CubeSat with gold MLI foil, solar panels, internal flywheels, and Earth globe with sidereal spin, atmospheric glow, and Aalborg Ground Station ($57.05^\circ\text{N}, 9.92^\circ\text{E}$) acquisition-of-signal (AOS) tracking beam.
+* **Rigid Body Dynamics & RK4 Integrator**: 10-state differential equation solver propagating unit quaternions $[\mathbf{q}]$, angular rates $[\boldsymbol{\omega}]$, and wheel speeds $[\boldsymbol{\omega}_{rw}]$, coupled with gravity gradient, aerodynamic drag, and solar radiation pressure torques.
+* **Flight Computer FSM**: Implemented magnetic B-dot detumbling ($\mathbf{m} = -k \dot{\mathbf{B}}$) to damp tip-off tumble rates ($40^\circ/\text{s} \to <0.5^\circ/\text{s}$), Nadir Earth-pointing PD control in LVLH frame, Sun tracking mode, dynamic Aalborg ground station slew, and cross-product reaction wheel desaturation.
+* **Mission Telemetry & CSP Export**: Real-time angular velocity damping strip chart, reaction wheel RPM bars (up to 6500 RPM), and one-click telemetry export formatted for GomSpace CSP (CubeSat Space Protocol) / CAN bus logs.
+* **[🚀 Launch Live WebApp →](https://elomarjc.github.io/cubesat-aocs-simulator/)** • **[View Repository →](https://github.com/elomarjc/cubesat-aocs-simulator)**
+
+---
+
+### 3. 🐠 [Grow A Fish — Technical Case Study](https://github.com/elomarjc/grow-a-fish-case-study)
 > **Published Commercial Mobile Game & Real-Time Multiplayer Ecosystem**  
 > *Pillars: Software • Kommunikation • Digital*  
 > *Stack: Flutter • Flame Engine • Bonfire RPG • Dart FFI & C++ SoLoud • Supabase Realtime • Hive NoSQL • X25519/AES-GCM*
@@ -65,7 +77,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### 3. 🫀 [Active Adaptive Noise Cancellation (ANC)](https://github.com/elomarjc/adaptive-noise-cancellation-dsp)
+### 4. 🫀 [Active Adaptive Noise Cancellation (ANC)](https://github.com/elomarjc/adaptive-noise-cancellation-dsp)
 > **Master's Thesis in Electronic Systems • Aalborg University**  
 > *Pillars: Digital (DSP) • Software (Python/MATLAB)*  
 > *Stack: MATLAB • Python • Adaptive Filters (LMS, NLMS, RLS) • FastICA • Mel-Spectrograms • STFT • In collaboration with Ai Health Highway*
@@ -76,7 +88,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### 4. 🛰️ [AAUSAT6 CubeSat: Attitude Determination & Control (ADCS)](https://github.com/elomarjc/advanced-control-digital-systems)
+### 5. 🛰️ [AAUSAT6 CubeSat: Attitude Determination & Control (ADCS)](https://github.com/elomarjc/advanced-control-digital-systems)
 > **Master's Project (Semester 8) • Systems of Systems & Space Engineering • Aalborg University**  
 > *Pillars: Regulation (Control) • Digital • Kommunikation*  
 > *Stack: MATLAB • Orbital Dynamics • B-dot Detumbling • LQR Target Tracking • Momentum Wheels • $H_\infty$ Robust Control*
@@ -86,7 +98,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### 5. ⚙️ [Real-Time Anti-Sway Control of a 2D Gantry Crane](https://github.com/elomarjc/gantry-crane-anti-sway-control)
+### 6. ⚙️ [Real-Time Anti-Sway Control of a 2D Gantry Crane](https://github.com/elomarjc/gantry-crane-anti-sway-control)
 > **Bachelor's Project (Semester 6) • Electronic Systems & Control Engineering • Aalborg University**  
 > *Pillars: Regulation (Control) • Automation • Digital (Embedded)*  
 > *Stack: Embedded C/C++ • Arduino Mega 2560 (ATmega2560) • PlatformIO • Cascaded PID • Discrete Signal Processing*
@@ -97,7 +109,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### 6. 🤖 [Multi-Sensor Positioning & AMR Fleet Integration](https://github.com/elomarjc/indoor-positioning-amr-integration)
+### 7. 🤖 [Multi-Sensor Positioning & AMR Fleet Integration](https://github.com/elomarjc/indoor-positioning-amr-integration)
 > **AAU 5G Smart Production Lab • Industrial IoT & Autonomous Robotics**  
 > *Pillars: Automation • Kommunikation • Software*  
 > *Stack: Python • Multi-Threading • Ultra-Wideband (UWB) • Computer Vision (CV) • MQTT • InfluxDB • MATLAB*
@@ -108,101 +120,44 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### 7. 🛰️ [3-DoF Satellite Simulator CoM Calibration & Dynamics](https://github.com/elomarjc/satellite-simulator-adcs-calibration)
+### 8. 🛰️ [3-DoF Satellite Simulator CoM Calibration & Dynamics](https://github.com/elomarjc/satellite-simulator-adcs-calibration)
 > **Master's Project (Semester 7) • Control of Manipulators • Aalborg University**  
 > *Pillars: Regulation (Control) • Digital (Embedded) • Kommunikation*  
-> *Stack: C++ • FreeRTOS • MEKF Quaternion Filtering • Rotational Dynamics • Inertial Calibration*
-* Created dynamic center-of-mass estimation algorithms using spacecraft kinematics and Kalman filtering to eliminate gravitational disturbance torques on a 3-DoF spherical air-bearing satellite simulator.
-* **[View Satellite Simulator Repository →](https://github.com/elomarjc/satellite-simulator-adcs-calibration)**
+> *Stack: MATLAB • Simulink • FreeRTOS • Cypress PSoC 5LP • Spherical Air Bearing • MEKF Sensor Fusion*
+* **Experimental Testbed**: Designed Center-of-Mass (CoM) auto-balancing algorithms for a 3-DoF spherical air-bearing satellite simulator.
+* **State Estimation**: Formulated Multiplicative Extended Kalman Filters (MEKF) fusing IMU rate gyros, accelerometers, and 3-axis magnetometers.
+* **Embedded Control**: Developed real-time FreeRTOS C tasks on Cypress PSoC 5LP for automated stepper counterweight actuation.
+* **[View Calibration Repository →](https://github.com/elomarjc/satellite-simulator-adcs-calibration)**
 
 ---
 
-## 🎓 Academic Trajectory & Comprehensive Coursework
-
-### **Master of Science (M.Sc.) in Electronic Systems** — Aalborg University
-
-| Semester / Project | Focus & Methods Applied |
-| :--- | :--- |
-| **Master's Thesis (Semesters 9–10)**<br/>*Adaptive Noise Cancellation for Electronic Stethoscopes* | Real-time adaptive filtering (**LMS, NLMS, RLS**) and Independent Component Analysis (**FastICA**) for physiological signal enhancement. Evaluated SNR improvements up to 34 dB on smart medical stethoscopes in collaboration with **Ai Health Highway**. |
-| **Semester 8: Systems of Systems**<br/>*ADCS for AAUSAT6 CubeSat* | 2U CubeSat orbital dynamics modeling, magnetic **B-dot detumbling**, **LQR state feedback** with integral action for Nadir/Target tracking, and **$H_\infty$ robust stability** analysis under space disturbance torques. |
-| **Semester 7: Machine Intelligence**<br/>*CoM Calibration of 3-DoF Satellite Simulator* | Spacecraft kinematics, **Multiplicative Extended Kalman Filtering (MEKF)** for attitude determination, dynamic Center of Mass offset identification, and motor-driven trim actuation. |
-
-<details>
-<summary><b>📚 Master's Level Graduate Course Catalog (Click to expand)</b></summary>
-
-| Course | Key Theoretical Concepts & Practical Methods |
-| :--- | :--- |
-| **Avanceret Signalbehandling (Advanced Signal Processing)** | Parametric spectral analysis (LPC, Lattice filters), adaptive signal processing (LMS, NLMS, RLS), state-space signal processing, Kalman filtering, multidimensional & statistical signal processing. |
-| **Avanceret Regulering (Advanced Control)** | MIMO state-space systems, controllability, stabilizability, observability, Kalman observer synthesis, robust MIMO control, $H_\infty$ optimization, coupled large-scale control loops. |
-| **Sensorer og Systemer (Sensors & Systems)** | HW/SW sensor systems design, physiological/industrial measurement, sensor data fusion, Extended Kalman Filters (EKF), Unscented Kalman Filters (UKF), Particle filters. |
-| **Netværk og Systemer (Networks & Systems)** | Distributed network architectures, fault-tolerant topologies, networking protocols, edge/cloud platforms, performance modeling, and AI-enabled networked systems. |
-| **Machine Learning** | Supervised learning (Logistic Regression, Support Vector Machines, Decision Trees), unsupervised learning (K-Means, Expectation-Maximization), Neural Networks, Hidden Markov Models (HMM), Bayesian decision theory, reinforcement learning. |
-| **Stokastiske Systemer (Stochastic Systems)** | Wide-Sense Stationary (WSS) processes, Markov chains, Poisson and Gaussian processes, discrete-time stochastic dynamical systems, ARIMAX time-series modeling. |
-| **Modellering af Fysiske Systemer (Modelling of Physical Systems)** | Rigid-body kinematics and dynamics, analytical mechanics (Lagrangian/Hamiltonian), static and dynamic friction, electromechanical energy conversion, thermodynamic balances. |
-| **Kommunikationssystemer (Communication Systems)** | Wireless channel characterization, multi-user resource allocation in time/frequency/space, link- and system-level performance simulation, information theory fundamentals. |
-| **Fremskridt inden for Elektroniske Systemer** | State-of-the-art research analysis across automation, control, machine learning, and next-generation wireless communications. |
-
-</details>
+### 9. 🎛️ [Multivariable Distillation Column LQR State-Space Control](https://github.com/elomarjc/multivariable-distillation-column-control)
+> **Master's Project (Semester 7) • Advanced Control Engineering • Aalborg University**  
+> *Pillars: Regulation (Control) • Software (MATLAB)*  
+> *Stack: MATLAB • MIMO State-Space • LQR Optimal Control • Kalman Filter Observer • Decoupling*
+* **Chemical Process**: Modeled non-linear binary distillation dynamics (Wood-Berry column benchmark).
+* **MIMO Regulation**: Designed optimal Linear Quadratic Regulators (LQR) with integral tracking and steady-state decoupling to eliminate cross-channel product impurity disturbances.
+* **[View Distillation Repository →](https://github.com/elomarjc/multivariable-distillation-column-control)**
 
 ---
 
-### **Bachelor of Science (B.Sc.) in Electronic Engineering & IT** — Aalborg University
-*Specialization: Control Engineering (Proceskontrol)*
+## 🛠️ Technical Matrix
 
-| Semester / Project | Focus & Methods Applied |
-| :--- | :--- |
-| **Bachelor's Project (Semester 6)**<br/>*Autonomous Control System for Model Gantry Crane* | Newtonian mechanics, model linearization, transfer functions, Sensetools parameter tuning, and **3 discrete PD controllers** with anti-windup for trolley positioning and payload anti-sway. |
-| **Semester 5: Digital & Analog Systems**<br/>*Predictive Collision-Avoidance for Mobile Robots* | UWB localization, Kalman filtering vs. linear regression for trajectory prediction, Monte Carlo simulations, and speed adaptation trials on **MiR200** industrial robots in the AAU Smart Production Lab. |
-| **Semester 4: Digital Systems Design**<br/>*Automatic Fall Protection for Smartphones* | Embedded C on **Cypress Semiconductor PSoC 5LP (CY8CKIT-059)**, IMU (GY-91: accelerometer + gyroscope) over I2C, **Complementary Filter** with quaternions/Euler angles, 43 ms fall response detection. |
-| **Semester 3: Analog Circuits & Systems**<br/>*Hi-Fi Audio Amplifier* | Transistor amplifier stage design, feedback stability, component tolerance impact, and total harmonic distortion (THD $< 0.7\%$). |
-| **Semester 2: Dynamic Systems**<br/>*Indoor Climate in Public Schools* | Sensor IoT instrumentation, classroom $CO_2$ dynamic modeling, and iterative ventilation control algorithms. |
-| **Semester 1: Basic Electronic Systems**<br/>*Alcomatic - Epidemic Bartender* | NodeMCU-32s (ESP32) microcontroller programmed in C++, automated fluid dispensing, sensors, and actuators. |
-| **Semester 0: RoboCup Tournament**<br/>🏆 **1st Place Winner** | LEGO Mindstorms EV3 programmed in **Python**. Autonomous line tracking, obstacle negotiation, bottle transport claw. Awarded 1st place tournament trophy for fastest time and highest score. |
-
-<details>
-<summary><b>📚 Bachelor's Level Foundational Course Catalog (Click to expand)</b></summary>
-
-| Course | Key Theoretical Concepts & Practical Methods |
-| :--- | :--- |
-| **Lineær Algebra (Linear Algebra)** | Vector spaces, matrices, Gauss elimination, eigenvalues and eigenvectors, orthogonal bases, projection operators, least-squares approximation. |
-| **Sandsynlighedsregning og Statistik** | Probability spaces, random variables, Bayes' theorem, Maximum Likelihood (ML) estimation, hypothesis testing, Gaussian/Poisson/Binomial distributions. |
-| **Matriksberegning og Konveks Optimering** | Matrix norms, Singular Value Decomposition (SVD), numerical optimization (Steepest Descent, Newton, Gauss-Newton), convex sets and Lagrange multipliers. |
-| **Design af Indlejret Software (Embedded Software Design)** | Real-time operating systems (RTOS), state machines (FSM), scheduling algorithms, inter-process communication (IPC), context switching, interrupt handling (ISR). |
-| **Digital Design** | Digital logic circuits, Boolean algebra, FSM & FSMD design, flip-flops, LUTs, ALUs, pipelining, bus architectures, timing analysis, clock skew. |
-| **Signalbehandling (Signal Processing)** | Continuous and discrete signals, Z-transform, FIR and IIR digital filter design, DFT/FFT, phase linearity, group delay, quantization effects. |
-| **Kommunikation i Elektroniske Systemer** | Serial bus standards (UART, I2C, SPI, RS232, RS485), Ethernet, Bluetooth, OSI reference model, IP protocol stack, Medium Access Control (MAC). |
-| **Modellering og Regulering (Control Engineering)** | Dynamic system modeling from differential equations, Laplace transforms, transfer functions, Bode plots, stability margins, lead/lag and PID controller design. |
-| **Kredsløbsteori og Dynamiske Systemer** | RLC network analysis, operational amplifiers, Kirchhoff's laws, impedance calculations, frequency response, feedback and stability. |
-| **Beregningsteknik 1 & 2** | Complex analysis, Cauchy-Riemann equations, Taylor & Laurent series, Fourier transforms, vector calculus, spatial integration, LTI sampling theory. |
-| **Analog Kredsløbsdesign (Analog Circuit Design)** | Semiconductor physics, diodes, BJTs, MOSFETs, operational amplifiers, thermal drift, harmonic distortion, CAE circuit simulation. |
-| **Calculus** | Multivariable calculus, partial differentiation, extrema optimization, first- and second-order differential equations. |
-| **Elektromagnetisme (Electromagnetism)** | Maxwell's equations, Coulomb/Ampère/Biot-Savart laws, transmission lines, impedance matching, wave reflections, EMC design principles. |
-| **Struktureret Systemudvikling** | Requirements engineering, system decomposition, UML use cases, interface design, subsystem integration testing and verification. |
-| **Imperativ Programmering** | Algorithmic logic, control flow, data structures, memory management, sorting and searching algorithms. |
-| **Problembaseret Læring (PBL)** | AAU problem-oriented project methodology, multidisciplinary team collaboration, project milestone management. |
-
-</details>
+| Discipline | Core Technologies, Frameworks & Protocols |
+|---|---|
+| **Programming & Scripting** | Python, C/C++, Dart, C#, JavaScript/TypeScript (ES6+), MATLAB / Simulink, SQL |
+| **Regulation & Control** | State-Space MIMO, Cascaded PID, LQR / LQG, $H_\infty$ Robust Control, B-dot Magnetic Detumbling, Anti-Windup |
+| **Signal Processing & DSP** | Adaptive Filtering (LMS, NLMS, RLS), Blind Source Separation (FastICA), STFT, FFT, Mel-Spectrograms, EKF / UKF / MEKF |
+| **Embedded & Hardware** | FreeRTOS, Cypress PSoC 5LP, ATmega2560, Arduino Mega, PlatformIO, STM32 |
+| **Kommunikation & Networks** | 3GPP 5G NR PHY, OFDM, BPSK/QAM, MQTT, WebSockets, Ultra-Wideband (UWB), CAN bus, I2C, SPI, UART, RS485 |
+| **Software & Cross-Platform** | Flutter, Flame Game Engine, Dart FFI (Native C++ interop), Node.js, HTML5 Canvas / WebGL |
+| **Databases & DevOps** | PostgreSQL, Supabase, InfluxDB, SQLite, Hive NoSQL, Git, GitHub Actions, Docker |
 
 ---
 
-## 🛠️ Technical Skills & Tooling
-
-| Domain | Technologies, Languages & Methodologies |
-| :--- | :--- |
-| **💻 Software & Languages** | **Python**, **C / C++**, **Dart**, **SQL**, **C# / .NET**, **MATLAB / Simulink**, **TypeScript / JavaScript**, **PHP**, **VHDL**, **Java**, **Bash / Shell**, Flutter, Flame Engine, BLoC/RxDart, REST APIs |
-| **🤖 Automation & Robotics** | Industrial IoT testbeds, Autonomous Mobile Robots (MiR200), RoboCup navigation, UWB tracking, Computer Vision telemetry, Automated test pipelines |
-| **🎛️ Regulation & Control** | State-space MIMO control, Cascaded PID with anti-windup, LQR optimal control, Multiplicative Extended Kalman Filtering (MEKF), B-dot Detumbling, $H_\infty$ robust control |
-| **🎚️ Digital Signal Processing** | Adaptive Filtering (LMS, NLMS, RLS), FastICA, STFT, Mel-Spectrograms, Parametric spectral estimation (LPC), EKF/UKF, FIR/IIR filter design |
-| **🔌 Embedded & Hardware** | Cypress PSoC 5LP, ATmega2560 (Arduino), FreeRTOS, PlatformIO, Altium Designer, Onshape, I2C, SPI, UART, RS485, Oscilloscopes & Logic Analyzers |
-| **📡 Networks & Communication** | MQTT, WebSockets, Ultra-Wideband (UWB) RF, X25519 ECDH + AES-256-GCM cryptography, OSI stack, Distributed edge/cloud systems |
-| **⚙️ DevOps & Engineering Tools** | Git / GitHub Actions (CI/CD), Linux, Docker, InfluxDB, PostgreSQL, SQLite, MySQL, Supabase, VS Code, ComfyUI |
-| **🗣️ Spoken Languages** | **Danish** (Native / Fluent) • **English** (Native / Fluent) • **Arabic** (Native / Fluent) • **German** (Elementary) |
-
----
-
-## 📬 Contact
+## 📬 Contact & Connect
 
 * **Email**: [elomarjc@gmail.com](mailto:elomarjc@gmail.com)
 * **LinkedIn**: [linkedin.com/in/jacob-el-omar](https://www.linkedin.com/in/jacob-el-omar/)
-* **GitHub**: [@elomarjc](https://github.com/elomarjc)
-* **Google Play**: [Elomar Studio](https://play.google.com/store/apps/developer?id=Elomar+Studio)
+* **Google Play**: [El-Omar Studio](https://play.google.com/store/apps/details?id=com.elomarstudio.growafish)
+* **Location**: Aalborg, North Denmark (Nordjylland)
