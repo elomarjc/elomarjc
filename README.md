@@ -20,10 +20,10 @@ I hold a **Master of Science (M.Sc.) in Electronic Systems** and a **Bachelor of
 My engineering background combines 5 years of Aalborg University's Problem-Based Learning (PBL) model with modern software engineering across five core disciplines:
 
 * 💻 **Software**: Cross-platform application engineering (Dart/Flutter with native C++ FFI), backend and script engineering (Python, C#, Node.js, REST APIs), and databases (PostgreSQL, Supabase, SQLite, MySQL, InfluxDB). Creator of [Grow A Fish](https://play.google.com/store/apps/details?id=com.elomarstudio.growafish) on Google Play.
-* 🤖 **Automation**: Industrial robotics, Autonomous Mobile Robots (MiR200), smart production testbeds (AAU 5G Smart Production Lab), and path planning (1st Place, AAU RoboCup Tournament; Predictive Collision Avoidance).
+* 🤖 **Automation**: Industrial automation, PLC programming (IEC 61131-3 Structured Text), SCADA / ISA-101 high-performance HMIs, Autonomous Mobile Robots (MiR200), smart production testbeds (AAU 5G Smart Production Lab), and path planning (1st Place, AAU RoboCup Tournament; Predictive Collision Avoidance).
 * 🎛️ **Regulation (Control Engineering)**: Dynamic systems modeling and closed-loop feedback control: state-space MIMO control, discrete cascaded PID with anti-windup, LQR optimal control, and spacecraft attitude control (AAUSAT6 CubeSat ADCS & 3-DoF Satellite Simulator).
 * 🎚️ **Digital (DSP & Embedded Systems)**: Digital signal processing (LMS, NLMS, RLS adaptive filters, FastICA, STFT, Mel-spectrograms), parametric spectral estimation, sensor data fusion (EKF/UKF/MEKF), and embedded firmware (C/C++, FreeRTOS, Cypress PSoC 5LP, ATmega2560).
-* 📡 **Kommunikation (Communication & Networks)**: Telemetry and network protocols: MQTT message brokering, real-time WebSockets, Ultra-Wideband (UWB) RF positioning, bus architectures (I2C, SPI, UART, RS485, CAN), and cryptographic communications (X25519 ECDH + AES-256-GCM).
+* 📡 **Kommunikation (Communication & Networks)**: Telemetry and industrial network protocols: Modbus TCP, MQTT message brokering, real-time WebSockets, Ultra-Wideband (UWB) RF positioning, bus architectures (CAN bus, I2C, SPI, UART, RS485), and cryptographic communications (X25519 ECDH + AES-256-GCM).
 
 ---
 
@@ -38,10 +38,11 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-## 🌟 Featured Engineering Showcases
+## 🌟 Featured Engineering Showcases (Live Interactive WebApps)
 
 ### 1. 📡 [5G/6G RF Channel & Constellation Studio](https://github.com/elomarjc/5g-rf-channel-studio) • [🚀 Live WebApp](https://elomarjc.github.io/5g-rf-channel-studio/)
 > **Interactive Physical-Layer (PHY) Channel Emulator & Automated 3GPP TS 38.104 Testbench**  
+> *Target Synergy: Keysight Technologies (Aalborg R&D)*  
 > *Pillars: Software • Digital (DSP) • Kommunikation*  
 > *Stack: Vanilla ES6 • HTML5 Canvas (60 FPS Phosphor Scope) • 3GPP TDL Fading • Clarke/Jakes Doppler • AWGN • BPSK-256QAM • OFDM*
 * **Real-Time Instrumentation**: High-performance in-browser Vector Signal Analyzer (VSA) running at 60 FPS with digital phosphor persistence and interactive 5G NR OFDM resource grid (14 symbols $\times$ 24 subcarriers).
@@ -54,6 +55,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ### 2. 🛰️ [CubeSat AOCS Flight Simulator](https://github.com/elomarjc/cubesat-aocs-simulator) • [🚀 Live WebApp](https://elomarjc.github.io/cubesat-aocs-simulator/)
 > **3D Interactive Spacecraft Attitude Determination & Control System (AOCS) & LEO Orbit Simulator**  
+> *Target Synergy: GomSpace A/S (Aalborg Øst)*  
 > *Pillars: Regulation (Control) • Software • Digital • Space Systems*  
 > *Stack: Vanilla ES6 • Three.js (WebGL) • RK4 Numerical Integrator • Quaternion Kinematics • B-dot Detumble • Reaction Wheels*
 * **3D Interactive Space Operations**: High-detail procedural 3U CubeSat with gold MLI foil, solar panels, internal flywheels, and Earth globe with sidereal spin, atmospheric glow, and Aalborg Ground Station ($57.05^\circ\text{N}, 9.92^\circ\text{E}$) acquisition-of-signal (AOS) tracking beam.
@@ -64,7 +66,20 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### 3. 🐠 [Grow A Fish — Technical Case Study](https://github.com/elomarjc/grow-a-fish-case-study)
+### 3. 🏭 [Industrial SCADA Digital Twin & Process Control](https://github.com/elomarjc/industrial-scada-digital-twin) • [🚀 Live WebApp](https://elomarjc.github.io/industrial-scada-digital-twin/)
+> **High-Performance ISA-101 SCADA • IEC 61131-3 Structured Text Runtime • Modbus TCP • OT Cybersecurity**  
+> *Target Synergy: JBT Marel (Støvring) • DESMI (Nørresundby)*  
+> *Pillars: Automation • Regulation (Control) • Software • Networks*  
+> *Stack: Vanilla ES6 • HTML5 Canvas (60 FPS Process Mimic) • Discrete Cascaded PID • Torricelli Dynamics • Modbus TCP (40001-40014) • IEC 62443*
+* **High-Performance ISA-101 HMI**: Ergonomic dark slate layout with real-time multi-pen trend canvas (SP vs PV vs CV), ISA-18.2 alarm management with ACK workflows, and hardwired E-STOP trip interlocks.
+* **Coupled Process Digital Twin**: 60 FPS animated food processing line modeling Buffer Tank 1 level dynamics, Thermal CSTR Pasteurizer Tank 2 with transport dead-time ($\theta = 3.5\text{ s}$), and Variable Frequency Drive (VFD) packaging conveyor belt.
+* **IEC 61131-3 Runtime & Anti-Windup PIDs**: 20 ms cyclic scan runtime executing closed-loop level, thermal, and speed regulation with anti-windup clamping to eliminate integrator saturation, with live Structured Text syntax-highlighted code inspection.
+* **Modbus TCP & OT Cybersecurity**: Live 16-bit holding register database (40001 - 40014), Modbus packet validation, and interactive OT cyber attack simulation that intercepts unauthorized register tampering and trips emergency safe shutdown.
+* **[🚀 Launch Live WebApp →](https://elomarjc.github.io/industrial-scada-digital-twin/)** • **[View Repository →](https://github.com/elomarjc/industrial-scada-digital-twin)**
+
+---
+
+### 4. 🐠 [Grow A Fish — Technical Case Study](https://github.com/elomarjc/grow-a-fish-case-study)
 > **Published Commercial Mobile Game & Real-Time Multiplayer Ecosystem**  
 > *Pillars: Software • Kommunikation • Digital*  
 > *Stack: Flutter • Flame Engine • Bonfire RPG • Dart FFI & C++ SoLoud • Supabase Realtime • Hive NoSQL • X25519/AES-GCM*
@@ -77,7 +92,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### 4. 🫀 [Active Adaptive Noise Cancellation (ANC)](https://github.com/elomarjc/adaptive-noise-cancellation-dsp)
+### 5. 🫀 [Active Adaptive Noise Cancellation (ANC)](https://github.com/elomarjc/adaptive-noise-cancellation-dsp)
 > **Master's Thesis in Electronic Systems • Aalborg University**  
 > *Pillars: Digital (DSP) • Software (Python/MATLAB)*  
 > *Stack: MATLAB • Python • Adaptive Filters (LMS, NLMS, RLS) • FastICA • Mel-Spectrograms • STFT • In collaboration with Ai Health Highway*
@@ -88,7 +103,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### 5. 🛰️ [AAUSAT6 CubeSat: Attitude Determination & Control (ADCS)](https://github.com/elomarjc/advanced-control-digital-systems)
+### 6. 🛰️ [AAUSAT6 CubeSat: Attitude Determination & Control (ADCS)](https://github.com/elomarjc/advanced-control-digital-systems)
 > **Master's Project (Semester 8) • Systems of Systems & Space Engineering • Aalborg University**  
 > *Pillars: Regulation (Control) • Digital • Kommunikation*  
 > *Stack: MATLAB • Orbital Dynamics • B-dot Detumbling • LQR Target Tracking • Momentum Wheels • $H_\infty$ Robust Control*
@@ -98,7 +113,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### 6. ⚙️ [Real-Time Anti-Sway Control of a 2D Gantry Crane](https://github.com/elomarjc/gantry-crane-anti-sway-control)
+### 7. ⚙️ [Real-Time Anti-Sway Control of a 2D Gantry Crane](https://github.com/elomarjc/gantry-crane-anti-sway-control)
 > **Bachelor's Project (Semester 6) • Electronic Systems & Control Engineering • Aalborg University**  
 > *Pillars: Regulation (Control) • Automation • Digital (Embedded)*  
 > *Stack: Embedded C/C++ • Arduino Mega 2560 (ATmega2560) • PlatformIO • Cascaded PID • Discrete Signal Processing*
@@ -109,7 +124,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### 7. 🤖 [Multi-Sensor Positioning & AMR Fleet Integration](https://github.com/elomarjc/indoor-positioning-amr-integration)
+### 8. 🤖 [Multi-Sensor Positioning & AMR Fleet Integration](https://github.com/elomarjc/indoor-positioning-amr-integration)
 > **AAU 5G Smart Production Lab • Industrial IoT & Autonomous Robotics**  
 > *Pillars: Automation • Kommunikation • Software*  
 > *Stack: Python • Multi-Threading • Ultra-Wideband (UWB) • Computer Vision (CV) • MQTT • InfluxDB • MATLAB*
@@ -120,7 +135,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### 8. 🛰️ [3-DoF Satellite Simulator CoM Calibration & Dynamics](https://github.com/elomarjc/satellite-simulator-adcs-calibration)
+### 9. 🛰️ [3-DoF Satellite Simulator CoM Calibration & Dynamics](https://github.com/elomarjc/satellite-simulator-adcs-calibration)
 > **Master's Project (Semester 7) • Control of Manipulators • Aalborg University**  
 > *Pillars: Regulation (Control) • Digital (Embedded) • Kommunikation*  
 > *Stack: MATLAB • Simulink • FreeRTOS • Cypress PSoC 5LP • Spherical Air Bearing • MEKF Sensor Fusion*
@@ -131,7 +146,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### 9. 🎛️ [Multivariable Distillation Column LQR State-Space Control](https://github.com/elomarjc/multivariable-distillation-column-control)
+### 10. 🎛️ [Multivariable Distillation Column LQR State-Space Control](https://github.com/elomarjc/multivariable-distillation-column-control)
 > **Master's Project (Semester 7) • Advanced Control Engineering • Aalborg University**  
 > *Pillars: Regulation (Control) • Software (MATLAB)*  
 > *Stack: MATLAB • MIMO State-Space • LQR Optimal Control • Kalman Filter Observer • Decoupling*
@@ -148,9 +163,10 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 | **Programming & Scripting** | Python, C/C++, Dart, C#, JavaScript/TypeScript (ES6+), MATLAB / Simulink, SQL |
 | **Regulation & Control** | State-Space MIMO, Cascaded PID, LQR / LQG, $H_\infty$ Robust Control, B-dot Magnetic Detumbling, Anti-Windup |
 | **Signal Processing & DSP** | Adaptive Filtering (LMS, NLMS, RLS), Blind Source Separation (FastICA), STFT, FFT, Mel-Spectrograms, EKF / UKF / MEKF |
+| **Industrial Automation & SCADA** | IEC 61131-3 (Structured Text, Ladder Logic), ISA-101 High-Performance HMI, ISA-18.2 Alarm Mgmt, Modbus TCP, OPC UA, OT Cybersecurity |
 | **Embedded & Hardware** | FreeRTOS, Cypress PSoC 5LP, ATmega2560, Arduino Mega, PlatformIO, STM32 |
 | **Kommunikation & Networks** | 3GPP 5G NR PHY, OFDM, BPSK/QAM, MQTT, WebSockets, Ultra-Wideband (UWB), CAN bus, I2C, SPI, UART, RS485 |
-| **Software & Cross-Platform** | Flutter, Flame Game Engine, Dart FFI (Native C++ interop), Node.js, HTML5 Canvas / WebGL |
+| **Software & Cross-Platform** | Flutter, Flame Game Engine, Dart FFI (Native C++ interop), Node.js, HTML5 Canvas / WebGL, Three.js |
 | **Databases & DevOps** | PostgreSQL, Supabase, InfluxDB, SQLite, Hive NoSQL, Git, GitHub Actions, Docker |
 
 ---
