@@ -54,7 +54,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 ---
 
 ### 2. 🫀 [Active Adaptive Noise Cancellation (ANC)](https://github.com/elomarjc/adaptive-noise-cancellation-dsp)
-> **Master's Thesis in Electronic Systems (50 ECTS) • Aalborg University**  
+> **Master's Thesis in Electronic Systems • Aalborg University**  
 > *Pillars: Digital (DSP) • Software (Python/MATLAB)*  
 > *Stack: MATLAB • Python • Adaptive Filters (LMS, NLMS, RLS) • FastICA • Mel-Spectrograms • STFT • In collaboration with Ai Health Highway*
 * **Core Research**: Developed real-time active acoustic noise cancellation algorithms to isolate physiological stethoscope signals from ambient hospital interference.
@@ -75,7 +75,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 ---
 
 ### 4. ⚙️ [Real-Time Anti-Sway Control of a 2D Gantry Crane](https://github.com/elomarjc/gantry-crane-anti-sway-control)
-> **Bachelor's Project (Semester 6) • Electronic Systems & Control Engineering • Aalborg University**  
+> **Bachelor's Thesis (Semester 6) • Electronic Systems & Control Engineering • Aalborg University**  
 > *Pillars: Regulation (Control) • Automation • Digital (Embedded)*  
 > *Stack: Embedded C/C++ • Arduino Mega 2560 (ATmega2560) • PlatformIO • Cascaded PID • Discrete Signal Processing*
 * **Physical System**: Derived Newtonian dynamic models for the hoisting block, trolley, and pendulum. Linearized models for frequency-domain transfer functions.
@@ -107,13 +107,13 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ## 🎓 Academic Trajectory & Comprehensive Coursework
 
-### **Master of Science (M.Sc.) in Electronic Systems** — Aalborg University (120 ECTS)
+### **Master of Science (M.Sc.) in Electronic Systems** — Aalborg University
 
 | Semester / Project | Focus & Methods Applied |
 | :--- | :--- |
-| **Sem 9–10: Master's Thesis** *(50 ECTS)*<br/>*Adaptive Noise Cancellation for Electronic Stethoscopes* | Real-time adaptive filtering (**LMS, NLMS, RLS**) and Independent Component Analysis (**FastICA**) for physiological signal enhancement. Evaluated SNR improvements up to 34 dB on smart medical stethoscopes in collaboration with **Ai Health Highway**. |
-| **Sem 8: Systems of Systems** *(15 ECTS)*<br/>*ADCS for AAUSAT6 CubeSat* | 2U CubeSat orbital dynamics modeling, magnetic **B-dot detumbling**, **LQR state feedback** with integral action for Nadir/Target tracking, and **$H_\infty$ robust stability** analysis under space disturbance torques. |
-| **Sem 7: Machine Intelligence** *(10 ECTS)*<br/>*CoM Calibration of 3-DoF Satellite Simulator* | Spacecraft kinematics, **Multiplicative Extended Kalman Filtering (MEKF)** for attitude determination, dynamic Center of Mass offset identification, and motor-driven trim actuation. |
+| **Master's Thesis (Semesters 9–10)**<br/>*Adaptive Noise Cancellation for Electronic Stethoscopes* | Real-time adaptive filtering (**LMS, NLMS, RLS**) and Independent Component Analysis (**FastICA**) for physiological signal enhancement. Evaluated SNR improvements up to 34 dB on smart medical stethoscopes in collaboration with **Ai Health Highway**. |
+| **Semester 8: Systems of Systems**<br/>*ADCS for AAUSAT6 CubeSat* | 2U CubeSat orbital dynamics modeling, magnetic **B-dot detumbling**, **LQR state feedback** with integral action for Nadir/Target tracking, and **$H_\infty$ robust stability** analysis under space disturbance torques. |
+| **Semester 7: Machine Intelligence**<br/>*CoM Calibration of 3-DoF Satellite Simulator* | Spacecraft kinematics, **Multiplicative Extended Kalman Filtering (MEKF)** for attitude determination, dynamic Center of Mass offset identification, and motor-driven trim actuation. |
 
 <details>
 <summary><b>📚 Master's Level Graduate Course Catalog (Click to expand)</b></summary>
@@ -134,18 +134,18 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### **Bachelor of Science (B.Sc.) in Electronic Engineering & IT** — Aalborg University (180 ECTS)
+### **Bachelor of Science (B.Sc.) in Electronic Engineering & IT** — Aalborg University
 *Specialization: Control Engineering (Proceskontrol)*
 
 | Semester / Project | Focus & Methods Applied |
 | :--- | :--- |
-| **Sem 6: Bachelor's Project** *(20 ECTS)*<br/>*Autonomous Control System for Model Gantry Crane* | Newtonian mechanics, model linearization, transfer functions, Sensetools parameter tuning, and **3 discrete PD controllers** with anti-windup for trolley positioning and payload anti-sway. |
-| **Sem 5: Digital & Analog Systems** *(15 ECTS)*<br/>*Predictive Collision-Avoidance for Mobile Robots* | UWB localization, Kalman filtering vs. linear regression for trajectory prediction, Monte Carlo simulations, and speed adaptation trials on **MiR200** industrial robots in the AAU Smart Production Lab. |
-| **Sem 4: Digital Systems Design** *(15 ECTS)*<br/>*Automatic Fall Protection for Smartphones* | Embedded C on **Cypress Semiconductor PSoC 5LP (CY8CKIT-059)**, IMU (GY-91: accelerometer + gyroscope) over I2C, **Complementary Filter** with quaternions/Euler angles, 43 ms fall response detection. |
-| **Sem 3: Analog Circuits & Systems** *(15 ECTS)*<br/>*Hi-Fi Audio Amplifier* | Transistor amplifier stage design, feedback stability, component tolerance impact, and total harmonic distortion (THD $< 0.7\%$). |
-| **Sem 2: Dynamic Systems** *(15 ECTS)*<br/>*Indoor Climate in Public Schools* | Sensor IoT instrumentation, classroom $CO_2$ dynamic modeling, and iterative ventilation control algorithms. |
-| **Sem 1: Basic Electronic Systems** *(10 ECTS)*<br/>*Alcomatic - Epidemic Bartender* | NodeMCU-32s (ESP32) microcontroller programmed in C++, automated fluid dispensing, sensors, and actuators. |
-| **Sem 0: RoboCup Tournament**<br/>🏆 **1st Place Winner** | LEGO Mindstorms EV3 programmed in **Python**. Autonomous line tracking, obstacle negotiation, bottle transport claw. Awarded 1st place tournament trophy for fastest time and highest score. |
+| **Bachelor's Thesis (Semester 6)**<br/>*Autonomous Control System for Model Gantry Crane* | Newtonian mechanics, model linearization, transfer functions, Sensetools parameter tuning, and **3 discrete PD controllers** with anti-windup for trolley positioning and payload anti-sway. |
+| **Semester 5: Digital & Analog Systems**<br/>*Predictive Collision-Avoidance for Mobile Robots* | UWB localization, Kalman filtering vs. linear regression for trajectory prediction, Monte Carlo simulations, and speed adaptation trials on **MiR200** industrial robots in the AAU Smart Production Lab. |
+| **Semester 4: Digital Systems Design**<br/>*Automatic Fall Protection for Smartphones* | Embedded C on **Cypress Semiconductor PSoC 5LP (CY8CKIT-059)**, IMU (GY-91: accelerometer + gyroscope) over I2C, **Complementary Filter** with quaternions/Euler angles, 43 ms fall response detection. |
+| **Semester 3: Analog Circuits & Systems**<br/>*Hi-Fi Audio Amplifier* | Transistor amplifier stage design, feedback stability, component tolerance impact, and total harmonic distortion (THD $< 0.7\%$). |
+| **Semester 2: Dynamic Systems**<br/>*Indoor Climate in Public Schools* | Sensor IoT instrumentation, classroom $CO_2$ dynamic modeling, and iterative ventilation control algorithms. |
+| **Semester 1: Basic Electronic Systems**<br/>*Alcomatic - Epidemic Bartender* | NodeMCU-32s (ESP32) microcontroller programmed in C++, automated fluid dispensing, sensors, and actuators. |
+| **Semester 0: RoboCup Tournament**<br/>🏆 **1st Place Winner** | LEGO Mindstorms EV3 programmed in **Python**. Autonomous line tracking, obstacle negotiation, bottle transport claw. Awarded 1st place tournament trophy for fastest time and highest score. |
 
 <details>
 <summary><b>📚 Bachelor's Level Foundational Course Catalog (Click to expand)</b></summary>
