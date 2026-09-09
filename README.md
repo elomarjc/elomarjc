@@ -20,7 +20,7 @@ I hold a **Master of Science (M.Sc.) in Electronic Systems** and a **Bachelor of
 My engineering background combines 5 years of Aalborg University's Problem-Based Learning (PBL) model with modern software engineering across five core disciplines:
 
 * 💻 **Software**: Cross-platform application engineering (Dart/Flutter with native C++ FFI), backend and script engineering (Python, C#, Node.js, REST APIs), and databases (PostgreSQL, Supabase, SQLite, MySQL, InfluxDB). Creator of [Grow A Fish](https://play.google.com/store/apps/details?id=com.elomarstudio.growafish) on Google Play.
-* 🤖 **Automation**: Industrial robotics, Autonomous Mobile Robots (MiR200), smart production testbeds (AAU 5G Smart Production Lab), and path planning (1st Place, AAU RoboCup Tournament; Grade 10 in Predictive Collision Avoidance).
+* 🤖 **Automation**: Industrial robotics, Autonomous Mobile Robots (MiR200), smart production testbeds (AAU 5G Smart Production Lab), and path planning (1st Place, AAU RoboCup Tournament; Predictive Collision Avoidance).
 * 🎛️ **Regulation (Control Engineering)**: Dynamic systems modeling and closed-loop feedback control: state-space MIMO control, discrete cascaded PID with anti-windup, LQR optimal control, and spacecraft attitude control (AAUSAT6 CubeSat ADCS & 3-DoF Satellite Simulator).
 * 🎚️ **Digital (DSP & Embedded Systems)**: Digital signal processing (LMS, NLMS, RLS adaptive filters, FastICA, STFT, Mel-spectrograms), parametric spectral estimation, sensor data fusion (EKF/UKF/MEKF), and embedded firmware (C/C++, FreeRTOS, Cypress PSoC 5LP, ATmega2560).
 * 📡 **Kommunikation (Communication & Networks)**: Telemetry and network protocols: MQTT message brokering, real-time WebSockets, Ultra-Wideband (UWB) RF positioning, bus architectures (I2C, SPI, UART, RS485, CAN), and cryptographic communications (X25519 ECDH + AES-256-GCM).
@@ -140,7 +140,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 | Semester / Project | Focus & Methods Applied |
 | :--- | :--- |
 | **Sem 6: Bachelor's Project** *(20 ECTS)*<br/>*Autonomous Control System for Model Gantry Crane* | Newtonian mechanics, model linearization, transfer functions, Sensetools parameter tuning, and **3 discrete PD controllers** with anti-windup for trolley positioning and payload anti-sway. |
-| **Sem 5: Digital & Analog Systems** *(15 ECTS)*<br/>*Predictive Collision-Avoidance for Mobile Robots*<br/>⭐ **Grade: 10 / B** | UWB localization, Kalman filtering vs. linear regression for trajectory prediction, Monte Carlo simulations, and speed adaptation trials on **MiR200** industrial robots in the AAU Smart Production Lab. |
+| **Sem 5: Digital & Analog Systems** *(15 ECTS)*<br/>*Predictive Collision-Avoidance for Mobile Robots* | UWB localization, Kalman filtering vs. linear regression for trajectory prediction, Monte Carlo simulations, and speed adaptation trials on **MiR200** industrial robots in the AAU Smart Production Lab. |
 | **Sem 4: Digital Systems Design** *(15 ECTS)*<br/>*Automatic Fall Protection for Smartphones* | Embedded C on **Cypress Semiconductor PSoC 5LP (CY8CKIT-059)**, IMU (GY-91: accelerometer + gyroscope) over I2C, **Complementary Filter** with quaternions/Euler angles, 43 ms fall response detection. |
 | **Sem 3: Analog Circuits & Systems** *(15 ECTS)*<br/>*Hi-Fi Audio Amplifier* | Transistor amplifier stage design, feedback stability, component tolerance impact, and total harmonic distortion (THD $< 0.7\%$). |
 | **Sem 2: Dynamic Systems** *(15 ECTS)*<br/>*Indoor Climate in Public Schools* | Sensor IoT instrumentation, classroom $CO_2$ dynamic modeling, and iterative ventilation control algorithms. |
@@ -152,15 +152,15 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 | Course | Key Theoretical Concepts & Practical Methods |
 | :--- | :--- |
-| **Lineær Algebra (Linear Algebra)** *(Grade: 10 / B)* | Vector spaces, matrices, Gauss elimination, eigenvalues and eigenvectors, orthogonal bases, projection operators, least-squares approximation. |
-| **Sandsynlighedsregning og Statistik** *(Grade: 10 / B)* | Probability spaces, random variables, Bayes' theorem, Maximum Likelihood (ML) estimation, hypothesis testing, Gaussian/Poisson/Binomial distributions. |
-| **Matriksberegning og Konveks Optimering** *(Passed)* | Matrix norms, Singular Value Decomposition (SVD), numerical optimization (Steepest Descent, Newton, Gauss-Newton), convex sets and Lagrange multipliers. |
+| **Lineær Algebra (Linear Algebra)** | Vector spaces, matrices, Gauss elimination, eigenvalues and eigenvectors, orthogonal bases, projection operators, least-squares approximation. |
+| **Sandsynlighedsregning og Statistik** | Probability spaces, random variables, Bayes' theorem, Maximum Likelihood (ML) estimation, hypothesis testing, Gaussian/Poisson/Binomial distributions. |
+| **Matriksberegning og Konveks Optimering** | Matrix norms, Singular Value Decomposition (SVD), numerical optimization (Steepest Descent, Newton, Gauss-Newton), convex sets and Lagrange multipliers. |
 | **Design af Indlejret Software (Embedded Software Design)** | Real-time operating systems (RTOS), state machines (FSM), scheduling algorithms, inter-process communication (IPC), context switching, interrupt handling (ISR). |
 | **Digital Design** | Digital logic circuits, Boolean algebra, FSM & FSMD design, flip-flops, LUTs, ALUs, pipelining, bus architectures, timing analysis, clock skew. |
 | **Signalbehandling (Signal Processing)** | Continuous and discrete signals, Z-transform, FIR and IIR digital filter design, DFT/FFT, phase linearity, group delay, quantization effects. |
 | **Kommunikation i Elektroniske Systemer** | Serial bus standards (UART, I2C, SPI, RS232, RS485), Ethernet, Bluetooth, OSI reference model, IP protocol stack, Medium Access Control (MAC). |
 | **Modellering og Regulering (Control Engineering)** | Dynamic system modeling from differential equations, Laplace transforms, transfer functions, Bode plots, stability margins, lead/lag and PID controller design. |
-| **Kredsløbsteori og Dynamiske Systemer** *(Grade: 7 / C)* | RLC network analysis, operational amplifiers, Kirchhoff's laws, impedance calculations, frequency response, feedback and stability. |
+| **Kredsløbsteori og Dynamiske Systemer** | RLC network analysis, operational amplifiers, Kirchhoff's laws, impedance calculations, frequency response, feedback and stability. |
 | **Beregningsteknik 1 & 2** | Complex analysis, Cauchy-Riemann equations, Taylor & Laurent series, Fourier transforms, vector calculus, spatial integration, LTI sampling theory. |
 | **Analog Kredsløbsdesign (Analog Circuit Design)** | Semiconductor physics, diodes, BJTs, MOSFETs, operational amplifiers, thermal drift, harmonic distortion, CAE circuit simulation. |
 | **Calculus** | Multivariable calculus, partial differentiation, extrema optimization, first- and second-order differential equations. |
