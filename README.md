@@ -2,10 +2,11 @@
 
 <div align="center">
 
-### Electronic Systems Engineer • Embedded & Systems Software Developer
-**M.Sc. in Electronic Systems • Aalborg University (AAU), Denmark**
+# Jacob El-Omar
+### M.Sc. in Electronic Systems • Aalborg University
+**Software Engineer & Technical Problem Solver**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jacob-el-omar)
 [![Google Play](https://img.shields.io/badge/Google_Play-Grow_A_Fish-34A853?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.elomarstudio.growafish)
 [![Email](https://img.shields.io/badge/Email-elomarjc%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:elomarjc@gmail.com)
 
@@ -15,11 +16,12 @@
 
 ## 👨‍🎓 About Me
 
-I am an **Electronic Systems Engineering graduate** from **Aalborg University (AAU)** with a dual passion for:
-1. **Mathematical Systems Engineering**: Digital Signal Processing (DSP), discrete-time feedback control theory, embedded firmware, and multi-sensor robotics integration.
-2. **High-Performance Software & Game Architecture**: Architecting cross-platform consumer applications, real-time multiplayer networking, native C++ interop (FFI), and applied hardware-backed cryptography.
+I hold an **M.Sc. in Electronic Systems** from **Aalborg University (AAU)**, with a technical focus spanning software engineering, digital signal processing, and systems design.
 
-I believe the strongest engineers are those who understand both the low-level physical dynamics (signals, feedback loops, hardware latency, registers) and high-level software abstractions (clean architecture, event-driven state machines, secure cloud synchronization).
+My coding and engineering background combines:
+* **Software & Application Development**: Python (APIs, algorithmic data processing, multi-threading, automation), Dart/Flutter (full-scale cross-platform architecture, game loops, native C++ FFI), and SQL databases (PostgreSQL, Supabase). Creator and lead developer of [Grow A Fish](https://play.google.com/store/apps/details?id=com.elomarstudio.growafish) on Google Play.
+* **Signal Processing & Machine Learning**: Real-time adaptive filtering (LMS, NLMS, RLS, FastICA) and spectral analysis developed during my Master's thesis and AI/ML engineering internship at Ai Health Highway for medical-grade acoustic stethoscopes.
+* **Control & Embedded Systems**: Low-level C/C++ firmware, discrete-time feedback control loops (PID, state-space), FreeRTOS, and multi-sensor robotics telemetry (UWB + Computer Vision).
 
 ---
 
@@ -39,7 +41,7 @@ I believe the strongest engineers are those who understand both the low-level ph
 
 ### 2. 🫀 [Active Adaptive Noise Cancellation (ANC)](https://github.com/elomarjc/adaptive-noise-cancellation-dsp)
 > **Master's Thesis in Electronic Systems (Advanced Signal Processing) • Aalborg University**  
-> *Stack: MATLAB • Adaptive Filters (LMS, NLMS, RLS) • Mel-Spectrograms • STFT • In collaboration with Ai Highway Inc*
+> *Stack: MATLAB • Python • Adaptive Filters (LMS, NLMS, RLS) • Mel-Spectrograms • STFT • In collaboration with Ai Health Highway*
 * **Core Research**: Developed real-time active acoustic noise cancellation algorithms to isolate physiological stethoscope signals (heart sounds $S_1, S_2$) from ambient hospital interference.
 * **Mathematical Formulations**: Implemented and benchmarked Least Mean Squares (LMS), Normalized LMS (NLMS), and Recursive Least Squares (RLS) filters.
 * **Empirical Validation**: Demonstrated up to **+40 dB SNR improvements** across synthetic and physical acoustic chamber testbeds while preserving critical cardiac murmur signatures.
@@ -61,7 +63,7 @@ I believe the strongest engineers are those who understand both the low-level ph
 > **AAU 5G Smart Production Lab • Industrial IoT & Autonomous Robotics**  
 > *Stack: Python • Multi-Threading • Ultra-Wideband (UWB) • Computer Vision (CV) • MQTT • InfluxDB • MATLAB*
 * **Sensor Fusion Hub**: Fused real-time spatial telemetry from active UWB RF tags, overhead Computer Vision tracking, and Autonomous Mobile Robots (AMRs).
-* **Concurrency & Safety**: Engineered a 9-thread concurrent processing engine with mutex synchronization, proximity breach warnings, and an alarm exemption engine for tagged payloads.
+* **Concurrency & Safety**: Engineered a 9-thread concurrent processing engine in Python with mutex synchronization, proximity breach warnings, and an alarm exemption engine for tagged payloads.
 * **Analytics**: Integrated InfluxDB v2 time-series storage and developed empirical Cumulative Distribution Function (CDF) statistical accuracy models.
 * **[View Positioning Repository →](https://github.com/elomarjc/indoor-positioning-amr-integration)**
 
@@ -69,28 +71,28 @@ I believe the strongest engineers are those who understand both the low-level ph
 
 ### 5. 🛰️ [3-DoF Satellite Simulator CoM Calibration & Dynamics](https://github.com/elomarjc/satellite-simulator-adcs-calibration)
 > **M.Sc. Electronic Systems Project • Control of Manipulators • Aalborg University**  
-> *Stack: C++ • Rotational Dynamics • Inertial Calibration • Euler Angles*
-* Analyzed rotational mechanics, Center-of-Mass (CoM) offset estimation, and multi-axis attitude stabilization for an experimental 3-DoF air-bearing satellite simulator.
+> *Stack: C++ • FreeRTOS • MEKF Quaternion Filtering • Rotational Dynamics • Inertial Calibration*
+* Analyzed rotational mechanics, Center-of-Mass (CoM) offset estimation, and multi-axis attitude stabilization using a Multiplicative Extended Kalman Filter (MEKF) on FreeRTOS for an experimental 3-DoF air-bearing satellite simulator.
 * **[View Satellite Simulator Repository →](https://github.com/elomarjc/satellite-simulator-adcs-calibration)**
 
 ---
 
-## 🛠️ Technical Competencies
+## 🛠️ Technical Skills & Tooling
 
-| Domain | Technologies & Methodologies |
+| Category | Competencies |
 | :--- | :--- |
-| **Programming Languages** | C, C++, Dart, Python, MATLAB, TypeScript, SQL, TeX |
-| **Control & Embedded** | Discrete-time PID, State-Space Control, Kalman Filtering, ATmega2560, PlatformIO, ADC/PWM Drivers |
-| **Digital Signal Processing** | Adaptive Filtering (LMS, NLMS, RLS), STFT, Mel-Spectrograms, FIR/IIR Filter Design, SNR Analysis |
-| **Mobile & Game Engineering** | Flutter, Flame Engine, Bonfire RPG, Dart FFI (Native C++ interop), State Management (BLoC/RxDart) |
-| **Networking & Security** | Deterministic Seed Networking, Supabase Realtime (WebSockets), MQTT, X25519 ECDH, AES-256-GCM |
-| **Data & Storage** | InfluxDB (Time-series), PostgreSQL / Supabase, Hive (Binary NoSQL), Hardware Keystore / Keychain |
-| **Tools & Environments** | Git, Linux, Docker, PlatformIO, VS Code, ComfyUI Generative Pipelines |
+| **Programming Languages** | **Python**, **C / C++**, **Dart**, **SQL**, **MATLAB**, **TypeScript / JavaScript**, **C# / .NET** |
+| **Software & Application Engineering** | Flutter, Flame Engine, Bonfire RPG, Dart FFI (C++ native interop), REST APIs, State Management (BLoC/RxDart) |
+| **Databases & Cloud** | PostgreSQL, Supabase (Realtime WebSockets, Auth, RLS), InfluxDB (Time-series), Hive (Binary NoSQL), SQLite |
+| **Signal Processing & ML** | Adaptive Filtering (LMS, NLMS, RLS), FastICA, STFT, Mel-Spectrograms, Bio-Acoustic Signal Validation, Noise Suppression |
+| **Control & Embedded Systems** | Cascaded PID, State-Space Control, MEKF / Kalman Filtering, FreeRTOS, Arduino / PlatformIO, Sensor Interfacing (I2C, SPI, UART, MQTT) |
+| **DevOps & Developer Tools** | Git / GitHub Actions (CI/CD), Linux, Docker, VS Code, Altium Designer, ComfyUI |
 
 ---
 
-## 📬 Get In Touch
+## 📬 Contact
 
 * **Email**: [elomarjc@gmail.com](mailto:elomarjc@gmail.com)
+* **LinkedIn**: [linkedin.com/in/jacob-el-omar](https://linkedin.com/in/jacob-el-omar)
 * **GitHub**: [@elomarjc](https://github.com/elomarjc)
-* **Google Play Store**: [Grow A Fish](https://play.google.com/store/apps/details?id=com.elomarstudio.growafish)
+* **Google Play**: [Elomar Studio](https://play.google.com/store/apps/developer?id=Elomar+Studio)
