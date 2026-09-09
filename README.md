@@ -2,7 +2,6 @@
 
 <div align="center">
 
-# Jacob El-Omar
 ### Electronic Systems Engineer • Embedded & Systems Software Developer
 **M.Sc. in Electronic Systems • Aalborg University (AAU), Denmark**
 
