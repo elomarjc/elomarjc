@@ -38,41 +38,41 @@ I believe the strongest engineers are those who understand both the low-level ph
 
 ---
 
-### 2. 🫀 [Active Adaptive Noise Cancellation (ANC)](https://github.com/elomarjc/new_adaptivefilter)
+### 2. 🫀 [Active Adaptive Noise Cancellation (ANC)](https://github.com/elomarjc/adaptive-noise-cancellation-dsp)
 > **Master's Thesis in Electronic Systems (Advanced Signal Processing) • Aalborg University**  
 > *Stack: MATLAB • Adaptive Filters (LMS, NLMS, RLS) • Mel-Spectrograms • STFT • In collaboration with Ai Highway Inc*
 * **Core Research**: Developed real-time active acoustic noise cancellation algorithms to isolate physiological stethoscope signals (heart sounds $S_1, S_2$) from ambient hospital interference.
 * **Mathematical Formulations**: Implemented and benchmarked Least Mean Squares (LMS), Normalized LMS (NLMS), and Recursive Least Squares (RLS) filters.
 * **Empirical Validation**: Demonstrated up to **+40 dB SNR improvements** across synthetic and physical acoustic chamber testbeds while preserving critical cardiac murmur signatures.
-* **[View Thesis Repository →](https://github.com/elomarjc/new_adaptivefilter)**
+* **[View Thesis Repository →](https://github.com/elomarjc/adaptive-noise-cancellation-dsp)**
 
 ---
 
-### 3. ⚙️ [Real-Time Anti-Sway Control of a 2D Gantry Crane](https://github.com/elomarjc/P6-Crane-612)
+### 3. ⚙️ [Real-Time Anti-Sway Control of a 2D Gantry Crane](https://github.com/elomarjc/gantry-crane-anti-sway-control)
 > **B.Sc. Electronic Systems Project • Embedded Control Engineering • Aalborg University**  
 > *Stack: Embedded C/C++ • Arduino Mega 2560 (ATmega2560) • PlatformIO • Cascaded PID • Discrete Signal Processing*
 * **Physical System**: Modeled and controlled an underactuated physical 2D gantry crane with severe pendulum payload sway dynamics.
 * **Control Design**: Engineered a cascaded multi-loop discrete-time PID controller: an inner loop actively damping payload swing angle ($	heta$) and an outer loop driving trolley positioning ($x, y$).
 * **Firmware Implementation**: Wrote low-level C++ firmware featuring discrete low-pass sensor filtering, Forward Euler velocity estimation, actuator saturation limits, and anti-windup clamping.
-* **[View Crane Control Repository →](https://github.com/elomarjc/P6-Crane-612)**
+* **[View Crane Control Repository →](https://github.com/elomarjc/gantry-crane-anti-sway-control)**
 
 ---
 
-### 4. 🤖 [Multi-Sensor Positioning & AMR Fleet Integration](https://github.com/elomarjc/positioning-integration)
+### 4. 🤖 [Multi-Sensor Positioning & AMR Fleet Integration](https://github.com/elomarjc/indoor-positioning-amr-integration)
 > **AAU 5G Smart Production Lab • Industrial IoT & Autonomous Robotics**  
 > *Stack: Python • Multi-Threading • Ultra-Wideband (UWB) • Computer Vision (CV) • MQTT • InfluxDB • MATLAB*
 * **Sensor Fusion Hub**: Fused real-time spatial telemetry from active UWB RF tags, overhead Computer Vision tracking, and Autonomous Mobile Robots (AMRs).
 * **Concurrency & Safety**: Engineered a 9-thread concurrent processing engine with mutex synchronization, proximity breach warnings, and an alarm exemption engine for tagged payloads.
 * **Analytics**: Integrated InfluxDB v2 time-series storage and developed empirical Cumulative Distribution Function (CDF) statistical accuracy models.
-* **[View Positioning Repository →](https://github.com/elomarjc/positioning-integration)**
+* **[View Positioning Repository →](https://github.com/elomarjc/indoor-positioning-amr-integration)**
 
 ---
 
-### 5. 🛰️ [3-DoF Satellite Simulator CoM Calibration & Dynamics](https://github.com/elomarjc/P7-CoM)
+### 5. 🛰️ [3-DoF Satellite Simulator CoM Calibration & Dynamics](https://github.com/elomarjc/satellite-simulator-adcs-calibration)
 > **M.Sc. Electronic Systems Project • Control of Manipulators • Aalborg University**  
 > *Stack: C++ • Rotational Dynamics • Inertial Calibration • Euler Angles*
 * Analyzed rotational mechanics, Center-of-Mass (CoM) offset estimation, and multi-axis attitude stabilization for an experimental 3-DoF air-bearing satellite simulator.
-* **[View Satellite Simulator Repository →](https://github.com/elomarjc/P7-CoM)**
+* **[View Satellite Simulator Repository →](https://github.com/elomarjc/satellite-simulator-adcs-calibration)**
 
 ---
 
