@@ -75,7 +75,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 ---
 
 ### 4. ⚙️ [Real-Time Anti-Sway Control of a 2D Gantry Crane](https://github.com/elomarjc/gantry-crane-anti-sway-control)
-> **Bachelor Project (Semester 6) • Electronic Systems & Control Engineering • Aalborg University**  
+> **Bachelor's Project (Semester 6) • Electronic Systems & Control Engineering • Aalborg University**  
 > *Pillars: Regulation (Control) • Automation • Digital (Embedded)*  
 > *Stack: Embedded C/C++ • Arduino Mega 2560 (ATmega2560) • PlatformIO • Cascaded PID • Discrete Signal Processing*
 * **Physical System**: Derived Newtonian dynamic models for the hoisting block, trolley, and pendulum. Linearized models for frequency-domain transfer functions.
@@ -139,7 +139,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 | Semester / Project | Focus & Methods Applied |
 | :--- | :--- |
-| **Bachelor Project (Semester 6)**<br/>*Autonomous Control System for Model Gantry Crane* | Newtonian mechanics, model linearization, transfer functions, Sensetools parameter tuning, and **3 discrete PD controllers** with anti-windup for trolley positioning and payload anti-sway. |
+| **Bachelor's Project (Semester 6)**<br/>*Autonomous Control System for Model Gantry Crane* | Newtonian mechanics, model linearization, transfer functions, Sensetools parameter tuning, and **3 discrete PD controllers** with anti-windup for trolley positioning and payload anti-sway. |
 | **Semester 5: Digital & Analog Systems**<br/>*Predictive Collision-Avoidance for Mobile Robots* | UWB localization, Kalman filtering vs. linear regression for trajectory prediction, Monte Carlo simulations, and speed adaptation trials on **MiR200** industrial robots in the AAU Smart Production Lab. |
 | **Semester 4: Digital Systems Design**<br/>*Automatic Fall Protection for Smartphones* | Embedded C on **Cypress Semiconductor PSoC 5LP (CY8CKIT-059)**, IMU (GY-91: accelerometer + gyroscope) over I2C, **Complementary Filter** with quaternions/Euler angles, 43 ms fall response detection. |
 | **Semester 3: Analog Circuits & Systems**<br/>*Hi-Fi Audio Amplifier* | Transistor amplifier stage design, feedback stability, component tolerance impact, and total harmonic distortion (THD $< 0.7\%$). |
