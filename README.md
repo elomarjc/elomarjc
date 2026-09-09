@@ -40,7 +40,19 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ## 🌟 Featured Engineering Showcases
 
-### 1. 🐠 [Grow A Fish — Technical Case Study](https://github.com/elomarjc/grow-a-fish-case-study)
+### 1. 📡 [5G/6G RF Channel & Constellation Studio](https://github.com/elomarjc/5g-rf-channel-studio) • [🚀 Live WebApp](https://elomarjc.github.io/5g-rf-channel-studio/)
+> **Interactive Physical-Layer (PHY) Channel Emulator & Automated 3GPP TS 38.104 Testbench**  
+> *Pillars: Software • Digital (DSP) • Kommunikation*  
+> *Stack: Vanilla ES6 • HTML5 Canvas (60 FPS Phosphor Scope) • 3GPP TDL Fading • Clarke/Jakes Doppler • AWGN • BPSK-256QAM • OFDM*
+* **Real-Time Instrumentation**: High-performance in-browser Vector Signal Analyzer (VSA) running at 60 FPS with digital phosphor persistence and interactive 5G NR OFDM resource grid (14 symbols $	imes$ 24 subcarriers).
+* **3GPP Radio Channel Emulation**: Mathematically modeled Rayleigh/Rician multipath fading with tunable $K$-factor, vehicle Doppler frequency shifts up to 300+ km/h at 3.5 GHz mid-band, local oscillator phase noise, and transceiver mixer I/Q imbalance.
+* **Automated Compliance Verification**: Implemented automated Monte Carlo sweeps benchmarking empirical Bit Error Rates against closed-form theoretical AWGN error functions ($	ext{erfc}$ / $Q$-function) and official 3GPP TS 38.104 EVM limits ($<3.5\%$ for 256-QAM, $<8\%$ for 64-QAM).
+* **Dataset Generation**: Built-in one-click telemetry export to Keysight PathWave-compatible CSV logs and structured JSON datasets for offline AI/ML channel estimation.
+* **[🚀 Launch Live WebApp →](https://elomarjc.github.io/5g-rf-channel-studio/)** • **[View Repository →](https://github.com/elomarjc/5g-rf-channel-studio)**
+
+---
+
+### 2. 🐠 [Grow A Fish — Technical Case Study](https://github.com/elomarjc/grow-a-fish-case-study)
 > **Published Commercial Mobile Game & Real-Time Multiplayer Ecosystem**  
 > *Pillars: Software • Kommunikation • Digital*  
 > *Stack: Flutter • Flame Engine • Bonfire RPG • Dart FFI & C++ SoLoud • Supabase Realtime • Hive NoSQL • X25519/AES-GCM*
@@ -53,7 +65,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### 2. 🫀 [Active Adaptive Noise Cancellation (ANC)](https://github.com/elomarjc/adaptive-noise-cancellation-dsp)
+### 3. 🫀 [Active Adaptive Noise Cancellation (ANC)](https://github.com/elomarjc/adaptive-noise-cancellation-dsp)
 > **Master's Thesis in Electronic Systems • Aalborg University**  
 > *Pillars: Digital (DSP) • Software (Python/MATLAB)*  
 > *Stack: MATLAB • Python • Adaptive Filters (LMS, NLMS, RLS) • FastICA • Mel-Spectrograms • STFT • In collaboration with Ai Health Highway*
@@ -64,7 +76,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### 3. 🛰️ [AAUSAT6 CubeSat: Attitude Determination & Control (ADCS)](https://github.com/elomarjc/advanced-control-digital-systems)
+### 4. 🛰️ [AAUSAT6 CubeSat: Attitude Determination & Control (ADCS)](https://github.com/elomarjc/advanced-control-digital-systems)
 > **Master's Project (Semester 8) • Systems of Systems & Space Engineering • Aalborg University**  
 > *Pillars: Regulation (Control) • Digital • Kommunikation*  
 > *Stack: MATLAB • Orbital Dynamics • B-dot Detumbling • LQR Target Tracking • Momentum Wheels • $H_\infty$ Robust Control*
@@ -74,7 +86,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### 4. ⚙️ [Real-Time Anti-Sway Control of a 2D Gantry Crane](https://github.com/elomarjc/gantry-crane-anti-sway-control)
+### 5. ⚙️ [Real-Time Anti-Sway Control of a 2D Gantry Crane](https://github.com/elomarjc/gantry-crane-anti-sway-control)
 > **Bachelor's Project (Semester 6) • Electronic Systems & Control Engineering • Aalborg University**  
 > *Pillars: Regulation (Control) • Automation • Digital (Embedded)*  
 > *Stack: Embedded C/C++ • Arduino Mega 2560 (ATmega2560) • PlatformIO • Cascaded PID • Discrete Signal Processing*
@@ -85,7 +97,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### 5. 🤖 [Multi-Sensor Positioning & AMR Fleet Integration](https://github.com/elomarjc/indoor-positioning-amr-integration)
+### 6. 🤖 [Multi-Sensor Positioning & AMR Fleet Integration](https://github.com/elomarjc/indoor-positioning-amr-integration)
 > **AAU 5G Smart Production Lab • Industrial IoT & Autonomous Robotics**  
 > *Pillars: Automation • Kommunikation • Software*  
 > *Stack: Python • Multi-Threading • Ultra-Wideband (UWB) • Computer Vision (CV) • MQTT • InfluxDB • MATLAB*
@@ -96,7 +108,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### 6. 🛰️ [3-DoF Satellite Simulator CoM Calibration & Dynamics](https://github.com/elomarjc/satellite-simulator-adcs-calibration)
+### 7. 🛰️ [3-DoF Satellite Simulator CoM Calibration & Dynamics](https://github.com/elomarjc/satellite-simulator-adcs-calibration)
 > **Master's Project (Semester 7) • Control of Manipulators • Aalborg University**  
 > *Pillars: Regulation (Control) • Digital (Embedded) • Kommunikation*  
 > *Stack: C++ • FreeRTOS • MEKF Quaternion Filtering • Rotational Dynamics • Inertial Calibration*
