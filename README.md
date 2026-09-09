@@ -1,8 +1,6 @@
-# 👋 Hi, I'm Jacob El-Omar
-
 <div align="center">
 
-# Jacob El-Omar
+# 👋 Hi, I'm Jacob El-Omar
 ### M.Sc. in Electronic Systems • Aalborg University
 **Software • Automation • Regulation (Control) • Digital Systems & DSP • Communication**
 
