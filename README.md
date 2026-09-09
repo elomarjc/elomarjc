@@ -14,12 +14,12 @@
 
 ## 👨‍🎓 About Me
 
-I hold an **M.Sc. in Electronic Systems** from **Aalborg University (AAU)**. My engineering and development profile bridges rigorous systems engineering with end-to-end software development across five core disciplines:
+I hold an **M.Sc. in Electronic Systems** from **Aalborg University (AAU)**. My engineering foundation combines 5 years of Aalborg University's Problem-Based Learning (PBL) model with modern software engineering across five core disciplines:
 
 * 💻 **Software**: Full-lifecycle application engineering. Production cross-platform mobile apps in Dart/Flutter with native C++ FFI, Python backend services, multi-threaded pipelines, and relational database architecture (SQL, PostgreSQL, Supabase). Creator of [Grow A Fish](https://play.google.com/store/apps/details?id=com.elomarstudio.growafish) on Google Play.
-* 🤖 **Automation**: Industrial IoT testbeds, Autonomous Mobile Robot (AMR) fleet tracking, automated testing, and autonomous path planning (1st Place, AAU RoboCup Tournament).
-* 🎛️ **Regulation (Control Engineering)**: Mathematical modeling and closed-loop regulation of physical dynamic systems: cascaded discrete PID controllers with anti-windup, state-space feedback, anti-sway crane stabilization, and satellite attitude control.
-* 📟 **Digital (DSP & Embedded)**: Digital Signal Processing and embedded hardware: real-time adaptive filtering (LMS, NLMS, RLS, FastICA) and spectral analysis (STFT, Mel-spectrograms) developed during my Master's thesis and AI/ML internship at Ai Health Highway for medical stethoscopes. Firmware on ATmega2560 and FreeRTOS.
+* 🤖 **Automation**: Industrial IoT testbeds, Autonomous Mobile Robot (AMR) fleet tracking, automated testing, and autonomous path planning (1st Place, AAU RoboCup Tournament; Grade 10 in Predictive Collision Avoidance for Mobile Robots).
+* 🎛️ **Regulation (Control Engineering)**: Mathematical modeling and closed-loop regulation of physical dynamic systems: cascaded discrete PID controllers with anti-windup, state-space feedback, anti-sway crane stabilization, and spacecraft attitude control (AAUSAT6 CubeSat ADCS & 3-DoF Satellite Simulator).
+* 🎚️ **Digital (DSP & Embedded)**: Digital Signal Processing and embedded hardware: real-time adaptive filtering (LMS, NLMS, RLS, FastICA) and spectral analysis (STFT, Mel-spectrograms) developed during my Master's thesis and AI/ML internship at Ai Health Highway for medical stethoscopes. Firmware on ATmega2560 and FreeRTOS.
 * 📡 **Kommunikation (Communication & Networks)**: Networked systems and telemetry protocols: MQTT message brokering, real-time WebSockets, Ultra-Wideband (UWB) RF spatial tracking, and cryptographic communications (X25519 ECDH + AES-256-GCM authenticated encryption).
 
 ---
@@ -40,7 +40,7 @@ I hold an **M.Sc. in Electronic Systems** from **Aalborg University (AAU)**. My 
 ---
 
 ### 2. 🫀 [Active Adaptive Noise Cancellation (ANC)](https://github.com/elomarjc/adaptive-noise-cancellation-dsp)
-> **Master's Thesis in Electronic Systems • Aalborg University**  
+> **Master's Thesis in Electronic Systems (50 ECTS) • Aalborg University**  
 > *Pillars: Digital (DSP) • Software (Python/MATLAB)*  
 > *Stack: MATLAB • Python • Adaptive Filters (LMS, NLMS, RLS) • Mel-Spectrograms • STFT • In collaboration with Ai Health Highway*
 * **Core Research**: Developed real-time active acoustic noise cancellation algorithms to isolate physiological stethoscope signals (heart sounds $S_1, S_2$) from ambient hospital interference.
@@ -50,8 +50,18 @@ I hold an **M.Sc. in Electronic Systems** from **Aalborg University (AAU)**. My 
 
 ---
 
-### 3. ⚙️ [Real-Time Anti-Sway Control of a 2D Gantry Crane](https://github.com/elomarjc/gantry-crane-anti-sway-control)
-> **B.Sc. Electronic Systems Project • Aalborg University**  
+### 3. 🛰️ [AAUSAT6 CubeSat: Attitude Determination & Control (ADCS)](https://github.com/elomarjc/advanced-control-digital-systems)
+> **Master's Project (Semester 8) • Systems of Systems & Space Engineering • Aalborg University**  
+> *Pillars: Regulation (Control) • Digital • Kommunikation*  
+> *Stack: MATLAB • Orbital Dynamics • B-dot Detumbling • Momentum Wheels • $H_\infty$ Robust Control*
+* **Satellite Mission**: Designed the flight control and stabilization architecture for the **AAUSAT6 CubeSat** in Low Earth Orbit (LEO).
+* **Control Modes**: Implemented magnetic B-dot detumbling using magnetorquers to eliminate launch tip-off spin, momentum wheels for fine 3-axis pointing, and robust $H_\infty$ controllers to reject aerodynamic and solar radiation disturbance torques.
+* **[View AAUSAT6 Repository →](https://github.com/elomarjc/advanced-control-digital-systems)**
+
+---
+
+### 4. ⚙️ [Real-Time Anti-Sway Control of a 2D Gantry Crane](https://github.com/elomarjc/gantry-crane-anti-sway-control)
+> **Bachelor's Project (Semester 6) • Electronic Systems & Control Engineering • Aalborg University**  
 > *Pillars: Regulation (Control) • Automation • Digital (Embedded)*  
 > *Stack: Embedded C/C++ • Arduino Mega 2560 (ATmega2560) • PlatformIO • Cascaded PID • Discrete Signal Processing*
 * **Physical System**: Modeled and controlled an underactuated physical 2D gantry crane with severe pendulum payload sway dynamics.
@@ -61,7 +71,7 @@ I hold an **M.Sc. in Electronic Systems** from **Aalborg University (AAU)**. My 
 
 ---
 
-### 4. 🤖 [Multi-Sensor Positioning & AMR Fleet Integration](https://github.com/elomarjc/indoor-positioning-amr-integration)
+### 5. 🤖 [Multi-Sensor Positioning & AMR Fleet Integration](https://github.com/elomarjc/indoor-positioning-amr-integration)
 > **AAU 5G Smart Production Lab • Industrial IoT & Autonomous Robotics**  
 > *Pillars: Automation • Kommunikation • Software*  
 > *Stack: Python • Multi-Threading • Ultra-Wideband (UWB) • Computer Vision (CV) • MQTT • InfluxDB • MATLAB*
@@ -72,12 +82,33 @@ I hold an **M.Sc. in Electronic Systems** from **Aalborg University (AAU)**. My 
 
 ---
 
-### 5. 🛰️ [3-DoF Satellite Simulator CoM Calibration & Dynamics](https://github.com/elomarjc/satellite-simulator-adcs-calibration)
-> **M.Sc. Electronic Systems Project • Aalborg University**  
+### 6. 🛰️ [3-DoF Satellite Simulator CoM Calibration & Dynamics](https://github.com/elomarjc/satellite-simulator-adcs-calibration)
+> **Master's Project (Semester 7) • Control of Manipulators • Aalborg University**  
 > *Pillars: Regulation (Control) • Digital (Embedded) • Kommunikation*  
 > *Stack: C++ • FreeRTOS • MEKF Quaternion Filtering • Rotational Dynamics • Inertial Calibration*
 * Analyzed rotational mechanics, Center-of-Mass (CoM) offset estimation, and multi-axis attitude stabilization using a Multiplicative Extended Kalman Filter (MEKF) on FreeRTOS for an experimental 3-DoF air-bearing satellite simulator.
 * **[View Satellite Simulator Repository →](https://github.com/elomarjc/satellite-simulator-adcs-calibration)**
+
+---
+
+## 🎓 Academic Foundation & University Coursework
+
+### **Master of Science (M.Sc.) in Electronic Systems** — Aalborg University (120 ECTS)
+* **Signal Processing & ML**: Advanced Signal Processing, Stochastic Systems, Machine Learning, Master's Thesis: *Adaptive Noise Cancellation for Electronic Stethoscopes* (50 ECTS).
+* **Control & Robotics**: Advanced Control, Systems of Systems (*Attitude Determination and Control System for AAUSAT6*), Machine Intelligence (*CoM Calibration of 3-DoF Satellite Simulator*), Modelling of Physical Systems.
+* **Embedded & Communications**: Sensors and Systems, Networks and Systems, Communication Systems, Advances in Electronic Systems.
+
+### **Bachelor of Science (B.Sc.) in Electronic Engineering & IT** — Aalborg University (180 ECTS)
+* **Specialization**: Control Engineering (Proceskontrol).
+* **Control & Robotics Projects**:
+  - *Bachelor's Project*: Autonomous Control System for a Model Gantry Crane (20 ECTS).
+  - *Mobile Robotics*: Collision-avoidance system for mobile robots based on predictive algorithms (**Grade: 10 / B**).
+  - *RoboCup Tournament*: Autonomous mobile robotics navigation (**1st Place Winner**).
+* **Digital & Embedded Systems**:
+  - *Digital Design & Embedded*: Automatic Fall-detection System for Smartphones, Embedded Software Design, Digital Design (VHDL/FPGA).
+  - *Dynamic Systems & Electronics*: Hi-Fi Amplifier (Analog Circuit Design), Indoor Climate in Public Schools (Sensor IoT), Dynamic Systems & Circuit Theory.
+* **Mathematics & Theory Foundations**:
+  - Linear Algebra (**Grade: 10 / B**), Probability Theory and Statistics (**Grade: 10 / B**), Matrix Computations and Convex Optimization, Calculus, Engineering Mathematics 1 & 2.
 
 ---
 
@@ -87,8 +118,8 @@ I hold an **M.Sc. in Electronic Systems** from **Aalborg University (AAU)**. My 
 | :--- | :--- |
 | **💻 Software & Code** | **Python**, **C / C++**, **Dart**, **SQL**, **MATLAB**, **TypeScript / JavaScript**, **C# / .NET**, Flutter, Flame, BLoC/RxDart, REST APIs |
 | **🤖 Automation** | Industrial IoT testbeds, Autonomous Mobile Robots (AMR / MiR200), RoboCup navigation, Automated validation pipelines |
-| **🎛️ Regulation (Control)** | Cascaded PID control, Anti-windup, State-space regulation, Multiplicative Extended Kalman Filtering (MEKF), Dynamic modeling |
-| **📟 Digital (DSP & Embedded)** | Adaptive Filtering (LMS, NLMS, RLS), FastICA, STFT, Mel-Spectrograms, ATmega2560, FreeRTOS, PlatformIO, Altium Designer |
+| **🎛️ Regulation (Control)** | Cascaded PID control, Anti-windup, State-space regulation, Multiplicative Extended Kalman Filtering (MEKF), B-dot Detumbling, Dynamic modeling |
+| **🎚️ Digital (DSP & Embedded)** | Adaptive Filtering (LMS, NLMS, RLS), FastICA, STFT, Mel-Spectrograms, ATmega2560, FreeRTOS, PlatformIO, Altium Designer, Digital Logic |
 | **📡 Kommunikation** | MQTT message brokers, Realtime WebSockets, Ultra-Wideband (UWB) RF, X25519 ECDH + AES-256-GCM cryptography, SPI, I2C, UART |
 | **⚙️ Tools & DevOps** | Git / GitHub Actions (CI/CD), Linux, Docker, InfluxDB, PostgreSQL / Supabase, VS Code, ComfyUI |
 
