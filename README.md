@@ -38,48 +38,27 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-## 🌟 Featured Engineering Showcases (Live Interactive WebApps)
+## 🌟 Flagship Engineering Digital Twins (Live Interactive Simulators)
 
-### 1. 📡 [5G/6G RF Channel & Constellation Studio](https://github.com/elomarjc/5g-rf-channel-studio) • [🚀 Live WebApp](https://elomarjc.github.io/5g-rf-channel-studio/)
-> **Interactive Physical-Layer (PHY) Channel Emulator & Automated 3GPP TS 38.104 Testbench**  
-> *Target Synergy: Keysight Technologies (Aalborg R&D)*  
-> *Pillars: Software • Digital (DSP) • Kommunikation*  
-> *Stack: Vanilla ES6 • HTML5 Canvas (60 FPS Phosphor Scope) • 3GPP TDL Fading • Clarke/Jakes Doppler • AWGN • BPSK-256QAM • OFDM*
-* **Real-Time Instrumentation**: High-performance in-browser Vector Signal Analyzer (VSA) running at 60 FPS with digital phosphor persistence and interactive 5G NR OFDM resource grid (14 symbols $\times$ 24 subcarriers).
-* **3GPP Radio Channel Emulation**: Mathematically modeled Rayleigh/Rician multipath fading with tunable $K$-factor, vehicle Doppler frequency shifts up to 300+ km/h at 3.5 GHz mid-band, local oscillator phase noise, and transceiver mixer I/Q imbalance.
-* **Automated Compliance Verification**: Implemented automated Monte Carlo sweeps benchmarking empirical Bit Error Rates against closed-form theoretical AWGN error functions ($\text{erfc}$ / $Q$-function) and official 3GPP TS 38.104 EVM limits ($<3.5\%$ for 256-QAM, $<8\%$ for 64-QAM).
-* **Dataset Generation**: Built-in one-click telemetry export to Keysight PathWave-compatible CSV logs and structured JSON datasets for offline AI/ML channel estimation.
-* **[🚀 Launch Live WebApp →](https://elomarjc.github.io/5g-rf-channel-studio/)** • **[View Repository →](https://github.com/elomarjc/5g-rf-channel-studio)**
+A suite of 9 real-time mathematical digital twins, physical modeling testbenches, and interactive simulators tailored to Denmark's flagship engineering leaders:
 
----
-
-### 2. 🛰️ [CubeSat AOCS Flight Simulator](https://github.com/elomarjc/cubesat-aocs-simulator) • [🚀 Live WebApp](https://elomarjc.github.io/cubesat-aocs-simulator/)
-> **3D Interactive Spacecraft Attitude Determination & Control System (AOCS) & LEO Orbit Simulator**  
-> *Target Synergy: GomSpace A/S (Aalborg Øst)*  
-> *Pillars: Regulation (Control) • Software • Digital • Space Systems*  
-> *Stack: Vanilla ES6 • Three.js (WebGL) • RK4 Numerical Integrator • Quaternion Kinematics • B-dot Detumble • Reaction Wheels*
-* **3D Interactive Space Operations**: High-detail procedural 3U CubeSat with gold MLI foil, solar panels, internal flywheels, and Earth globe with sidereal spin, atmospheric glow, and Aalborg Ground Station ($57.05^\circ\text{N}, 9.92^\circ\text{E}$) acquisition-of-signal (AOS) tracking beam.
-* **Rigid Body Dynamics & RK4 Integrator**: 10-state differential equation solver propagating unit quaternions $[\mathbf{q}]$, angular rates $[\boldsymbol{\omega}]$, and wheel speeds $[\boldsymbol{\omega}_{rw}]$, coupled with gravity gradient, aerodynamic drag, and solar radiation pressure torques.
-* **Flight Computer FSM**: Implemented magnetic B-dot detumbling ($\mathbf{m} = -k \dot{\mathbf{B}}$) to damp tip-off tumble rates ($40^\circ/\text{s} \to <0.5^\circ/\text{s}$), Nadir Earth-pointing PD control in LVLH frame, Sun tracking mode, dynamic Aalborg ground station slew, and cross-product reaction wheel desaturation.
-* **Mission Telemetry & CSP Export**: Real-time angular velocity damping strip chart, reaction wheel RPM bars (up to 6500 RPM), and one-click telemetry export formatted for GomSpace CSP (CubeSat Space Protocol) / CAN bus logs.
-* **[🚀 Launch Live WebApp →](https://elomarjc.github.io/cubesat-aocs-simulator/)** • **[View Repository →](https://github.com/elomarjc/cubesat-aocs-simulator)**
+| Digital Twin & Architecture | Target Employer | Core Engineering Disciplines | Live Demo & Source |
+|---|---|---|---|
+| **1. 5G/6G RF Channel & Constellation Studio**<br>TDL Fading, Clarke/Jakes Doppler, 256-QAM, 3GPP TS 38.104 EVM sweeps, Phosphor VSA | **Keysight Technologies**<br>*(Aalborg R&D)* | Digital (DSP) • Software • RF Communication | [🚀 Live Simulator](https://elomarjc.github.io/5g-rf-channel-studio/)<br>[💻 GitHub](https://github.com/elomarjc/5g-rf-channel-studio) |
+| **2. CubeSat AOCS Flight Simulator**<br>RK4 numerical integration, quaternion kinematics, B-dot detumbling, reaction wheel desaturation | **GomSpace A/S**<br>*(Aalborg Øst)* | Regulation (Control) • Software • Aerospace | [🚀 Live Simulator](https://elomarjc.github.io/cubesat-aocs-simulator/)<br>[💻 GitHub](https://github.com/elomarjc/cubesat-aocs-simulator) |
+| **3. Industrial SCADA Digital Twin & Process Control**<br>ISA-101 HMI, IEC 61131-3 Structured Text runtime, anti-windup PID, Modbus TCP, OT security | **JBT Marel / DESMI**<br>*(Støvring / Nørresundby)* | Automation • Regulation (Control) • Industrial Networks | [🚀 Live Simulator](https://elomarjc.github.io/industrial-scada-digital-twin/)<br>[💻 GitHub](https://github.com/elomarjc/industrial-scada-digital-twin) |
+| **4. Hearing Aid DSP & Adaptive Beamforming Studio**<br>Head shadow diffraction, differential cardioid beamformer, NLMS feedback cancellation, 6-band WDRC | **Demant A/S / Oticon**<br>*(Smørum / Copenhagen)* | Digital (DSP) • Software • Audio Processing | [🚀 Live Simulator](https://elomarjc.github.io/hearing-aid-dsp-studio/)<br>[💻 GitHub](https://github.com/elomarjc/hearing-aid-dsp-studio) |
+| **5. Wind Turbine Load Control & Coleman Twin**<br>15 MW offshore turbine, Coleman MBC transform, Individual Pitch Control (IPC), Rainflow fatigue reduction | **Vestas Wind Systems**<br>*(Aarhus)* | Regulation (Control) • Software • Renewable Energy | [🚀 Live Simulator](https://elomarjc.github.io/turbine-load-control-twin/)<br>[💻 GitHub](https://github.com/elomarjc/turbine-load-control-twin) |
+| **6. PMSM Field-Oriented Control (FOC) Drive Twin**<br>Clarke/Park transforms, Space Vector PWM (SVPWM), Sliding Mode Observer (SMO), MTPA weakening | **Danfoss Drives A/S**<br>*(Gråsten / Nordborg)* | Regulation (Control) • Power Electronics • Embedded | [🚀 Live Simulator](https://elomarjc.github.io/pmsm-foc-drive-twin/)<br>[💻 GitHub](https://github.com/elomarjc/pmsm-foc-drive-twin) |
+| **7. Industrial Pump Hydrodynamics & Cavitation Twin**<br>Affinity Laws, Thoma cavitation factor, NPSHa vs NPSHr, MCSA stator FFT sidebands, Joukowsky water hammer | **Grundfos Holding A/S**<br>*(Bjerringbro)* | Automation • Regulation (Control) • Fluid Dynamics | [🚀 Live Simulator](https://elomarjc.github.io/pump-hydrodynamics-digital-twin/)<br>[💻 GitHub](https://github.com/elomarjc/pump-hydrodynamics-digital-twin) |
+| **8. Naval Radar CFAR & Doppler Signal Studio**<br>Cell-Averaging (CA) & Ordered-Statistic (OS) CFAR, 3-pulse MTI Doppler clutter filter, 60 FPS PPI radar display | **Terma A/S**<br>*(Lystrup / Aarhus)* | Digital (DSP) • Software • Defense & Aerospace | [🚀 Live Simulator](https://elomarjc.github.io/naval-radar-signal-studio/)<br>[💻 GitHub](https://github.com/elomarjc/naval-radar-signal-studio) |
+| **9. Cobot Kinematics & Momentum Observer Twin**<br>6-DOF UR5e arm, Damped Least-Squares (DLS) singularity solver, sensorless Generalized Momentum Observer, ISO/TS 15066 | **Universal Robots A/S**<br>*(Odense)* | Regulation (Control) • Robotics • Safety Systems | [🚀 Live Simulator](https://elomarjc.github.io/cobot-kinematics-momentum-twin/)<br>[💻 GitHub](https://github.com/elomarjc/cobot-kinematics-momentum-twin) |
 
 ---
 
-### 3. 🏭 [Industrial SCADA Digital Twin & Process Control](https://github.com/elomarjc/industrial-scada-digital-twin) • [🚀 Live WebApp](https://elomarjc.github.io/industrial-scada-digital-twin/)
-> **High-Performance ISA-101 SCADA • IEC 61131-3 Structured Text Runtime • Modbus TCP • OT Cybersecurity**  
-> *Target Synergy: JBT Marel (Støvring) • DESMI (Nørresundby)*  
-> *Pillars: Automation • Regulation (Control) • Software • Networks*  
-> *Stack: Vanilla ES6 • HTML5 Canvas (60 FPS Process Mimic) • Discrete Cascaded PID • Torricelli Dynamics • Modbus TCP (40001-40014) • IEC 62443*
-* **High-Performance ISA-101 HMI**: Ergonomic dark slate layout with real-time multi-pen trend canvas (SP vs PV vs CV), ISA-18.2 alarm management with ACK workflows, and hardwired E-STOP trip interlocks.
-* **Coupled Process Digital Twin**: 60 FPS animated food processing line modeling Buffer Tank 1 level dynamics, Thermal CSTR Pasteurizer Tank 2 with transport dead-time ($\theta = 3.5\text{ s}$), and Variable Frequency Drive (VFD) packaging conveyor belt.
-* **IEC 61131-3 Runtime & Anti-Windup PIDs**: 20 ms cyclic scan runtime executing closed-loop level, thermal, and speed regulation with anti-windup clamping to eliminate integrator saturation, with live Structured Text syntax-highlighted code inspection.
-* **Modbus TCP & OT Cybersecurity**: Live 16-bit holding register database (40001 - 40014), Modbus packet validation, and interactive OT cyber attack simulation that intercepts unauthorized register tampering and trips emergency safe shutdown.
-* **[🚀 Launch Live WebApp →](https://elomarjc.github.io/industrial-scada-digital-twin/)** • **[View Repository →](https://github.com/elomarjc/industrial-scada-digital-twin)**
+## 📱 Commercial Mobile Applications & Published Games
 
----
-
-### 4. 🐠 [Grow A Fish — Technical Case Study](https://github.com/elomarjc/grow-a-fish-case-study)
+### 🐠 [Grow A Fish — Technical Case Study](https://github.com/elomarjc/grow-a-fish-case-study)
 > **Published Commercial Mobile Game & Real-Time Multiplayer Ecosystem**  
 > *Pillars: Software • Kommunikation • Digital*  
 > *Stack: Flutter • Flame Engine • Bonfire RPG • Dart FFI & C++ SoLoud • Supabase Realtime • Hive NoSQL • X25519/AES-GCM*
@@ -87,12 +66,13 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 * **Deterministic Networking**: Formulated deterministic seed-based procedural level generation to eliminate mobile multiplayer jitter and bandwidth overhead.
 * **Low-Latency Native Audio**: Integrated the `SoLoud` C++ audio engine via Dart FFI with custom LRU caching and auto-recovery to eradicate Android audio latency.
 * **Hardware-Backed Cryptography**: Implemented client-side End-to-End Encrypted (E2EE) chat using X25519 ECDH key exchange and AES-256-GCM.
-* **In-Game Tooling**: Built a custom grid-based level design studio with high-speed binary Hive serialization.
 * **[View Full Case Study →](https://github.com/elomarjc/grow-a-fish-case-study)** • **[Google Play Store →](https://play.google.com/store/apps/details?id=com.elomarstudio.growafish)**
 
 ---
 
-### 5. 🫀 [Active Adaptive Noise Cancellation (ANC)](https://github.com/elomarjc/adaptive-noise-cancellation-dsp)
+## 🎓 Academic R&D & University Projects
+
+### 🫀 [Active Adaptive Noise Cancellation (ANC)](https://github.com/elomarjc/adaptive-noise-cancellation-dsp)
 > **Master's Thesis in Electronic Systems • Aalborg University**  
 > *Pillars: Digital (DSP) • Software (Python/MATLAB)*  
 > *Stack: MATLAB • Python • Adaptive Filters (LMS, NLMS, RLS) • FastICA • Mel-Spectrograms • STFT • In collaboration with Ai Health Highway*
@@ -103,7 +83,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### 6. 🛰️ [AAUSAT6 CubeSat: Attitude Determination & Control (ADCS)](https://github.com/elomarjc/advanced-control-digital-systems)
+### 🛰️ [AAUSAT6 CubeSat: Attitude Determination & Control (ADCS)](https://github.com/elomarjc/advanced-control-digital-systems)
 > **Master's Project (Semester 8) • Systems of Systems & Space Engineering • Aalborg University**  
 > *Pillars: Regulation (Control) • Digital • Kommunikation*  
 > *Stack: MATLAB • Orbital Dynamics • B-dot Detumbling • LQR Target Tracking • Momentum Wheels • $H_\infty$ Robust Control*
@@ -113,7 +93,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### 7. ⚙️ [Real-Time Anti-Sway Control of a 2D Gantry Crane](https://github.com/elomarjc/gantry-crane-anti-sway-control)
+### ⚙️ [Real-Time Anti-Sway Control of a 2D Gantry Crane](https://github.com/elomarjc/gantry-crane-anti-sway-control)
 > **Bachelor's Project (Semester 6) • Electronic Systems & Control Engineering • Aalborg University**  
 > *Pillars: Regulation (Control) • Automation • Digital (Embedded)*  
 > *Stack: Embedded C/C++ • Arduino Mega 2560 (ATmega2560) • PlatformIO • Cascaded PID • Discrete Signal Processing*
@@ -124,7 +104,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### 8. 🤖 [Multi-Sensor Positioning & AMR Fleet Integration](https://github.com/elomarjc/indoor-positioning-amr-integration)
+### 🤖 [Multi-Sensor Positioning & AMR Fleet Integration](https://github.com/elomarjc/indoor-positioning-amr-integration)
 > **AAU 5G Smart Production Lab • Industrial IoT & Autonomous Robotics**  
 > *Pillars: Automation • Kommunikation • Software*  
 > *Stack: Python • Multi-Threading • Ultra-Wideband (UWB) • Computer Vision (CV) • MQTT • InfluxDB • MATLAB*
@@ -135,7 +115,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### 9. 🛰️ [3-DoF Satellite Simulator CoM Calibration & Dynamics](https://github.com/elomarjc/satellite-simulator-adcs-calibration)
+### 🛰️ [3-DoF Satellite Simulator CoM Calibration & Dynamics](https://github.com/elomarjc/satellite-simulator-adcs-calibration)
 > **Master's Project (Semester 7) • Control of Manipulators • Aalborg University**  
 > *Pillars: Regulation (Control) • Digital (Embedded) • Kommunikation*  
 > *Stack: MATLAB • Simulink • FreeRTOS • Cypress PSoC 5LP • Spherical Air Bearing • MEKF Sensor Fusion*
@@ -146,7 +126,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 
 ---
 
-### 10. 🎛️ [Multivariable Distillation Column LQR State-Space Control](https://github.com/elomarjc/multivariable-distillation-column-control)
+### 🎛️ [Multivariable Distillation Column LQR State-Space Control](https://github.com/elomarjc/multivariable-distillation-column-control)
 > **Master's Project (Semester 7) • Advanced Control Engineering • Aalborg University**  
 > *Pillars: Regulation (Control) • Software (MATLAB)*  
 > *Stack: MATLAB • MIMO State-Space • LQR Optimal Control • Kalman Filter Observer • Decoupling*
@@ -161,12 +141,12 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
 | Discipline | Core Technologies, Frameworks & Protocols |
 |---|---|
 | **Programming & Scripting** | Python, C/C++, Dart, C#, JavaScript/TypeScript (ES6+), MATLAB / Simulink, SQL |
-| **Regulation & Control** | State-Space MIMO, Cascaded PID, LQR / LQG, $H_\infty$ Robust Control, B-dot Magnetic Detumbling, Anti-Windup |
-| **Signal Processing & DSP** | Adaptive Filtering (LMS, NLMS, RLS), Blind Source Separation (FastICA), STFT, FFT, Mel-Spectrograms, EKF / UKF / MEKF |
-| **Industrial Automation & SCADA** | IEC 61131-3 (Structured Text, Ladder Logic), ISA-101 High-Performance HMI, ISA-18.2 Alarm Mgmt, Modbus TCP, OPC UA, OT Cybersecurity |
+| **Regulation & Control** | State-Space MIMO, Cascaded PID, LQR / LQG, $H_\infty$ Robust Control, B-dot Magnetic Detumbling, Anti-Windup, DLS Inverse Kinematics, Coleman Transform |
+| **Signal Processing & DSP** | Adaptive Filtering (LMS, NLMS, RLS), Blind Source Separation (FastICA), STFT, FFT, Mel-Spectrograms, EKF / UKF / MEKF, CA/OS-CFAR, MTI Doppler Filters, WDRC |
+| **Industrial Automation & SCADA** | IEC 61131-3 (Structured Text, Ladder Logic), ISA-101 High-Performance HMI, ISA-18.2 Alarm Mgmt, Modbus TCP, OPC UA, OT Cybersecurity, Affinity Laws |
 | **Embedded & Hardware** | FreeRTOS, Cypress PSoC 5LP, ATmega2560, Arduino Mega, PlatformIO, STM32 |
 | **Kommunikation & Networks** | 3GPP 5G NR PHY, OFDM, BPSK/QAM, MQTT, WebSockets, Ultra-Wideband (UWB), CAN bus, I2C, SPI, UART, RS485 |
-| **Software & Cross-Platform** | Flutter, Flame Game Engine, Dart FFI (Native C++ interop), Node.js, HTML5 Canvas / WebGL, Three.js |
+| **Software & Cross-Platform** | Flutter, Flame Game Engine, Dart FFI (Native C++ interop), Node.js, HTML5 Canvas / WebGL, Three.js, Web Audio API |
 | **Databases & DevOps** | PostgreSQL, Supabase, InfluxDB, SQLite, Hive NoSQL, Git, GitHub Actions, Docker |
 
 ---
