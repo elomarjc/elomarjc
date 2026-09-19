@@ -20,7 +20,7 @@ I hold a **Master of Science (M.Sc.) in Electronic Systems** (Graduated June 202
 
 My engineering background combines 5 years of Aalborg University's Problem-Based Learning (PBL) model with modern software engineering, digital hardware, and physical system integration across five core disciplines:
 
-* 💻 **Software**: Full-stack application engineering (Python, PyQt6, Dart/Flutter with native C++ FFI), backend and script engineering (Node.js, C#, REST APIs), and databases (PostgreSQL, Supabase, InfluxDB, SQLite). Co-developer of **OpenMath** CAS and creator of [Grow A Fish](https://play.google.com/store/apps/details?id=com.elomarstudio.growafish) on Google Play.
+* 💻 **Software**: Full-stack application engineering (Python, PyQt6, Dart/Flutter with native C++ FFI), backend and script engineering (Node.js, C#, REST APIs), and databases (PostgreSQL, Supabase, InfluxDB, SQLite). Co-developer of **OpenMath** CAS and [Grow A Fish](https://play.google.com/store/apps/details?id=com.elomarstudio.growafish) (with [J2KJonas](https://github.com/J2KJonas)) on Google Play.
 * 🤖 **Automation & Industrial Robotics**: Industrial automation, PLC programming & hardware equivalence (IEC 61131-3 Structured Text, Function Block Diagrams, Ladder Logic), SCADA / ISA-101 high-performance HMIs, Autonomous Mobile Robots (MiR200 Fleet Integration), AAU 5G Smart Production Lab testbed, and path planning (1st Place, AAU RoboCup Tournament; Predictive Collision Avoidance).
 * 🎛️ **Regulation (Control Engineering)**: Dynamic systems modeling and closed-loop feedback control: MIMO state-space control, discrete cascaded PID with anti-windup, LQR/LQG optimal control, $H_\infty$ robust control, and spacecraft attitude control (AAUSAT6 CubeSat ADCS & 3-DoF Satellite Simulator).
 * 🎚️ **Digital (DSP, FPGA & Embedded Systems)**: Digital signal processing (LMS, NLMS, RLS adaptive filters, FastICA, STFT, Mel-spectrograms), FPGA & digital design (VHDL on Intel Cyclone V / Terasic DE0-CV & Xilinx Spartan, Quartus Prime, ModelSim), and embedded firmware (C/C++, FreeRTOS, Cypress PSoC 5LP UDB schematic capture, PlatformIO on ATmega2560).
@@ -59,7 +59,7 @@ A suite of 9 real-time mathematical digital twins, physical modeling testbenches
 
 ## 💻 Open Source Software, Engineering Tools & Mobile Apps
 
-### 📐 [OpenMath — Desktop & Web Computer Algebra System (CAS)](https://github.com/elomarjc/openmath)
+### 📐 [OpenMath — Desktop & Web Computer Algebra System (CAS)](https://github.com/J2KJonas/OpenMath)
 > **Symbolic Mathematics, Numerical Computation & Digital Hardware Engine**  
 > *Pillars: Software • Digital Systems • Mathematics*  
 > *Stack: Python 3.10+ • PyQt6 • SymPy • Matplotlib MathText • WebAssembly (Pyodide)*  
@@ -68,12 +68,13 @@ A suite of 9 real-time mathematical digital twins, physical modeling testbenches
 * **Symbolic Math & Matrix Wizard**: Visual GUI dialog for arbitrary $M \times N$ matrices, matrix inversion, determinants, eigenvalues/eigenvectors, RREF, differential equations (`dsolve`), integrals, and Taylor/Laurent series expansions.
 * **Embedded & Digital Hardware Engine**: Integrated tooling for bitwise logic & bitfield masks (`bit_field`, `twos_comp_repr`), floating-point to Q-format fixed-point conversion (`to_q`, `from_q`), and IEEE-754 single/double precision sign/exponent/mantissa bit decomposition.
 * **WebAssembly Deployment**: Fully functional zero-install browser build running entirely client-side via Pyodide.
-* **[💻 GitHub Repository →](https://github.com/elomarjc/openmath)** • **[🚀 Live WebApp on GitHub Pages →](https://j2kjonas.github.io/OpenMath/)**
+* **[💻 GitHub Repository →](https://github.com/J2KJonas/OpenMath)** • **[🚀 Live WebApp on GitHub Pages →](https://j2kjonas.github.io/OpenMath/)**
 
 ### 🐠 [Grow A Fish — Technical Case Study](https://github.com/elomarjc/grow-a-fish-case-study)
 > **Published Commercial Mobile Game & Real-Time Multiplayer Ecosystem**  
 > *Pillars: Software • Kommunikation • Digital*  
-> *Stack: Flutter • Flame Engine • Bonfire RPG • Dart FFI & C++ SoLoud • Supabase Realtime • Hive NoSQL • X25519/AES-GCM*
+> *Stack: Flutter • Flame Engine • Bonfire RPG • Dart FFI & C++ SoLoud • Supabase Realtime • Hive NoSQL • X25519/AES-GCM*  
+> *Co-developed by [elomarjc](https://github.com/elomarjc) and [J2KJonas](https://github.com/J2KJonas)*
 * **Architecture**: Engineered an end-to-end mobile game (330+ modules) published on Google Play.
 * **Deterministic Networking**: Formulated deterministic seed-based procedural level generation to eliminate mobile multiplayer jitter and bandwidth overhead.
 * **Low-Latency Native Audio**: Integrated the `SoLoud` C++ audio engine via Dart FFI with custom LRU caching and auto-recovery to eradicate Android audio latency.
