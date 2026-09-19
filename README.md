@@ -5,6 +5,7 @@
 **Software • Automation • Regulation (Control) • Digital Systems & DSP • Communication**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jacob-el-omar/)
+[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elomarjc)
 [![Google Play](https://img.shields.io/badge/Google_Play-Grow_A_Fish-34A853?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.elomarstudio.growafish)
 [![Email](https://img.shields.io/badge/Email-elomarjc%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:elomarjc@gmail.com)
 [![Location](https://img.shields.io/badge/Location-Aalborg%2C%20Denmark-blue?style=for-the-badge&logo=google-maps&logoColor=white)](https://maps.google.com/?q=Aalborg,+Denmark)
@@ -15,14 +16,14 @@
 
 ## 👨‍🎓 About Me
 
-I hold a **Master of Science (M.Sc.) in Electronic Systems** and a **Bachelor of Science (B.Sc.) in Electronics & IT** (Specialization in Control Engineering) from **Aalborg University (AAU)**, Denmark. 
+I hold a **Master of Science (M.Sc.) in Electronic Systems** (Graduated June 2025, 120 ECTS) and a **Bachelor of Science (B.Sc.) in Electronics & IT** with specialization in **Process Control** (Graduated August 2023, 180 ECTS) from **Aalborg University (AAU)**, Denmark. 
 
-My engineering background combines 5 years of Aalborg University's Problem-Based Learning (PBL) model with modern software engineering across five core disciplines:
+My engineering background combines 5 years of Aalborg University's Problem-Based Learning (PBL) model with modern software engineering, digital hardware, and physical system integration across five core disciplines:
 
-* 💻 **Software**: Cross-platform application engineering (Dart/Flutter with native C++ FFI), backend and script engineering (Python, C#, Node.js, REST APIs), and databases (PostgreSQL, Supabase, SQLite, MySQL, InfluxDB). Creator of [Grow A Fish](https://play.google.com/store/apps/details?id=com.elomarstudio.growafish) on Google Play.
-* 🤖 **Automation**: Industrial automation, PLC programming (IEC 61131-3 Structured Text), SCADA / ISA-101 high-performance HMIs, Autonomous Mobile Robots (MiR200), smart production testbeds (AAU 5G Smart Production Lab), and path planning (1st Place, AAU RoboCup Tournament; Predictive Collision Avoidance).
-* 🎛️ **Regulation (Control Engineering)**: Dynamic systems modeling and closed-loop feedback control: state-space MIMO control, discrete cascaded PID with anti-windup, LQR optimal control, and spacecraft attitude control (AAUSAT6 CubeSat ADCS & 3-DoF Satellite Simulator).
-* 🎚️ **Digital (DSP & Embedded Systems)**: Digital signal processing (LMS, NLMS, RLS adaptive filters, FastICA, STFT, Mel-spectrograms), parametric spectral estimation, sensor data fusion (EKF/UKF/MEKF), and embedded firmware (C/C++, FreeRTOS, Cypress PSoC 5LP, ATmega2560).
+* 💻 **Software**: Full-stack application engineering (Python, PyQt6, Dart/Flutter with native C++ FFI), backend and script engineering (Node.js, C#, REST APIs), and databases (PostgreSQL, Supabase, InfluxDB, SQLite). Co-developer of **OpenMath** CAS and creator of [Grow A Fish](https://play.google.com/store/apps/details?id=com.elomarstudio.growafish) on Google Play.
+* 🤖 **Automation & Industrial Robotics**: Industrial automation, PLC programming & hardware equivalence (IEC 61131-3 Structured Text, Function Block Diagrams, Ladder Logic), SCADA / ISA-101 high-performance HMIs, Autonomous Mobile Robots (MiR200 Fleet Integration), AAU 5G Smart Production Lab testbed, and path planning (1st Place, AAU RoboCup Tournament; Predictive Collision Avoidance).
+* 🎛️ **Regulation (Control Engineering)**: Dynamic systems modeling and closed-loop feedback control: MIMO state-space control, discrete cascaded PID with anti-windup, LQR/LQG optimal control, $H_\infty$ robust control, and spacecraft attitude control (AAUSAT6 CubeSat ADCS & 3-DoF Satellite Simulator).
+* 🎚️ **Digital (DSP, FPGA & Embedded Systems)**: Digital signal processing (LMS, NLMS, RLS adaptive filters, FastICA, STFT, Mel-spectrograms), FPGA & digital design (VHDL on Intel Cyclone V / Terasic DE0-CV & Xilinx Spartan, Quartus Prime, ModelSim), and embedded firmware (C/C++, FreeRTOS, Cypress PSoC 5LP UDB schematic capture, PlatformIO on ATmega2560).
 * 📡 **Kommunikation (Communication & Networks)**: Telemetry and industrial network protocols: Modbus TCP, MQTT message brokering, real-time WebSockets, Ultra-Wideband (UWB) RF positioning, bus architectures (CAN bus, I2C, SPI, UART, RS485), and cryptographic communications (X25519 ECDH + AES-256-GCM).
 
 ---
@@ -34,7 +35,7 @@ My engineering background combines 5 years of Aalborg University's Problem-Based
   * Preserved crucial low-frequency cardiac valve sounds ($S_1, S_2$) and murmurs, improving SNR by up to **+34 dB**.
   * Collaborated with international research teams to validate screening models for cardiovascular and pulmonary conditions under medical-grade diagnostic constraints.
 * **IT & Web Developer (Volunteer)** — *Dawah Danmark* (Jan 2026 – Present)
-  * Modernized and optimized platform performance, database integration, and reliability.
+  * Modernized and optimized platform performance, database integration, security, and hosting reliability.
 
 ---
 
@@ -56,7 +57,18 @@ A suite of 9 real-time mathematical digital twins, physical modeling testbenches
 
 ---
 
-## 📱 Commercial Mobile Applications & Published Games
+## 💻 Open Source Software, Engineering Tools & Mobile Apps
+
+### 📐 [OpenMath — Desktop & Web Computer Algebra System (CAS)](https://github.com/elomarjc/openmath)
+> **Symbolic Mathematics, Numerical Computation & Digital Hardware Engine**  
+> *Pillars: Software • Digital Systems • Mathematics*  
+> *Stack: Python 3.10+ • PyQt6 • SymPy • Matplotlib MathText • WebAssembly (Pyodide)*  
+> *Co-developed by [elomarjc](https://github.com/elomarjc) and [J2KJonas](https://github.com/J2KJonas)*
+* **Interactive Document Worksheet**: Stacked execution cells with high-DPI typeset LaTeX formula rendering, instant toggle between exact symbolic representations and arbitrary-precision numeric floats (2–50 digits), and worksheet serialization to compilable LaTeX (`.tex`) and Markdown (`.md`).
+* **Symbolic Math & Matrix Wizard**: Visual GUI dialog for arbitrary $M \times N$ matrices, matrix inversion, determinants, eigenvalues/eigenvectors, RREF, differential equations (`dsolve`), integrals, and Taylor/Laurent series expansions.
+* **Embedded & Digital Hardware Engine**: Integrated tooling for bitwise logic & bitfield masks (`bit_field`, `twos_comp_repr`), floating-point to Q-format fixed-point conversion (`to_q`, `from_q`), and IEEE-754 single/double precision sign/exponent/mantissa bit decomposition.
+* **WebAssembly Deployment**: Fully functional zero-install browser build running entirely client-side via Pyodide.
+* **[💻 GitHub Repository →](https://github.com/elomarjc/openmath)** • **[🚀 Live WebApp on GitHub Pages →](https://j2kjonas.github.io/OpenMath/)**
 
 ### 🐠 [Grow A Fish — Technical Case Study](https://github.com/elomarjc/grow-a-fish-case-study)
 > **Published Commercial Mobile Game & Real-Time Multiplayer Ecosystem**  
@@ -68,18 +80,35 @@ A suite of 9 real-time mathematical digital twins, physical modeling testbenches
 * **Hardware-Backed Cryptography**: Implemented client-side End-to-End Encrypted (E2EE) chat using X25519 ECDH key exchange and AES-256-GCM.
 * **[View Full Case Study →](https://github.com/elomarjc/grow-a-fish-case-study)** • **[Google Play Store →](https://play.google.com/store/apps/details?id=com.elomarstudio.growafish)**
 
+### 🤖 [AI Vision & Document Intelligence Tools](https://github.com/elomarjc)
+> **Computer Vision OCR, LLM Pipelines & GPU Acceleration**  
+> *Stack: Python • Streamlit • RapidOCR • FFmpeg • Apple Silicon Metal / NVENC • Ollama / OpenAI API*
+* **DanishBookOCR**: Streamlit-based AI document processor extracting text and mathematical formulas from complex book layouts, utilizing computer vision OCR and LLM post-processing to generate structured, publication-grade APA 7 Microsoft Word (`.docx`) documents.
+* **Creator Studio**: Subtitle extraction and high-throughput video generation pipeline utilizing RapidOCR and hardware-accelerated rendering via Apple Silicon Metal & NVENC.
+* **TranslateBooksWithLLMs**: Translation tool for full-length books and structured technical documents preserving layouts across multiple LLM provider backends.
+
 ---
 
-## 🎓 Academic R&D & University Projects
+## 🎓 Academic R&D & University Engineering Projects
 
 ### 🫀 [Active Adaptive Noise Cancellation (ANC)](https://github.com/elomarjc/adaptive-noise-cancellation-dsp)
-> **Master's Thesis in Electronic Systems • Aalborg University**  
+> **Master's Thesis in Electronic Systems (Graduated June 2025) • Aalborg University**  
 > *Pillars: Digital (DSP) • Software (Python/MATLAB)*  
 > *Stack: MATLAB • Python • Adaptive Filters (LMS, NLMS, RLS) • FastICA • Mel-Spectrograms • STFT • In collaboration with Ai Health Highway*
 * **Core Research**: Developed real-time active acoustic noise cancellation algorithms to isolate physiological stethoscope signals from ambient hospital interference.
-* **Mathematical Formulations**: Implemented and benchmarked Least Mean Squares (LMS), Normalized LMS (NLMS), Recursive Least Squares (RLS), and FastICA source separation.
-* **Empirical Validation**: Demonstrated up to **+34 dB SNR improvements** across synthetic and physical acoustic chamber testbeds while preserving critical cardiac murmur frequencies.
+* **Mathematical Formulations**: Implemented and benchmarked Least Mean Squares (LMS), Normalized LMS (NLMS), Recursive Least Squares (RLS), and FastICA blind source separation.
+* **Empirical Validation**: Demonstrated up to **+34 dB SNR improvements** across synthetic and physical acoustic chamber testbeds while preserving critical cardiac murmur frequencies ($S_1, S_2$).
 * **[View Thesis Repository →](https://github.com/elomarjc/adaptive-noise-cancellation-dsp)**
+
+---
+
+### ⚡ [FPGA Digital Design & Industrial Control Architecture](https://github.com/elomarjc)
+> **Digital Systems & Embedded Hardware • Aalborg University**  
+> *Pillars: Digital (FPGA/VHDL) • Automation (PLC Equivalence) • Embedded C*  
+> *Stack: VHDL • Intel Cyclone V (Terasic DE0-CV) • Intel Quartus Prime • ModelSim • Cypress PSoC 5LP • FreeRTOS • ESP32*
+* **FPGA Logic Synthesis & VHDL**: Implemented synchronous sequential circuits, finite state machines (FSM), and timing-critical bus interfaces in VHDL synthesized on an Intel Cyclone V (`5CEBA4F23C7N`) FPGA using Quartus Prime and verified via ModelSim testbenches.
+* **PSoC Schematic Capture & PLC Equivalence**: Designed digital hardware blocks using Cypress PSoC Creator Universal Digital Blocks (UDBs) with logic gates, latches, multiplexers, and hardware counters — directly equivalent to industrial PLC Function Block Diagrams (FBD) and Ladder Diagrams (LD).
+* **Deterministic Embedded Firmware**: Integrated real-time FreeRTOS task scheduling, cyclic scan execution, and register-level hardware control on ARM Cortex-M3 (PSoC 5LP) and ATmega2560.
 
 ---
 
@@ -94,7 +123,7 @@ A suite of 9 real-time mathematical digital twins, physical modeling testbenches
 ---
 
 ### ⚙️ [Real-Time Anti-Sway Control of a 2D Gantry Crane](https://github.com/elomarjc/gantry-crane-anti-sway-control)
-> **Bachelor's Project (Semester 6) • Electronic Systems & Control Engineering • Aalborg University**  
+> **Bachelor's Project (Semester 6) • Process Control Specialization • Aalborg University**  
 > *Pillars: Regulation (Control) • Automation • Digital (Embedded)*  
 > *Stack: Embedded C/C++ • Arduino Mega 2560 (ATmega2560) • PlatformIO • Cascaded PID • Discrete Signal Processing*
 * **Physical System**: Derived Newtonian dynamic models for the hoisting block, trolley, and pendulum. Linearized models for frequency-domain transfer functions.
@@ -138,16 +167,18 @@ A suite of 9 real-time mathematical digital twins, physical modeling testbenches
 
 ## 🛠️ Technical Matrix
 
-| Discipline | Core Technologies, Frameworks & Protocols |
+| Discipline | Core Technologies, Frameworks & Hardware |
 |---|---|
-| **Programming & Scripting** | Python, C/C++, Dart, C#, JavaScript/TypeScript (ES6+), MATLAB / Simulink, SQL |
+| **Programming & Scripting** | Python, C/C++, Dart, C#, JavaScript/TypeScript (ES6+), MATLAB / Simulink, VHDL, SQL, LaTeX |
 | **Regulation & Control** | State-Space MIMO, Cascaded PID, LQR / LQG, $H_\infty$ Robust Control, B-dot Magnetic Detumbling, Anti-Windup, DLS Inverse Kinematics, Coleman Transform |
 | **Signal Processing & DSP** | Adaptive Filtering (LMS, NLMS, RLS), Blind Source Separation (FastICA), STFT, FFT, Mel-Spectrograms, EKF / UKF / MEKF, CA/OS-CFAR, MTI Doppler Filters, WDRC |
-| **Industrial Automation & SCADA** | IEC 61131-3 (Structured Text, Ladder Logic), ISA-101 High-Performance HMI, ISA-18.2 Alarm Mgmt, Modbus TCP, OPC UA, OT Cybersecurity, Affinity Laws |
-| **Embedded & Hardware** | FreeRTOS, Cypress PSoC 5LP, ATmega2560, Arduino Mega, PlatformIO, STM32 |
-| **Kommunikation & Networks** | 3GPP 5G NR PHY, OFDM, BPSK/QAM, MQTT, WebSockets, Ultra-Wideband (UWB), CAN bus, I2C, SPI, UART, RS485 |
-| **Software & Cross-Platform** | Flutter, Flame Game Engine, Dart FFI (Native C++ interop), Node.js, HTML5 Canvas / WebGL, Three.js, Web Audio API |
-| **Databases & DevOps** | PostgreSQL, Supabase, InfluxDB, SQLite, Hive NoSQL, Git, GitHub Actions, Docker |
+| **Industrial Automation & PLC** | IEC 61131-3 (Structured Text, Function Block Diagrams, Ladder Logic), ISA-101 High-Performance HMI, ISA-18.2 Alarm Mgmt, Modbus TCP, OPC UA, OT Cybersecurity, Autonomous Mobile Robots (MiR200 Fleet) |
+| **FPGA & Digital Hardware** | VHDL, Intel / Altera Quartus Prime, ModelSim, Xilinx ISE / Vivado, Intel Cyclone V (Terasic DE0-CV 5CEBA4F23C7N), Xilinx Spartan, Cypress PSoC Creator UDBs |
+| **Embedded Systems & Firmware** | FreeRTOS, Cypress PSoC 5LP (ARM Cortex-M3), ATmega2560, PlatformIO, STM32, ESP32, Arduino Mega |
+| **EDA & Hardware Prototyping** | Autodesk EAGLE, LTspice, Fritzing, Altium Designer, Onshape (3D CAD & STL Rapid Prototyping), Digilent Analog Discovery 2 |
+| **Kommunikation & Networks** | 3GPP 5G NR PHY, OFDM, BPSK/QAM, MQTT, WebSockets, Ultra-Wideband (UWB), CAN bus, I2C, SPI, UART, RS485, E2EE Cryptography (X25519 / AES-256-GCM) |
+| **Software & UI Frameworks** | PyQt6, Flutter / Flame Engine, Dart FFI (Native C++ interop), WebAssembly (Pyodide), Node.js, HTML5 Canvas / WebGL, Three.js |
+| **Databases & DevOps** | PostgreSQL, Supabase, InfluxDB v2, SQLite, Hive NoSQL, Git, GitHub Actions, Docker |
 
 ---
 
@@ -155,5 +186,6 @@ A suite of 9 real-time mathematical digital twins, physical modeling testbenches
 
 * **Email**: [elomarjc@gmail.com](mailto:elomarjc@gmail.com)
 * **LinkedIn**: [linkedin.com/in/jacob-el-omar](https://www.linkedin.com/in/jacob-el-omar/)
+* **GitHub**: [github.com/elomarjc](https://github.com/elomarjc)
 * **Google Play**: [El-Omar Studio](https://play.google.com/store/apps/details?id=com.elomarstudio.growafish)
 * **Location**: Aalborg, North Denmark (Nordjylland)
