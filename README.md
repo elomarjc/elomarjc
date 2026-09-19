@@ -80,12 +80,11 @@ A suite of 9 real-time mathematical digital twins, physical modeling testbenches
 * **Hardware-Backed Cryptography**: Implemented client-side End-to-End Encrypted (E2EE) chat using X25519 ECDH key exchange and AES-256-GCM.
 * **[View Full Case Study →](https://github.com/elomarjc/grow-a-fish-case-study)** • **[Google Play Store →](https://play.google.com/store/apps/details?id=com.elomarstudio.growafish)**
 
-### 🤖 [AI Vision & Document Intelligence Tools](https://github.com/elomarjc)
-> **Computer Vision OCR, LLM Pipelines & GPU Acceleration**  
+### 🤖 [AI Media & Document Intelligence Tools](https://github.com/elomarjc)
+> **LLM Pipelines, Computer Vision & GPU Acceleration**  
 > *Stack: Python • Streamlit • RapidOCR • FFmpeg • Apple Silicon Metal / NVENC • Ollama / OpenAI API*
-* **DanishBookOCR**: Streamlit-based AI document processor extracting text and mathematical formulas from complex book layouts, utilizing computer vision OCR and LLM post-processing to generate structured, publication-grade APA 7 Microsoft Word (`.docx`) documents.
 * **Creator Studio**: Subtitle extraction and high-throughput video generation pipeline utilizing RapidOCR and hardware-accelerated rendering via Apple Silicon Metal & NVENC.
-* **TranslateBooksWithLLMs**: Translation tool for full-length books and structured technical documents preserving layouts across multiple LLM provider backends.
+* **[TranslateBooksWithLLMs](https://github.com/elomarjc/TranslateBooksWithLLMs)**: Translation tool for full-length books and structured technical documents preserving layouts across multiple LLM provider backends.
 
 ---
 
