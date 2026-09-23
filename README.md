@@ -1,8 +1,9 @@
 <div align="center">
 
 # Jacob El-Omar
+
 ### M.Sc. in Electronic Systems • Aalborg University
-**Embedded Systems • Control & Robotics • Digital Signal Processing • High-Performance Software**
+**Embedded Software • Digital Signal Processing • Control & Automation • Real-Time Systems**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jacob-el-omar/)
 [![GitHub](https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elomarjc)
@@ -14,43 +15,44 @@
 
 ---
 
-## About Me
+## Executive Summary
 
 I hold a **Master of Science (M.Sc.) in Electronic Systems** and a **Bachelor of Science (B.Sc.) in Electronics & IT** (specialization in Process Control) from **Aalborg University (AAU)**, Denmark.
 
-My work bridges physical dynamics, control theory, and digital signal processing with modern software engineering. Over 5 years of Problem-Based Learning (PBL) research and commercial engineering, I have designed and delivered end-to-end systems spanning real-time embedded firmware, hardware-accelerated algorithms, industrial automation testbeds, and production applications.
+My engineering work connects physical dynamic systems, control theory, and digital signal processing with modern high-performance software. Over 5 years of Problem-Based Learning (PBL) and commercial engineering, I have delivered end-to-end solutions spanning embedded firmware (FreeRTOS, ARM Cortex-M, FPGA/VHDL), real-time signal enhancement algorithms (adaptive filtering, blind source separation), industrial automation testbeds, and production mobile and desktop applications.
 
 ---
 
-## Featured Flagship Projects
+## Flagship Engineering Projects
 
 ### [OpenMath — Desktop & Web Computer Algebra System (CAS)](https://github.com/J2KJonas/OpenMath)
 *Co-developed with [J2KJonas](https://github.com/J2KJonas) • Python 3.10+, PyQt6, SymPy, Matplotlib MathText, Pyodide*
 
-* **Architecture**: An open-source technical worksheet environment and symbolic algebra engine designed for engineering mathematics and embedded systems.
-* **Capabilities**: Exact symbolic computation, multi-level section folding scopes, dynamic 2D plotting, matrix calculation wizard, and high-DPI LaTeX rendering.
-* **Hardware Tooling**: Built-in IEEE-754 bit decomposition, bitfield masking, and Q-format fixed-point conversion (`to_q`, `from_q`).
-* **Deployment**: Full native desktop application for macOS, Linux, and Windows, plus a zero-install browser demo.
+* **Architecture**: An open-source interactive computer algebra system and technical worksheet environment designed for engineering mathematics, calculus, and embedded systems.
+* **Symbolic Math Core**: Exact symbolic computation, hierarchical section folding scopes, dynamic 2D graph plotting, visual matrix wizard, and high-DPI LaTeX typeset rendering.
+* **Embedded Hardware Tooling**: Integrated IEEE-754 single/double precision bit decomposition, bitwise logic masking, and Q-format fixed-point conversions (`to_q`, `from_q`).
+* **Cross-Platform**: Distributed as a native desktop application (macOS, Linux, Windows) alongside an in-browser Web Demo running via client-side WebAssembly.
 * **Links**: [GitHub Repository](https://github.com/J2KJonas/OpenMath) • [Live Web Demo](https://j2kjonas.github.io/OpenMath/)
 
 ---
 
 ### [Grow A Fish — Production Mobile Game & Real-Time Ecosystem](https://github.com/elomarjc/grow-a-fish-case-study)
-*Co-developed with [J2KJonas](https://github.com/J2KJonas) • Shipped on Google Play • Flutter, Flame, C++ FFI SoLoud, Supabase, Hive, X25519/AES-GCM*
+*Co-developed with [J2KJonas](https://github.com/J2KJonas) • Shipped on Google Play • Flutter, Flame Engine, C++ FFI SoLoud, Supabase, Hive, X25519/AES-GCM*
 
-* **Architecture**: Production cross-platform mobile game and virtual aquarium ecosystem spanning 330+ modular Dart files.
-* **Low-Latency Audio**: Integrated the `SoLoud` C++ audio engine via Dart FFI with custom LRU caching, bypassing native Android platform-channel latency.
-* **Deterministic Netcode**: Engineered seed-synchronized procedural generation over WebSockets to eliminate cellular packet jitter.
-* **Hardware E2EE**: Client-side end-to-end encrypted messaging using X25519 ECDH key exchange backed by the Android Keystore / iOS Keychain.
+* **Architecture**: Commercial cross-platform virtual pet simulator and real-time arcade ecosystem spanning 330+ modular Dart files.
+* **Native Low-Latency Audio**: Integrated the `SoLoud` C++ audio engine directly into Flutter via Dart FFI with custom LRU caching and auto-recovery, completely bypassing Android platform-channel latency.
+* **Deterministic Netcode**: Engineered 64-bit seed-synchronized procedural generation over WebSockets to eliminate mobile packet jitter and reduce bandwidth to discrete event flags.
+* **Hardware-Backed Cryptography**: Implemented client-side End-to-End Encrypted (E2EE) chat using X25519 ECDH key exchange and AES-256-GCM backed by the Android Keystore / iOS Keychain.
 * **Links**: [Technical Case Study](https://github.com/elomarjc/grow-a-fish-case-study) • [Google Play Store](https://play.google.com/store/apps/details?id=com.elomarstudio.growafish)
 
 ---
 
 ### [Active Adaptive Noise Cancellation (ANC) — Master's Thesis R&D](https://github.com/elomarjc/adaptive-noise-cancellation-dsp)
-*In collaboration with Ai Health Highway • MATLAB, Python, LMS/NLMS/RLS, FastICA, STFT*
+*Master's Thesis in collaboration with Ai Health Highway & Prof. Jan Østergaard • MATLAB, Python, LMS/NLMS/RLS, FastICA, STFT*
 
-* **Research**: Formulated and validated real-time acoustic signal enhancement algorithms for smart stethoscopes (**AiSteth**) under clinical diagnostic constraints.
-* **Performance**: Benchmarked adaptive filtering (LMS, NLMS, RLS) and Blind Source Separation (FastICA), achieving up to **+34 dB SNR improvements** while preserving low-frequency cardiac valve sounds ($S_1, S_2$) and murmurs.
+* **Research**: Developed and validated real-time acoustic signal enhancement algorithms for smart digital stethoscopes (**AiSteth**) under clinical diagnostic constraints.
+* **Acoustic Filtering**: Implemented and benchmarked Least Mean Squares (LMS), Normalized LMS (NLMS), Recursive Least Squares (RLS), and FastICA Blind Source Separation.
+* **Empirical Results**: Achieved up to **+34 dB SNR improvements** across physical acoustic chamber testbeds while preserving crucial low-frequency cardiac valve sounds ($S_1, S_2$) and murmurs.
 * **Links**: [Thesis Repository](https://github.com/elomarjc/adaptive-noise-cancellation-dsp)
 
 ---
@@ -75,22 +77,32 @@ A suite of 9 real-time mathematical digital twins, physical modeling testbenches
 
 ## Selected Academic & Research Engineering
 
-* **[AAUSAT6 CubeSat ADCS](https://github.com/elomarjc/advanced-control-digital-systems)**: Flight control and attitude stabilization architecture in LEO. Implemented B-dot magnetic detumbling, momentum wheel LQR pointing, and $H_\infty$ disturbance rejection.
-* **[Indoor Positioning & AMR Fleet Integration](https://github.com/elomarjc/indoor-positioning-amr-integration)**: 9-thread concurrent sensor fusion engine in Python integrating active Ultra-Wideband (UWB) RF tags, computer vision tracking, and autonomous mobile robots (MiR200) at AAU 5G Smart Production Lab.
-* **[2D Gantry Crane Anti-Sway Control](https://github.com/elomarjc/gantry-crane-anti-sway-control)**: Physical modeling and discrete cascaded PID control running on an ATmega2560 micro-controller with anti-windup and velocity estimation.
-* **[FPGA Digital Design & PLC Equivalence](https://github.com/elomarjc)**: Synchronous FSMs and bus interfaces in VHDL on Intel Cyclone V FPGA (Quartus Prime / ModelSim) and hardware schematic logic on Cypress PSoC 5LP UDBs.
+* **[AAUSAT6 CubeSat: Attitude Determination & Control (ADCS)](https://github.com/elomarjc/advanced-control-digital-systems)**: Flight control and attitude stabilization architecture in LEO. Implemented B-dot magnetic detumbling via magnetorquers, momentum wheel LQR pointing, and $H_\infty$ robust disturbance rejection.
+* **[Indoor Positioning & AMR Fleet Integration](https://github.com/elomarjc/indoor-positioning-amr-integration)**: 9-thread concurrent sensor fusion engine in Python integrating active Ultra-Wideband (UWB) RF tags, computer vision tracking, and Autonomous Mobile Robots (MiR200) at the AAU 5G Smart Production Lab (1st Place, AAU RoboCup Tournament).
+* **[Real-Time Anti-Sway Control of a 2D Gantry Crane](https://github.com/elomarjc/gantry-crane-anti-sway-control)**: B.Sc. thesis project deriving Newtonian dynamic models and implementing discrete cascaded PID controllers with anti-windup on an ATmega2560 micro-controller.
+* **[FPGA Digital Design & PLC Equivalence](https://github.com/elomarjc)**: Synchronous FSMs and bus interfaces in VHDL on Intel Cyclone V FPGA (`5CEBA4F23C7N`, Quartus Prime / ModelSim) and hardware schematic logic on Cypress PSoC 5LP UDBs (1:1 equivalent to industrial PLC FBD and Ladder Diagrams) with FreeRTOS.
 
 ---
 
-## Technical Skills
+## Technical Core Competencies
 
-| Discipline | Core Competencies |
+| Domain | Key Technologies, Frameworks & Hardware |
 | :--- | :--- |
-| **Languages & Scripting** | C/C++, Python, Dart, VHDL, MATLAB / Simulink, SQL, C#, JavaScript/TypeScript |
-| **Control & Dynamics** | State-Space MIMO, Cascaded PID, LQR / LQG, $H_\infty$ Robust Control, Inverse Kinematics, Coleman Transform |
-| **Signal Processing & DSP** | Adaptive Filtering (LMS, NLMS, RLS), FastICA, STFT, EKF / MEKF, CA/OS-CFAR, Doppler Filters |
-| **Embedded & Digital** | FreeRTOS, Intel Cyclone V FPGA, ARM Cortex-M (PSoC 5LP), ATmega2560, Modbus TCP, MQTT, UWB, CAN bus |
-| **Software Engineering** | PyQt6, Flutter, Flame Engine, Dart FFI (C++ interop), Supabase, WebSockets, Git, CI/CD, Docker |
+| **Languages & Scripting** | C/C++, Python, Dart, VHDL, MATLAB / Simulink, SQL, C#, JavaScript/TypeScript, LaTeX |
+| **Control & Robotics** | State-Space MIMO, Discrete Cascaded PID, LQR / LQG, $H_\infty$ Robust Control, B-dot Detumbling, DLS Kinematics, MiR200 AMRs |
+| **Signal Processing & DSP** | Adaptive Filters (LMS, NLMS, RLS), Blind Source Separation (FastICA), STFT, Mel-Spectrograms, EKF / MEKF, CA/OS-CFAR |
+| **Embedded & Digital Systems** | FreeRTOS, Intel Cyclone V FPGA, ARM Cortex-M (PSoC 5LP), ATmega2560, PlatformIO, Digilent Analog Discovery 2 |
+| **Industrial Networks & Telemetry** | Modbus TCP, MQTT, WebSockets, Ultra-Wideband (UWB), CAN bus, I2C, SPI, UART, RS485, X25519 / AES-256-GCM |
+| **Software Architecture** | PyQt6, Flutter, Flame Engine, Dart FFI (C++ native interop), Supabase, WebAssembly, Hive NoSQL, Git, Docker |
+
+---
+
+## Education
+
+* **M.Sc. in Electronic Systems (Civilingeniør, cand.polyt.)** — Aalborg University (2023 – 2025)
+  * Specialization in Advanced Signal Processing, Control Systems, Spacecraft ADCS, and Embedded Firmware.
+* **B.Sc. in Electronics & IT (Process Control)** — Aalborg University (2020 – 2023)
+  * Specialization in Closed-Loop Regulation, Industrial Automation, Digital Hardware (VHDL/FPGA), and Sensor Fusion.
 
 ---
 
@@ -99,4 +111,4 @@ A suite of 9 real-time mathematical digital twins, physical modeling testbenches
 * **Email**: [elomarjc@gmail.com](mailto:elomarjc@gmail.com)
 * **LinkedIn**: [linkedin.com/in/jacob-el-omar](https://www.linkedin.com/in/jacob-el-omar/)
 * **GitHub**: [github.com/elomarjc](https://github.com/elomarjc)
-* **Location**: Aalborg, North Denmark (Nordjylland)
+* **Location**: Aalborg, Denmark
