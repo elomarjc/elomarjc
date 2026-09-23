@@ -27,7 +27,7 @@ I hold an M.Sc. in Electronic Systems (Civilingeniør) from Aalborg University, 
 
 As a person, I am outgoing, hardworking, and motivating. My positive attitude, helpfulness, and open mind make me a well-liked colleague, and I thrive both independently and in teams. I work in a structured manner, with good perspective and a high sense of responsibility.
 
-## Flagship Products & Visual Showcase
+## Featured Projects
 
 ### OpenMath — Desktop & Web Computer Algebra System (CAS)
 *Co-developed with [J2KJonas](https://github.com/J2KJonas) • Python 3.10+, PyQt6, SymPy, Matplotlib MathText, WebAssembly (Pyodide)*
