@@ -45,7 +45,6 @@ My work spans the full spectrum of software and systems engineering: bridging ba
       <a href="https://github.com/J2KJonas/OpenMath">
         <img src="assets/openmath_dark_showcase.gif" width="400" alt="OpenMath Dynamic App Showcase" style="border-radius: 12px; border: 1px solid #334155; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
       </a>
-      <br/><sub><i>OpenMath Desktop: Symbolic Calculus, Dark Mode CAS, &amp; High-Precision Computing</i></sub>
     </td>
   </tr>
 </table>
@@ -61,7 +60,6 @@ My work spans the full spectrum of software and systems engineering: bridging ba
       <a href="https://github.com/elomarjc/grow-a-fish-case-study">
         <img src="assets/grow_a_fish_mobile_showcase.gif" width="280" alt="Grow A Fish Live Mobile Showcase" style="border-radius: 16px; border: 1px solid #334155; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
       </a>
-      <br/><sub><i>Grow A Fish: Aquarium Simulation, Match-3, Exploration, &amp; Progression</i></sub>
     </td>
     <td width="62%" valign="top">
       <p>A full-stack mobile game published on Google Play combining an organic virtual aquarium simulator with 7 arcade minigames, social tank visits, and real-time multiplayer lobbies. Features 330+ Dart modules, deterministic WebSocket netcode, hardware-backed E2EE, and a zero-latency C++ <code>SoLoud</code> audio engine integrated directly via Dart FFI.</p>
