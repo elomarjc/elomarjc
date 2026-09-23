@@ -23,16 +23,7 @@
 
 ## About Me
 
-I am a software engineer with an M.Sc. in Electronic Systems (Civilingeniør) from Aalborg University (2025). 
-
-My background bridges software engineering and electronics. I enjoy building across the full stack—whether it's shipping a production mobile game on Google Play, developing desktop computer algebra environments, or working with embedded firmware and hardware.
-
-### Areas of Focus
-
-- **Software Engineering**: Full-stack and application development (C#, Python, modern web technologies, Dart/Flutter)
-- **Embedded & Systems**: Firmware, real-time control, PCB design, and hardware integration
-- **Applied Mathematics & ML**: Signal processing, numerical modeling, and algorithm design
-- **Infrastructure & Systems**: System administration, network engineering, and automation tooling
+I hold an M.Sc. in Engineering (Electronic Systems) and a B.Sc. in Engineering (Electronic Engineering and IT) from Aalborg University. My background combines electronics, embedded hardware, and software development—from low-level systems and signal processing to building desktop applications and shipping a production mobile game. I enjoy working at the intersection of hardware, math, and software to build functional, well-crafted systems.
 
 ## Flagship Products & Visual Showcase
 
