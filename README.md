@@ -73,28 +73,103 @@ My work spans the full spectrum of software and systems engineering: bridging ba
   </tr>
 </table>
 
+## Interactive Simulators & Engineering Labs
+
+Interactive in-browser physical simulations and real-time mathematical testbenches.
+
+### 3D CubeSat Flight Simulator & Attitude Determination (AOCS)
+*Orbital mechanics, rigid-body quaternion kinematics, and magnetic detumbling in Three.js*
+
+<table>
+  <tr>
+    <td width="55%" valign="top">
+      <p>An interactive 3D Low Earth Orbit (LEO) orbital flight simulator for nanosatellites. Features 4th-order Runge-Kutta (RK4) numerical orbit integration, quaternion attitude kinematics, reaction wheel momentum desaturation, and automated B-dot magnetic detumbling.</p>
+      <p>
+        <a href="https://elomarjc.github.io/cubesat-aocs-simulator/"><img src="https://img.shields.io/badge/Launch-3D_Flight_Simulator-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch 3D Simulator" /></a>
+        <a href="https://github.com/elomarjc/cubesat-aocs-simulator"><img src="https://img.shields.io/badge/Source-GitHub_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo" /></a>
+      </p>
+    </td>
+    <td width="45%" align="center">
+      <a href="https://elomarjc.github.io/cubesat-aocs-simulator/">
+        <img src="assets/cubesat_sim_showcase.gif" width="400" alt="3D CubeSat Orbital Flight Simulator" style="border-radius: 12px; border: 1px solid #334155; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+      </a>
+      <br/><sub><i>Live 3D CubeSat LEO Orbit &amp; Attitude Determination Simulator</i></sub>
+    </td>
+  </tr>
+</table>
+
 ---
 
-## Applied Research & Autonomous Systems
+### Naval Surveillance Radar Signal Studio
+*Real-time Plan Position Indicator (PPI) radar sweep, CFAR adaptive detection, and MTI filtering*
 
-### Medical Acoustic DSP Engine — Smart Stethoscope Platform
-*Master's Thesis R&D in collaboration with Ai Health Highway & Prof. Jan Østergaard (Aalborg University)*
-
-<p>
-  <a href="https://github.com/elomarjc/adaptive-noise-cancellation-dsp"><img src="https://img.shields.io/badge/Research-Thesis_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Thesis Repo" /></a>
-</p>
-
-* **Adaptive Filtering Core:** Engineered real-time LMS, Normalized LMS (NLMS), and Recursive Least Squares (RLS) adaptive noise cancellation filters with FastICA blind source separation for electronic stethoscopes (**AiSteth**).
-* **Clinical Performance:** Validated up to **+34 dB SNR improvement** in physical acoustic testbeds, isolating diagnostic low-frequency cardiac valve sounds (S1, S2) and respiratory acoustics under high ambient clinic noise.
-* **Embedded Silicon:** Deployed on **ARM Cortex-M4**, meeting sub-millisecond execution constraints with deterministic fixed-point buffers and zero dynamic heap allocation during acquisition.
+<table>
+  <tr>
+    <td width="45%" align="center">
+      <a href="https://elomarjc.github.io/naval-radar-signal-studio/">
+        <img src="assets/naval_radar_showcase.gif" width="400" alt="Naval Radar Signal Studio" style="border-radius: 12px; border: 1px solid #334155; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+      </a>
+      <br/><sub><i>360&deg; Rotating PPI Radar Console with Target Tracking &amp; A-Scope</i></sub>
+    </td>
+    <td width="55%" valign="top">
+      <p>An interactive naval surveillance radar signal processing console modeled after maritime radar architectures. Features real-time 360&deg; PPI scanning, CA-CFAR and OS-CFAR constant false-alarm rate thresholding, 3-pulse MTI clutter rejection, and dynamic A-scope echo profiling.</p>
+      <p>
+        <a href="https://elomarjc.github.io/naval-radar-signal-studio/"><img src="https://img.shields.io/badge/Launch-Radar_Console-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch Radar Console" /></a>
+        <a href="https://github.com/elomarjc/naval-radar-signal-studio"><img src="https://img.shields.io/badge/Source-GitHub_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo" /></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
+
+### More Interactive Engineering Labs
+<table width="100%">
+  <tr>
+    <td width="33%" valign="top">
+      <b>5G/6G RF Channel Studio</b><br/>
+      <sub>TDL Fading &bull; 256-QAM &bull; EVM Analyzer</sub>
+      <p><a href="https://elomarjc.github.io/5g-rf-channel-studio/">Launch Simulator &rarr;</a> &bull; <a href="https://github.com/elomarjc/5g-rf-channel-studio">Source</a></p>
+    </td>
+    <td width="33%" valign="top">
+      <b>Industrial SCADA Process Twin</b><br/>
+      <sub>ISA-101 HMI &bull; IEC 61131-3 &bull; Modbus TCP</sub>
+      <p><a href="https://elomarjc.github.io/industrial-scada-digital-twin/">Launch Simulator &rarr;</a> &bull; <a href="https://github.com/elomarjc/industrial-scada-digital-twin">Source</a></p>
+    </td>
+    <td width="33%" valign="top">
+      <b>Hearing Aid DSP Studio</b><br/>
+      <sub>Beamforming &bull; NLMS ANC &bull; 6-Band WDRC</sub>
+      <p><a href="https://elomarjc.github.io/hearing-aid-dsp-studio/">Launch Simulator &rarr;</a> &bull; <a href="https://github.com/elomarjc/hearing-aid-dsp-studio">Source</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <b>Wind Turbine Load Control</b><br/>
+      <sub>15 MW Offshore &bull; Coleman MBC &bull; Pitch Control</sub>
+      <p><a href="https://elomarjc.github.io/turbine-load-control-twin/">Launch Simulator &rarr;</a> &bull; <a href="https://github.com/elomarjc/turbine-load-control-twin">Source</a></p>
+    </td>
+    <td width="33%" valign="top">
+      <b>PMSM Field-Oriented Control</b><br/>
+      <sub>Clarke/Park &bull; SVPWM &bull; Sliding Mode Observer</sub>
+      <p><a href="https://elomarjc.github.io/pmsm-foc-drive-twin/">Launch Simulator &rarr;</a> &bull; <a href="https://github.com/elomarjc/pmsm-foc-drive-twin">Source</a></p>
+    </td>
+    <td width="33%" valign="top">
+      <b>Cobot Kinematics &amp; Momentum</b><br/>
+      <sub>6-DOF UR5e &bull; DLS Solver &bull; ISO/TS 15066</sub>
+      <p><a href="https://elomarjc.github.io/cobot-kinematics-momentum-twin/">Launch Simulator &rarr;</a> &bull; <a href="https://github.com/elomarjc/cobot-kinematics-momentum-twin">Source</a></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## Robotics & Embedded Systems
 
 ### Autonomous AMR Multi-Sensor Fusion & Fleet Navigation
-*AAU 5G Smart Production Lab • 1st Place AAU RoboCup Winner*
+*AAU 5G Smart Production Lab &bull; 1st Place AAU RoboCup Winner*
 
 <p>
-  <a href="https://github.com/elomarjc/indoor-positioning-amr-integration"><img src="https://img.shields.io/badge/Robotics-Positioning_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Robotics Repo" /></a>
+  <a href="https://github.com/elomarjc/indoor-positioning-amr-integration"><img src="https://img.shields.io/badge/Source-Robotics_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Robotics Repo" /></a>
 </p>
 
 * **Multi-Modal Sensor Fusion:** Concurrent 9-thread C++ sensor fusion engine integrating active Ultra-Wideband (UWB) RF tags, overhead Computer Vision tracking, and industrial **MiR200 Autonomous Mobile Robots**.
@@ -103,99 +178,18 @@ My work spans the full spectrum of software and systems engineering: bridging ba
 
 ---
 
-## Interactive Digital Twins Mission Control
+### Medical Acoustic DSP Engine — Smart Stethoscope Platform
+*Master's Thesis R&D in collaboration with Ai Health Highway & Prof. Jan Østergaard (Aalborg University)*
 
-A suite of 9 real-time mathematical digital twins, physical modeling testbenches, and interactive browser simulators. Click **Launch Simulator** to run any testbench directly in your browser:
+<p>
+  <a href="https://github.com/elomarjc/adaptive-noise-cancellation-dsp"><img src="https://img.shields.io/badge/Source-Thesis_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Thesis Repo" /></a>
+</p>
 
-<table width="100%">
-  <tr>
-    <td width="33%" valign="top">
-      <h4>5G/6G RF Channel Studio</h4>
-      <p><b>Domain:</b> RF &amp; Telecommunications</p>
-      <p>TDL fading channels, Clarke/Jakes Doppler spectrum, 256-QAM constellation, and EVM distortion analysis.</p>
-      <p>
-        <a href="https://elomarjc.github.io/5g-rf-channel-studio/"><img src="https://img.shields.io/badge/Launch-Simulator-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Launch" /></a>
-        <a href="https://github.com/elomarjc/5g-rf-channel-studio"><img src="https://img.shields.io/badge/Source-181717?style=flat-square&logo=github&logoColor=white" alt="Source" /></a>
-      </p>
-    </td>
-    <td width="33%" valign="top">
-      <h4>CubeSat AOCS Flight Sim</h4>
-      <p><b>Domain:</b> Aerospace Systems</p>
-      <p>4th-order Runge-Kutta (RK4) orbit integration, quaternion attitude kinematics, and B-dot magnetic detumbling.</p>
-      <p>
-        <a href="https://elomarjc.github.io/cubesat-aocs-simulator/"><img src="https://img.shields.io/badge/Launch-Simulator-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Launch" /></a>
-        <a href="https://github.com/elomarjc/cubesat-aocs-simulator"><img src="https://img.shields.io/badge/Source-181717?style=flat-square&logo=github&logoColor=white" alt="Source" /></a>
-      </p>
-    </td>
-    <td width="33%" valign="top">
-      <h4>Industrial SCADA Process Twin</h4>
-      <p><b>Domain:</b> Industrial Automation</p>
-      <p>ISA-101 high-performance HMI, IEC 61131-3 Structured Text logic engine, and Modbus TCP telemetry.</p>
-      <p>
-        <a href="https://elomarjc.github.io/industrial-scada-digital-twin/"><img src="https://img.shields.io/badge/Launch-Simulator-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Launch" /></a>
-        <a href="https://github.com/elomarjc/industrial-scada-digital-twin"><img src="https://img.shields.io/badge/Source-181717?style=flat-square&logo=github&logoColor=white" alt="Source" /></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top">
-      <h4>Hearing Aid DSP Studio</h4>
-      <p><b>Domain:</b> Audio &amp; Acoustic DSP</p>
-      <p>Head shadow diffraction modeling, NLMS acoustic feedback cancellation, and 6-band WDRC dynamic compression.</p>
-      <p>
-        <a href="https://elomarjc.github.io/hearing-aid-dsp-studio/"><img src="https://img.shields.io/badge/Launch-Simulator-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Launch" /></a>
-        <a href="https://github.com/elomarjc/hearing-aid-dsp-studio"><img src="https://img.shields.io/badge/Source-181717?style=flat-square&logo=github&logoColor=white" alt="Source" /></a>
-      </p>
-    </td>
-    <td width="33%" valign="top">
-      <h4>Wind Turbine Load Control</h4>
-      <p><b>Domain:</b> Clean Energy &amp; Power</p>
-      <p>15 MW offshore aeroelastic modeling, Coleman multi-blade coordinate (MBC) transforms, and IPC pitch regulation.</p>
-      <p>
-        <a href="https://elomarjc.github.io/turbine-load-control-twin/"><img src="https://img.shields.io/badge/Launch-Simulator-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Launch" /></a>
-        <a href="https://github.com/elomarjc/turbine-load-control-twin"><img src="https://img.shields.io/badge/Source-181717?style=flat-square&logo=github&logoColor=white" alt="Source" /></a>
-      </p>
-    </td>
-    <td width="33%" valign="top">
-      <h4>PMSM Field-Oriented Control</h4>
-      <p><b>Domain:</b> Electric Drives &amp; Motion</p>
-      <p>Clarke/Park coordinate transforms, Space Vector PWM (SVPWM), and sliding mode observer (SMO) flux estimation.</p>
-      <p>
-        <a href="https://elomarjc.github.io/pmsm-foc-drive-twin/"><img src="https://img.shields.io/badge/Launch-Simulator-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Launch" /></a>
-        <a href="https://github.com/elomarjc/pmsm-foc-drive-twin"><img src="https://img.shields.io/badge/Source-181717?style=flat-square&logo=github&logoColor=white" alt="Source" /></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top">
-      <h4>Pump Hydrodynamics Twin</h4>
-      <p><b>Domain:</b> Fluid Systems &amp; Maintenance</p>
-      <p>Affinity laws, Thoma cavitation factor analysis, and motor current signature analysis (MCSA) stator FFT.</p>
-      <p>
-        <a href="https://elomarjc.github.io/pump-hydrodynamics-digital-twin/"><img src="https://img.shields.io/badge/Launch-Simulator-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Launch" /></a>
-        <a href="https://github.com/elomarjc/pump-hydrodynamics-digital-twin"><img src="https://img.shields.io/badge/Source-181717?style=flat-square&logo=github&logoColor=white" alt="Source" /></a>
-      </p>
-    </td>
-    <td width="33%" valign="top">
-      <h4>Naval Radar Signal Studio</h4>
-      <p><b>Domain:</b> Defense &amp; Radar Systems</p>
-      <p>Cell-Averaging (CA-CFAR) and Ordered-Statistic (OS-CFAR) detection with 3-pulse MTI clutter rejection.</p>
-      <p>
-        <a href="https://elomarjc.github.io/naval-radar-signal-studio/"><img src="https://img.shields.io/badge/Launch-Simulator-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Launch" /></a>
-        <a href="https://github.com/elomarjc/naval-radar-signal-studio"><img src="https://img.shields.io/badge/Source-181717?style=flat-square&logo=github&logoColor=white" alt="Source" /></a>
-      </p>
-    </td>
-    <td width="33%" valign="top">
-      <h4>Cobot Kinematics &amp; Momentum</h4>
-      <p><b>Domain:</b> Industrial Robotics</p>
-      <p>6-DOF UR5e forward/inverse kinematics, Damped Least-Squares (DLS) singularity solver, and ISO/TS 15066 safety envelopes.</p>
-      <p>
-        <a href="https://elomarjc.github.io/cobot-kinematics-momentum-twin/"><img src="https://img.shields.io/badge/Launch-Simulator-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Launch" /></a>
-        <a href="https://github.com/elomarjc/cobot-kinematics-momentum-twin"><img src="https://img.shields.io/badge/Source-181717?style=flat-square&logo=github&logoColor=white" alt="Source" /></a>
-      </p>
-    </td>
-  </tr>
-</table>
+* **Adaptive Filtering Core:** Engineered real-time LMS, Normalized LMS (NLMS), and Recursive Least Squares (RLS) adaptive noise cancellation filters with FastICA blind source separation for electronic stethoscopes (**AiSteth**).
+* **Clinical Performance:** Validated up to **+34 dB SNR improvement** in physical acoustic testbeds, isolating diagnostic low-frequency cardiac valve sounds (S1, S2) and respiratory acoustics under high ambient clinic noise.
+* **Embedded Silicon:** Deployed on **ARM Cortex-M4**, meeting sub-millisecond execution constraints with deterministic fixed-point buffers and zero dynamic heap allocation during acquisition.
+
+---
 
 ## Technical Skills Matrix
 
@@ -258,16 +252,6 @@ A suite of 9 real-time mathematical digital twins, physical modeling testbenches
 [![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)](https://www.wireshark.org/)
 
 </div>
-
-## Education
-
-* **M.Sc. in Engineering — Electronic Systems (Civilingeniør, cand.polyt.)**  
-  Aalborg University (2023 – 2025) • 120 ECTS  
-  *Focus on Advanced Signal Processing, Control Engineering, Spacecraft Dynamics, and Real-Time Systems.*
-
-* **B.Sc. in Engineering — Electronics & IT (Process Control Specialization)**  
-  Aalborg University (2020 – 2023) • 180 ECTS  
-  *Focus on Closed-Loop Control, Industrial Automation, Digital Hardware (VHDL/FPGA), and Embedded Software.*
 
 ## Contact
 
