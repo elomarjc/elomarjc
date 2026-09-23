@@ -3,7 +3,7 @@
 # Jacob El-Omar
 
 <p align="center">
-  <a href="https://github.com/elomarjc"><img src="assets/title_animation.svg?v=3" alt="Jacob El-Omar Titles" style="max-width: 100%; height: auto;" /></a>
+  <b>MSc in Electronic Systems &nbsp;|&nbsp; Embedded Systems Engineer &nbsp;|&nbsp; Software Developer</b>
 </p>
 
 <p align="center">
