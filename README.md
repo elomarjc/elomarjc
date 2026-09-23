@@ -116,17 +116,13 @@ As a person, I am outgoing, hardworking, and motivating. My positive attitude, h
 
 <table width="100%">
   <tr>
-    <td width="33%" align="center">
+    <td width="50%" align="center">
       <b>Email</b><br/>
       <a href="mailto:elomarjc@gmail.com">elomarjc@gmail.com</a>
     </td>
-    <td width="33%" align="center">
+    <td width="50%" align="center">
       <b>LinkedIn</b><br/>
       <a href="https://www.linkedin.com/in/jacob-el-omar/">linkedin.com/in/jacob-el-omar</a>
-    </td>
-    <td width="34%" align="center">
-      <b>Location</b><br/>
-      Aalborg, Denmark
     </td>
   </tr>
 </table>
