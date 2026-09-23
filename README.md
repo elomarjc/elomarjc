@@ -3,9 +3,7 @@
 # Jacob El-Omar
 
 <p align="center">
-  <a href="https://github.com/elomarjc">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1200&color=38BDF8&center=true&vCenter=true&width=800&height=40&lines=Software+Engineer+%26+Systems+Architect;Cross-Platform+Mobile+%26+Desktop+Engines;Medical+AI%2FML+%26+Real-Time+Signal+Processing;Autonomous+Robotics+%26+Sensor+Fusion" alt="Jacob El-Omar Typing Headline" />
-  </a>
+  <a href="https://github.com/elomarjc"><img src="assets/typing_title.svg" alt="Jacob El-Omar Typing Headline" width="800" /></a>
 </p>
 
 <p align="center">
@@ -18,24 +16,16 @@
 
 <!-- Live Animated Grow A Fish Simulation Banner -->
 <p align="center">
-  <a href="https://github.com/elomarjc/grow-a-fish-case-study">
-    <img src="assets/grow_a_fish_banner.gif" alt="Grow A Fish Live Aquarium Simulation Engine" width="100%" />
-  </a>
+  <a href="https://github.com/elomarjc/grow-a-fish-case-study"><img src="assets/aquarium_live.gif" alt="Grow A Fish Live Aquarium Simulation Engine" width="100%" /></a>
 </p>
 
 </div>
-
----
-
----
 
 ## About Me
 
 I am a Software Engineer and Systems Architect with a **Master of Science in Engineering (Civilingeniør, cand.polyt.) in Electronic Systems** and a **Bachelor of Science in Electronics & IT (Process Control)** from Aalborg University.
 
 My work spans the full spectrum of software and systems engineering: bridging bare-metal silicon, real-time operating systems, and mathematical signal processing with high-performance desktop and mobile applications. Whether optimizing sub-millisecond adaptive filters on embedded ARM processors, engineering cross-platform game engines with custom native C++ audio backends, or designing desktop symbolic algebra environments, I focus on building performant, reliable, and mathematically rigorous systems.
-
----
 
 ## Flagship Products & Visual Showcase
 
@@ -128,8 +118,6 @@ My work spans the full spectrum of software and systems engineering: bridging ba
   </tr>
 </table>
 
----
-
 ## Interactive Digital Twins Mission Control
 
 A suite of 9 real-time mathematical digital twins, physical modeling testbenches, and interactive browser simulators. Click **Launch Simulator** to test directly in your browser:
@@ -145,8 +133,6 @@ A suite of 9 real-time mathematical digital twins, physical modeling testbenches
 | **Hydrodynamics**| **Industrial Pump Hydrodynamics** | Affinity Laws, Thoma cavitation factor, MCSA stator FFT | [Launch Simulator](https://elomarjc.github.io/pump-hydrodynamics-digital-twin/) • [Source](https://github.com/elomarjc/pump-hydrodynamics-digital-twin) |
 | **Defense / Radar**| **Naval Radar CFAR & Doppler Studio** | CA/OS-CFAR detection, 3-pulse MTI clutter filter | [Launch Simulator](https://elomarjc.github.io/naval-radar-signal-studio/) • [Source](https://github.com/elomarjc/naval-radar-signal-studio) |
 | **Robotics** | **Cobot Kinematics & Momentum Twin** | 6-DOF UR5e arm, Damped Least-Squares solver, ISO/TS 15066 | [Launch Simulator](https://elomarjc.github.io/cobot-kinematics-momentum-twin/) • [Source](https://github.com/elomarjc/cobot-kinematics-momentum-twin) |
-
----
 
 ## Technical Skills Matrix
 
@@ -210,8 +196,6 @@ A suite of 9 real-time mathematical digital twins, physical modeling testbenches
 
 </div>
 
----
-
 ## Education
 
 * **M.Sc. in Engineering — Electronic Systems (Civilingeniør, cand.polyt.)**  
@@ -221,8 +205,6 @@ A suite of 9 real-time mathematical digital twins, physical modeling testbenches
 * **B.Sc. in Engineering — Electronics & IT (Process Control Specialization)**  
   Aalborg University (2020 – 2023) • 180 ECTS  
   *Focus on Closed-Loop Control, Industrial Automation, Digital Hardware (VHDL/FPGA), and Embedded Software.*
-
----
 
 ## Contact
 

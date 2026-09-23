@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 48" width="800" height="48">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;600&amp;display=swap');
+      
+      .text {
+        font-family: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 21px;
+        font-weight: 600;
+        fill: #38bdf8;
+        text-anchor: middle;
+        dominant-baseline: central;
+      }
+      
+      .cursor {
+        fill: #38bdf8;
+        animation: blink 0.8s infinite;
+      }
+      
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+
+      /* Cycle through 4 phrases smoothly over 16s (4s each) */
+      .phrase-1 { animation: cycle1 16s infinite; }
+      .phrase-2 { animation: cycle2 16s infinite; }
+      .phrase-3 { animation: cycle3 16s infinite; }
+      .phrase-4 { animation: cycle4 16s infinite; }
+
+      @keyframes cycle1 {
+        0%, 22% { opacity: 1; transform: translateY(0); }
+        25%, 97% { opacity: 0; transform: translateY(-4px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes cycle2 {
+        0%, 22% { opacity: 0; transform: translateY(4px); }
+        25%, 47% { opacity: 1; transform: translateY(0); }
+        50%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes cycle3 {
+        0%, 47% { opacity: 0; transform: translateY(4px); }
+        50%, 72% { opacity: 1; transform: translateY(0); }
+        75%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes cycle4 {
+        0%, 72% { opacity: 0; transform: translateY(4px); }
+        75%, 97% { opacity: 1; transform: translateY(0); }
+        100% { opacity: 0; transform: translateY(-4px); }
+      }
+    </style>
+  </defs>
+
+  <g transform="translate(400, 24)">
+    <g class="phrase-1">
+      <text class="text" x="0" y="0">Software Engineer &amp; Systems Architect</text>
+    </g>
+    <g class="phrase-2">
+      <text class="text" x="0" y="0">Cross-Platform Mobile &amp; Desktop Engines</text>
+    </g>
+    <g class="phrase-3">
+      <text class="text" x="0" y="0">Medical AI/ML &amp; Real-Time Signal Processing</text>
+    </g>
+    <g class="phrase-4">
+      <text class="text" x="0" y="0">Autonomous Robotics &amp; Sensor Fusion</text>
+    </g>
+  </g>
+</svg>
