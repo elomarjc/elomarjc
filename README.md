@@ -27,50 +27,13 @@
 
 ---
 
-## Engineering Profile & Core Highlights
+---
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h4>Full-Stack Software &amp; Systems Architecture</h4>
-      <p><b>M.Sc. (Civilingeniør, cand.polyt.) in Electronic Systems</b> and <b>B.Sc. in Electronics &amp; IT (Process Control)</b> from Aalborg University. Bridges the complete engineering lifecycle from bare-metal silicon registers, real-time operating systems, and industrial protocols up to high-performance desktop and mobile applications.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Degree-Cand.polyt._M.Sc.-0284C7?style=flat-square" />
-        <img src="https://img.shields.io/badge/University-Aalborg_University-1E293B?style=flat-square" />
-        <img src="https://img.shields.io/badge/ECTS-300_Total-10B981?style=flat-square" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>Production Mobile &amp; Desktop Engines</h4>
-      <p>Shipped <b>Grow A Fish</b> on Google Play featuring 330+ Dart modules, zero-lag C++ <code>SoLoud</code> audio engine integration via Dart FFI, deterministic WebSocket multiplayer netcode, and hardware-backed E2EE. Co-developed <b>OpenMath</b>, a cross-platform desktop CAS and technical worksheet environment.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Google_Play-Live_App-34A853?style=flat-square&logo=googleplay&logoColor=white" />
-        <img src="https://img.shields.io/badge/Architecture-330%2B_Dart_Modules-02569B?style=flat-square" />
-        <img src="https://img.shields.io/badge/Audio-C%2B%2B_Native_FFI-FF6F00?style=flat-square" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>Medical DSP &amp; Signal Intelligence</h4>
-      <p>50 ECTS Master's Thesis R&D in collaboration with <b>Ai Health Highway</b>. Engineered real-time adaptive noise cancellation filters (LMS, NLMS, RLS) and FastICA for smart electronic stethoscopes (<b>AiSteth</b>), achieving up to <b>+34 dB SNR improvements</b> with deterministic sub-millisecond execution targets on ARM Cortex-M4.</p>
-      <p>
-        <img src="https://img.shields.io/badge/SNR_Gain-+34_dB-10B981?style=flat-square" />
-        <img src="https://img.shields.io/badge/Target-ARM_Cortex--M4-0091BD?style=flat-square" />
-        <img src="https://img.shields.io/badge/Algorithms-LMS_%2F_NLMS_%2F_RLS-6366F1?style=flat-square" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>Autonomous Robotics &amp; Industrial Control</h4>
-      <p><b>1st Place Champion in AAU RoboCup Tournament</b>. Engineered a 9-thread concurrent Python sensor fusion engine fusing active Ultra-Wideband (UWB) RF tags, overhead Computer Vision, and industrial <b>MiR200 AMRs</b>. Designed discrete anti-sway LQR gantry crane control and implemented IEC 61131-3 logic on FPGA/PSoC.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Award-1st_Place_RoboCup-EAB308?style=flat-square" />
-        <img src="https://img.shields.io/badge/Robotics-MiR200_AMR-EF4444?style=flat-square" />
-        <img src="https://img.shields.io/badge/Control-LQR_%2B_Cascaded_PID-8B5CF6?style=flat-square" />
-      </p>
-    </td>
-  </tr>
-</table>
+## About Me
+
+I am a Software Engineer and Systems Architect with a **Master of Science in Engineering (Civilingeniør, cand.polyt.) in Electronic Systems** and a **Bachelor of Science in Electronics & IT (Process Control)** from Aalborg University.
+
+My work spans the full spectrum of software and systems engineering: bridging bare-metal silicon, real-time operating systems, and mathematical signal processing with high-performance desktop and mobile applications. Whether optimizing sub-millisecond adaptive filters on embedded ARM processors, engineering cross-platform game engines with custom native C++ audio backends, or designing desktop symbolic algebra environments, I focus on building performant, reliable, and mathematically rigorous systems.
 
 ---
 
@@ -82,7 +45,7 @@
 <table>
   <tr>
     <td width="55%" valign="top">
-      <p>An open-source interactive computer algebra system (CAS) and technical worksheet document environment designed for symbolic computation, dynamic graphing, and engineering mathematics.</p>
+      <p>An open-source interactive computer algebra system (CAS) and technical worksheet document environment engineered for symbolic calculus, dynamic 2D graphing, matrix computations, and arbitrary precision engineering mathematics.</p>
       <p>
         <a href="https://j2kjonas.github.io/OpenMath/"><img src="https://img.shields.io/badge/Launch-Web_Demo-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch Web Demo" /></a>
         <a href="https://github.com/J2KJonas/OpenMath"><img src="https://img.shields.io/badge/Source-GitHub_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo" /></a>
@@ -94,11 +57,6 @@
         <img src="https://img.shields.io/badge/Wasm-Pyodide-6366F1?style=flat-square" />
         <img src="https://img.shields.io/badge/Export-Vector_PDF-EC4899?style=flat-square" />
       </p>
-      <ul>
-        <li><b>Stateful Symbolic Engine:</b> Hierarchical section folding (<code>1. Section</code>, <code>1.1 Subsection</code>) with continuous visual scope brackets.</li>
-        <li><b>Arbitrary Precision:</b> Exact-to-decimal toggles from 2 to 50 digits of precision.</li>
-        <li><b>Embedded Hardware Suite:</b> Bitwise logic masks, Q-format fixed-point conversion (<code>to_q</code>, <code>from_q</code>), and IEEE-754 bit decomposition.</li>
-      </ul>
     </td>
     <td width="45%" align="center">
       <a href="https://github.com/J2KJonas/OpenMath">
@@ -125,7 +83,7 @@
       <br/><sub><i>Live Aquarium Simulation &amp; Multi-Genre Arcade Engine</i></sub>
     </td>
     <td width="62%" valign="top">
-      <p>A full-stack mobile game published on Google Play combining an organic virtual aquarium simulator with 7 arcade minigames, social tank visits, and real-time multiplayer lobbies.</p>
+      <p>A full-stack mobile game published on Google Play combining an organic virtual aquarium simulator with 7 arcade minigames, social tank visits, and real-time multiplayer lobbies. Features 330+ Dart modules, deterministic WebSocket netcode, hardware-backed E2EE, and a zero-latency C++ <code>SoLoud</code> audio engine integrated directly via Dart FFI.</p>
       <p>
         <a href="https://play.google.com/store/apps/details?id=com.elomarstudio.growafish"><img src="https://img.shields.io/badge/Google_Play-Install_App-34A853?style=for-the-badge&logo=googleplay&logoColor=white" alt="Google Play" /></a>
         <a href="https://github.com/elomarjc/grow-a-fish-case-study"><img src="https://img.shields.io/badge/Architecture-Technical_Whitepaper-6366F1?style=for-the-badge&logo=flutter&logoColor=white" alt="Case Study" /></a>
@@ -137,11 +95,6 @@
         <img src="https://img.shields.io/badge/Storage-Hive_NoSQL-F59E0B?style=flat-square" />
         <img src="https://img.shields.io/badge/Crypto-X25519_%2B_AES--GCM-10B981?style=flat-square" />
       </p>
-      <ul>
-        <li><b>Zero-Lag Audio Engine:</b> Bypassed Android platform-channel latency by integrating the C++ <code>SoLoud</code> audio engine directly via Dart FFI with custom LRU caching.</li>
-        <li><b>Deterministic Netcode:</b> 64-bit seed-synchronized procedural level generation over WebSockets, eliminating cellular multiplayer jitter.</li>
-        <li><b>Hardware-Backed E2EE Chat:</b> Client-side X25519 ECDH key exchange with AES-256-GCM authenticated encryption backed by Android Keystore / iOS Keychain.</li>
-      </ul>
     </td>
   </tr>
 </table>
@@ -158,18 +111,9 @@
       <p>
         <a href="https://github.com/elomarjc/adaptive-noise-cancellation-dsp"><img src="https://img.shields.io/badge/Thesis_Repo-Adaptive_Noise-3B82F6?style=flat-square&logo=github&logoColor=white" alt="Thesis Repo" /></a>
         <img src="https://img.shields.io/badge/SNR_Gain-+34_dB-10B981?style=flat-square" alt="SNR Gain" />
-        <img src="https://img.shields.io/badge/Latency-Sub--ms-F59E0B?style=flat-square" alt="Latency" />
+        <img src="https://img.shields.io/badge/Target-ARM_Cortex--M4-0091BD?style=flat-square" alt="Target" />
       </p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/DSP-LMS%20%2F%20NLMS%20%2F%20RLS-6366F1?style=flat-square" />
-        <img src="https://img.shields.io/badge/Separation-FastICA-8B5CF6?style=flat-square" />
-      </p>
-      <ul>
-        <li><b>Clinical Diagnostic Audio:</b> Real-time noise cancellation for smart electronic stethoscopes (<b>AiSteth</b>) under clinical diagnostic constraints.</li>
-        <li><b>Empirical Validation:</b> Validated up to <b>+34 dB SNR improvement</b> in physical acoustic testbeds while preserving low-frequency cardiac valve sounds (S1, S2).</li>
-        <li><b>DSP Formulations:</b> STFT spectral tracking, adaptive filtering (NLMS/RLS), and statistical blind source separation.</li>
-      </ul>
+      <p>Real-time adaptive noise cancellation filters (LMS, NLMS, RLS) and FastICA source separation for smart electronic stethoscopes (<b>AiSteth</b>). Demonstrated up to <b>+34 dB SNR improvement</b> in physical acoustic testbeds while preserving critical low-frequency cardiac valve sounds (S1, S2) and respiratory acoustics under sub-millisecond execution constraints.</p>
     </td>
     <td width="50%" valign="top">
       <h4>Autonomous Robotics &amp; Fleet Navigation</h4>
@@ -177,18 +121,9 @@
       <p>
         <a href="https://github.com/elomarjc/indoor-positioning-amr-integration"><img src="https://img.shields.io/badge/Robotics_Repo-Sensor_Fusion-6366F1?style=flat-square&logo=github&logoColor=white" alt="Positioning Repo" /></a>
         <img src="https://img.shields.io/badge/Award-1st_Place_RoboCup-EAB308?style=flat-square" alt="RoboCup Winner" />
-        <img src="https://img.shields.io/badge/Threads-9_Concurrent-0284C7?style=flat-square" alt="Concurrency" />
+        <img src="https://img.shields.io/badge/Platform-MiR200_AMR-EF4444?style=flat-square" alt="Platform" />
       </p>
-      <p>
-        <img src="https://img.shields.io/badge/Robots-MiR200_AMR-EF4444?style=flat-square" />
-        <img src="https://img.shields.io/badge/Sensors-UWB_%2B_Vision-10B981?style=flat-square" />
-        <img src="https://img.shields.io/badge/Database-InfluxDB_v2-9333EA?style=flat-square&logo=influxdb&logoColor=white" />
-      </p>
-      <ul>
-        <li><b>Multi-Sensor Fusion:</b> 9-thread concurrent Python engine fusing active Ultra-Wideband (UWB) RF tags, overhead vision, and AMR telemetry.</li>
-        <li><b>Collision Governor:</b> Trajectory prediction, time-to-collision safety horizons, and automated REST API velocity throttling for industrial AMRs.</li>
-        <li><b>Statistical Validation:</b> Full spatial telemetry ingestion into InfluxDB v2 with empirical Cumulative Distribution Function (CDF) accuracy analysis.</li>
-      </ul>
+      <p>Concurrent 9-thread sensor fusion engine integrating active Ultra-Wideband (UWB) RF tags, overhead Computer Vision, and industrial <b>MiR200 AMRs</b>. Features real-time trajectory prediction, time-to-collision safety governors, automated REST API velocity throttling, and empirical InfluxDB telemetry analytics.</p>
     </td>
   </tr>
 </table>
