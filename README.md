@@ -60,7 +60,7 @@ As a person, I am outgoing, hardworking, and motivating. My positive attitude, h
       <p>A production mobile game published on Google Play featuring a living virtual aquarium simulator, real-time aquatic physics, and an interactive fish ecosystem. Players care for and breed fish, compete across 7 arcade minigames, visit friends' aquariums, and connect through real-time multiplayer lobbies.</p>
       <p>
         <a href="https://play.google.com/store/apps/details?id=com.elomarstudio.growafish"><img src="https://img.shields.io/badge/Google_Play-Install_App-34A853?style=for-the-badge&logo=googleplay&logoColor=white" alt="Google Play" /></a>
-        <a href="https://github.com/elomarjc/grow-a-fish-case-study"><img src="https://img.shields.io/badge/Architecture-Technical_Whitepaper-6366F1?style=for-the-badge&logo=flutter&logoColor=white" alt="Case Study" /></a>
+        <a href="https://github.com/elomarjc/grow-a-fish-case-study"><img src="https://img.shields.io/badge/Source-GitHub_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo" /></a>
       </p>
     </td>
   </tr>
