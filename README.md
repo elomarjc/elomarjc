@@ -52,9 +52,7 @@ My work spans the full spectrum of software and systems engineering: bridging ba
       <a href="https://github.com/J2KJonas/OpenMath">
         <img src="assets/openmath_showcase.gif" width="400" alt="OpenMath Dynamic App Showcase" style="border-radius: 12px; border: 1px solid #334155; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
       </a>
-      <br/><sub><i>Live App Showcase: 2D Plotter, Dark Mode CAS, &amp; Section Hierarchy</i></sub>
-      <br/><br/>
-      <img src="assets/openmath_live_eval.svg" width="400" alt="OpenMath Live Symbolic CAS Evaluator" />
+      <br/><sub><i>OpenMath Desktop: 2D Plotter, Dark Mode CAS, &amp; Section Hierarchy</i></sub>
     </td>
   </tr>
 </table>
@@ -70,7 +68,7 @@ My work spans the full spectrum of software and systems engineering: bridging ba
       <a href="https://github.com/elomarjc/grow-a-fish-case-study">
         <img src="assets/grow_a_fish_showcase.gif" width="280" alt="Grow A Fish Live Mobile Showcase" style="border-radius: 16px; border: 1px solid #334155; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
       </a>
-      <br/><sub><i>Live Mobile Showcase: Aquarium, Match-3, Exploration, &amp; Evolution</i></sub>
+      <br/><sub><i>Grow A Fish: Aquarium Simulation, Match-3, Exploration, &amp; Progression</i></sub>
     </td>
     <td width="62%" valign="top">
       <p>A full-stack mobile game published on Google Play combining an organic virtual aquarium simulator with 7 arcade minigames, social tank visits, and real-time multiplayer lobbies. Features 330+ Dart modules, deterministic WebSocket netcode, hardware-backed E2EE, and a zero-latency C++ <code>SoLoud</code> audio engine integrated directly via Dart FFI.</p>
@@ -104,7 +102,6 @@ My work spans the full spectrum of software and systems engineering: bridging ba
         <img src="https://img.shields.io/badge/Target-ARM_Cortex--M4-0091BD?style=flat-square" alt="Target" />
       </p>
       <p>Real-time adaptive noise cancellation filters (LMS, NLMS, RLS) and FastICA source separation for smart electronic stethoscopes (<b>AiSteth</b>). Demonstrated up to <b>+34 dB SNR improvement</b> in physical acoustic testbeds while preserving critical low-frequency cardiac valve sounds (S1, S2) and respiratory acoustics under sub-millisecond execution constraints.</p>
-      <img src="assets/medical_dsp_scope.gif" width="100%" alt="Medical Acoustic DSP Real-Time Oscilloscope" style="border-radius: 10px; margin-top: 8px;" />
     </td>
     <td width="50%" valign="top">
       <h4>Autonomous Robotics &amp; Fleet Navigation</h4>
@@ -115,7 +112,6 @@ My work spans the full spectrum of software and systems engineering: bridging ba
         <img src="https://img.shields.io/badge/Platform-MiR200_AMR-EF4444?style=flat-square" alt="Platform" />
       </p>
       <p>Concurrent 9-thread sensor fusion engine integrating active Ultra-Wideband (UWB) RF tags, overhead Computer Vision, and industrial <b>MiR200 AMRs</b>. Features real-time trajectory prediction, time-to-collision safety governors, automated REST API velocity throttling, and empirical InfluxDB telemetry analytics.</p>
-      <img src="assets/robotics_radar_tracking.gif" width="100%" alt="AAU Smart Production Lab Sensor Fusion Radar" style="border-radius: 10px; margin-top: 8px;" />
     </td>
   </tr>
 </table>
