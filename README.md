@@ -36,7 +36,6 @@ As a person, I am outgoing, hardworking, and motivating. My positive attitude, h
         <a href="https://j2kjonas.github.io/OpenMath/"><img src="https://img.shields.io/badge/Launch-Web_Demo-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch Web Demo" /></a>
         <a href="https://github.com/J2KJonas/OpenMath"><img src="https://img.shields.io/badge/Source-GitHub_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo" /></a>
       </p>
-      <p><sub><b>Tech Stack:</b> Python 3.10+, PyQt6, SymPy, Matplotlib MathText, WebAssembly (Pyodide)<br/><b>Collaboration:</b> Co-developed with <a href="https://github.com/J2KJonas">J2KJonas</a></sub></p>
     </td>
     <td width="45%" align="center">
       <a href="https://github.com/J2KJonas/OpenMath">
@@ -63,7 +62,6 @@ As a person, I am outgoing, hardworking, and motivating. My positive attitude, h
         <a href="https://play.google.com/store/apps/details?id=com.elomarstudio.growafish"><img src="https://img.shields.io/badge/Google_Play-Install_App-34A853?style=for-the-badge&logo=googleplay&logoColor=white" alt="Google Play" /></a>
         <a href="https://github.com/elomarjc/grow-a-fish-case-study"><img src="https://img.shields.io/badge/Architecture-Technical_Whitepaper-6366F1?style=for-the-badge&logo=flutter&logoColor=white" alt="Case Study" /></a>
       </p>
-      <p><sub><b>Tech Stack:</b> Flutter, Flame Engine, C++ FFI SoLoud, Supabase, Hive, X25519/AES-GCM<br/><b>Collaboration:</b> Co-developed with <a href="https://github.com/J2KJonas">J2KJonas</a> • Shipped on Google Play</sub></p>
     </td>
   </tr>
 </table>
