@@ -23,9 +23,9 @@
 
 ## About Me
 
-I am a Software Engineer and Systems Architect with a **Master of Science in Engineering (Civilingeniør, cand.polyt.) in Electronic Systems** and a **Bachelor of Science in Electronics & IT (Process Control)** from Aalborg University.
+I'm a software engineer with a Master's in Electronic Systems from Aalborg University. I love building performant, well-crafted software—from shipping a production mobile game on Google Play to developing desktop computer algebra environments and low-level C/C++ audio engines.
 
-My work spans the full spectrum of software and systems engineering: bridging bare-metal silicon, real-time operating systems, and mathematical signal processing with high-performance desktop and mobile applications. Whether optimizing sub-millisecond adaptive filters on embedded ARM processors, engineering cross-platform game engines with custom native C++ audio backends, or designing desktop symbolic algebra environments, I focus on building performant, reliable, and mathematically rigorous systems.
+I enjoy working on projects where software meets math, simulation, and real-time performance. Always building, experimenting, and shipping.
 
 ## Flagship Products & Visual Showcase
 
