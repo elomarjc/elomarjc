@@ -23,18 +23,16 @@
 
 ## About Me
 
-I graduated in 2025 with an M.Sc. in Electronic Systems (Civilingeniør) from Aalborg University. Following graduation, I took dedicated parental leave to care for my two children at home—an incredible period, and I am now energized, fully focused, and ready to kickstart my engineering career.
+I am a software engineer with an M.Sc. in Electronic Systems (Civilingeniør) from Aalborg University (2025). 
 
-I love building solid, performant software and working across the full stack—from shipping a production mobile game on Google Play to building desktop computer algebra systems and working with embedded systems and hardware.
+My background bridges software engineering and electronics. I enjoy building across the full stack—whether it's shipping a production mobile game on Google Play, developing desktop computer algebra environments, or working with embedded firmware and hardware.
 
-### What I'm Looking For
+### Areas of Focus
 
-I am open to opportunities across Denmark and remote roles. My primary goal is to contribute, learn, and deliver real value from day one. I'm actively looking for roles within:
-
-- **Software Engineering & Development**: Full-stack, backend/frontend (C#, Python, modern web technologies, Dart/Flutter)
-- **Embedded Systems & Electronics**: Firmware, real-time control, PCB design, and hardware integration
-- **AI, ML & Signal Processing**: Numerical modeling, data pipelines, and applied algorithmic development
-- **IT Infrastructure & Systems**: System administration, network tech, and technical support engineering
+- **Software Engineering**: Full-stack and application development (C#, Python, modern web technologies, Dart/Flutter)
+- **Embedded & Systems**: Firmware, real-time control, PCB design, and hardware integration
+- **Applied Mathematics & ML**: Signal processing, numerical modeling, and algorithm design
+- **Infrastructure & Systems**: System administration, network engineering, and automation tooling
 
 ## Flagship Products & Visual Showcase
 
