@@ -40,19 +40,12 @@ My work spans the full spectrum of software and systems engineering: bridging ba
         <a href="https://j2kjonas.github.io/OpenMath/"><img src="https://img.shields.io/badge/Launch-Web_Demo-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch Web Demo" /></a>
         <a href="https://github.com/J2KJonas/OpenMath"><img src="https://img.shields.io/badge/Source-GitHub_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo" /></a>
       </p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/GUI-PyQt6-41CD52?style=flat-square&logo=qt&logoColor=white" />
-        <img src="https://img.shields.io/badge/CAS-SymPy-F59E0B?style=flat-square" />
-        <img src="https://img.shields.io/badge/Wasm-Pyodide-6366F1?style=flat-square" />
-        <img src="https://img.shields.io/badge/Export-Vector_PDF-EC4899?style=flat-square" />
-      </p>
     </td>
     <td width="45%" align="center">
       <a href="https://github.com/J2KJonas/OpenMath">
-        <img src="assets/openmath_showcase.gif" width="400" alt="OpenMath Dynamic App Showcase" style="border-radius: 12px; border: 1px solid #334155; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+        <img src="assets/openmath_dark_showcase.gif" width="400" alt="OpenMath Dynamic App Showcase" style="border-radius: 12px; border: 1px solid #334155; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
       </a>
-      <br/><sub><i>OpenMath Desktop: 2D Plotter, Dark Mode CAS, &amp; Section Hierarchy</i></sub>
+      <br/><sub><i>OpenMath Desktop: Symbolic Calculus, Dark Mode CAS, &amp; High-Precision Computing</i></sub>
     </td>
   </tr>
 </table>
@@ -66,7 +59,7 @@ My work spans the full spectrum of software and systems engineering: bridging ba
   <tr>
     <td width="38%" align="center">
       <a href="https://github.com/elomarjc/grow-a-fish-case-study">
-        <img src="assets/grow_a_fish_showcase.gif" width="280" alt="Grow A Fish Live Mobile Showcase" style="border-radius: 16px; border: 1px solid #334155; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+        <img src="assets/grow_a_fish_mobile_showcase.gif" width="280" alt="Grow A Fish Live Mobile Showcase" style="border-radius: 16px; border: 1px solid #334155; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
       </a>
       <br/><sub><i>Grow A Fish: Aquarium Simulation, Match-3, Exploration, &amp; Progression</i></sub>
     </td>
@@ -75,13 +68,6 @@ My work spans the full spectrum of software and systems engineering: bridging ba
       <p>
         <a href="https://play.google.com/store/apps/details?id=com.elomarstudio.growafish"><img src="https://img.shields.io/badge/Google_Play-Install_App-34A853?style=for-the-badge&logo=googleplay&logoColor=white" alt="Google Play" /></a>
         <a href="https://github.com/elomarjc/grow-a-fish-case-study"><img src="https://img.shields.io/badge/Architecture-Technical_Whitepaper-6366F1?style=for-the-badge&logo=flutter&logoColor=white" alt="Case Study" /></a>
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Flutter-3.x-02569B?style=flat-square&logo=flutter&logoColor=white" />
-        <img src="https://img.shields.io/badge/Audio-C%2B%2B_SoLoud_FFI-FF6F00?style=flat-square" />
-        <img src="https://img.shields.io/badge/Backend-Supabase_Realtime-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
-        <img src="https://img.shields.io/badge/Storage-Hive_NoSQL-F59E0B?style=flat-square" />
-        <img src="https://img.shields.io/badge/Crypto-X25519_%2B_AES--GCM-10B981?style=flat-square" />
       </p>
     </td>
   </tr>
