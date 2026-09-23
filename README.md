@@ -29,7 +29,7 @@ As a person, I am outgoing, hardworking, and motivating. My positive attitude, h
 
 ## Featured Projects
 
-### OpenMath — Desktop & Web Computer Algebra System (CAS)
+### OpenMath — Computer Algebra System (CAS)
 *Co-developed with [J2KJonas](https://github.com/J2KJonas) • Python 3.10+, PyQt6, SymPy, Matplotlib MathText, WebAssembly (Pyodide)*
 
 <table>
@@ -51,7 +51,7 @@ As a person, I am outgoing, hardworking, and motivating. My positive attitude, h
 
 ---
 
-### Grow A Fish — Production Mobile Game & Real-Time Ecosystem
+### Grow A Fish — Mobile Game
 *Co-developed with [J2KJonas](https://github.com/J2KJonas) • Shipped on Google Play • Flutter, Flame Engine, C++ FFI SoLoud, Supabase, Hive, X25519/AES-GCM*
 
 <table>
