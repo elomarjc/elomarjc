@@ -3,7 +3,7 @@
 # Jacob El-Omar
 
 <p align="center">
-  <a href="https://github.com/elomarjc"><img src="assets/typing_title.svg" alt="Jacob El-Omar Typing Headline" width="800" /></a>
+  <a href="https://github.com/elomarjc"><img src="assets/typing_title.svg" alt="Jacob El-Omar Titles" style="max-width: 100%; height: auto;" /></a>
 </p>
 
 <p align="center">
