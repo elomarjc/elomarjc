@@ -23,9 +23,18 @@
 
 ## About Me
 
-I'm a software engineer with a Master's in Electronic Systems from Aalborg University. I love building performant, well-crafted software—from shipping a production mobile game on Google Play to developing desktop computer algebra environments and low-level C/C++ audio engines.
+I graduated in 2025 with an M.Sc. in Electronic Systems (Civilingeniør) from Aalborg University. Following graduation, I took dedicated parental leave to care for my two children at home—an incredible period, and I am now energized, fully focused, and ready to kickstart my engineering career.
 
-I enjoy working on projects where software meets math, simulation, and real-time performance. Always building, experimenting, and shipping.
+I love building solid, performant software and working across the full stack—from shipping a production mobile game on Google Play to building desktop computer algebra systems and working with embedded systems and hardware.
+
+### What I'm Looking For
+
+I am open to opportunities across Denmark and remote roles. My primary goal is to contribute, learn, and deliver real value from day one. I'm actively looking for roles within:
+
+- **Software Engineering & Development**: Full-stack, backend/frontend (C#, Python, modern web technologies, Dart/Flutter)
+- **Embedded Systems & Electronics**: Firmware, real-time control, PCB design, and hardware integration
+- **AI, ML & Signal Processing**: Numerical modeling, data pipelines, and applied algorithmic development
+- **IT Infrastructure & Systems**: System administration, network tech, and technical support engineering
 
 ## Flagship Products & Visual Showcase
 
