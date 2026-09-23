@@ -88,7 +88,7 @@
     <circle cx="42" cy="24" r="5" fill="#f59e0b"/>
     <circle cx="58" cy="24" r="5" fill="#10b981"/>
     
-    <text x="82" y="28" fill="#94a3b8" font-weight="700" letter-spacing="1.2">SYSTEM TELEMETRY ENGINE // REAL-TIME DISP &amp; SENSOR PIPELINE</text>
+    <text x="82" y="28" fill="#94a3b8" font-weight="700" letter-spacing="1.2">SYSTEM TELEMETRY ENGINE // REAL-TIME DSP &amp; SENSOR PIPELINE</text>
     
     <circle cx="782" cy="24" r="4" fill="#10b981" class="blinker"/>
     <text x="796" y="28" fill="#10b981" font-weight="700" letter-spacing="0.8">CORE ONLINE</text>

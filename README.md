@@ -144,33 +144,50 @@ DATA / CLOUD    :: Supabase Realtime, PostgreSQL, InfluxDB v2, Hive NoSQL, Docke
 
 ---
 
-### Medical Acoustic Signal Enhancement — Master's Thesis R&D
-*Master's Thesis in collaboration with Ai Health Highway & Prof. Jan Østergaard (AAU) • Python, MATLAB, LMS/NLMS/RLS, FastICA, STFT*
+### Applied Research & Autonomous Systems
 
-<p>
-  <a href="https://github.com/elomarjc/adaptive-noise-cancellation-dsp"><img src="https://img.shields.io/badge/Thesis_Repository-Adaptive_Noise_Cancellation-3B82F6?style=for-the-badge&logo=github&logoColor=white" alt="Thesis Repo" /></a>
-  <img src="https://img.shields.io/badge/SNR_Improvement-+34_dB-10B981?style=for-the-badge" alt="SNR Gain" />
-  <img src="https://img.shields.io/badge/Latency-Sub--Millisecond-F59E0B?style=for-the-badge" alt="Latency" />
-</p>
-
-* **Clinical Acoustic R&D**: Developed real-time signal enhancement algorithms for smart electronic stethoscopes (**AiSteth**) to cancel ambient hospital interference under clinical diagnostic constraints.
-* **Algorithm Formulations**: Implemented and benchmarked Least Mean Squares (LMS), Normalized LMS (NLMS), Recursive Least Squares (RLS), and FastICA Blind Source Separation.
-* **Empirical Validation**: Achieved up to **+34 dB SNR improvements** across physical acoustic chamber testbeds while preserving crucial low-frequency cardiac valve sounds ($S_1, S_2$) and murmurs.
-
----
-
-### Indoor Positioning & AMR Fleet Integration
-*AAU 5G Smart Production Lab • Autonomous Robotics & Sensor Fusion • 1st Place AAU RoboCup Winner*
-
-<p>
-  <a href="https://github.com/elomarjc/indoor-positioning-amr-integration"><img src="https://img.shields.io/badge/Robotics_Repository-Sensor_Fusion_Hub-6366F1?style=for-the-badge&logo=github&logoColor=white" alt="Positioning Repo" /></a>
-  <img src="https://img.shields.io/badge/Award-1st_Place_RoboCup-EAB308?style=for-the-badge" alt="RoboCup Winner" />
-  <img src="https://img.shields.io/badge/Engine-9--Thread_Concurrent_Python-3B82F6?style=for-the-badge" alt="Concurrency" />
-</p>
-
-* **Multi-Sensor Fusion**: Engineered a 9-thread concurrent Python processing engine fusing real-time spatial telemetry from active Ultra-Wideband (UWB) RF tags, overhead Computer Vision tracking, and Autonomous Mobile Robots (MiR200).
-* **Predictive Collision Avoidance**: Implemented trajectory prediction, time-to-collision calculation, and dynamic velocity throttling to govern robot navigation over REST APIs.
-* **Telemetry & Analytics**: Integrated InfluxDB v2 time-series storage and generated empirical Cumulative Distribution Function (CDF) positioning accuracy models.
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>Medical Acoustic DSP Engine</h4>
+      <p><i>Master's Thesis R&D w/ Ai Health Highway &amp; Prof. Jan Østergaard (AAU)</i></p>
+      <p>
+        <a href="https://github.com/elomarjc/adaptive-noise-cancellation-dsp"><img src="https://img.shields.io/badge/Thesis_Repo-Adaptive_Noise-3B82F6?style=flat-square&logo=github&logoColor=white" alt="Thesis Repo" /></a>
+        <img src="https://img.shields.io/badge/SNR_Gain-+34_dB-10B981?style=flat-square" alt="SNR Gain" />
+        <img src="https://img.shields.io/badge/Latency-Sub--ms-F59E0B?style=flat-square" alt="Latency" />
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/DSP-LMS%20%2F%20NLMS%20%2F%20RLS-6366F1?style=flat-square" />
+        <img src="https://img.shields.io/badge/Separation-FastICA-8B5CF6?style=flat-square" />
+      </p>
+      <ul>
+        <li><b>Clinical Diagnostic Audio:</b> Real-time noise cancellation for smart electronic stethoscopes (<b>AiSteth</b>) under clinical diagnostic constraints.</li>
+        <li><b>Empirical Validation:</b> Validated up to <b>+34 dB SNR improvement</b> in physical acoustic testbeds while preserving low-frequency cardiac valve sounds (S1, S2).</li>
+        <li><b>DSP Formulations:</b> STFT spectral tracking, adaptive filtering (NLMS/RLS), and statistical blind source separation.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>Autonomous Robotics &amp; Fleet Navigation</h4>
+      <p><i>AAU 5G Smart Production Lab • 1st Place AAU RoboCup Winner</i></p>
+      <p>
+        <a href="https://github.com/elomarjc/indoor-positioning-amr-integration"><img src="https://img.shields.io/badge/Robotics_Repo-Sensor_Fusion-6366F1?style=flat-square&logo=github&logoColor=white" alt="Positioning Repo" /></a>
+        <img src="https://img.shields.io/badge/Award-1st_Place_RoboCup-EAB308?style=flat-square" alt="RoboCup Winner" />
+        <img src="https://img.shields.io/badge/Threads-9_Concurrent-0284C7?style=flat-square" alt="Concurrency" />
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Robots-MiR200_AMR-EF4444?style=flat-square" />
+        <img src="https://img.shields.io/badge/Sensors-UWB_%2B_Vision-10B981?style=flat-square" />
+        <img src="https://img.shields.io/badge/Database-InfluxDB_v2-9333EA?style=flat-square&logo=influxdb&logoColor=white" />
+      </p>
+      <ul>
+        <li><b>Multi-Sensor Fusion:</b> 9-thread concurrent Python engine fusing active Ultra-Wideband (UWB) RF tags, overhead vision, and AMR telemetry.</li>
+        <li><b>Collision Governor:</b> Trajectory prediction, time-to-collision safety horizons, and automated REST API velocity throttling for industrial AMRs.</li>
+        <li><b>Statistical Validation:</b> Full spatial telemetry ingestion into InfluxDB v2 with empirical Cumulative Distribution Function (CDF) accuracy analysis.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
