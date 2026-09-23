@@ -2,9 +2,11 @@
 
 # Jacob El-Omar
 
-<a href="https://github.com/elomarjc">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2600&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=true&width=740&height=75&lines=Software+Engineer+%26+Systems+Architect;Full-Stack+Desktop+%26+Cross-Platform+Mobile;Medical+AI%2FML+%26+Real-Time+Signal+Processing;Autonomous+Robotics+%26+Control+Engineering" alt="Jacob El-Omar Typing Headline" />
-</a>
+<p align="center">
+  <a href="https://github.com/elomarjc">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1200&color=38BDF8&center=true&vCenter=true&width=800&height=40&lines=Software+Engineer+%26+Systems+Architect;Cross-Platform+Mobile+%26+Desktop+Engines;Medical+AI%2FML+%26+Real-Time+Signal+Processing;Autonomous+Robotics+%26+Sensor+Fusion" alt="Jacob El-Omar Typing Headline" />
+  </a>
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/jacob-el-omar/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -14,9 +16,11 @@
   <a href="https://maps.google.com/?q=Aalborg,+Denmark"><img src="https://img.shields.io/badge/Location-Aalborg%2C%20Denmark-blue?style=for-the-badge&logo=google-maps&logoColor=white" alt="Location" /></a>
 </p>
 
-<!-- Live Animated Signal & Telemetry Monitor -->
+<!-- Live Animated Grow A Fish Simulation Banner -->
 <p align="center">
-  <img src="assets/system_wave.svg" alt="Real-time System Waveform Telemetry" width="100%" />
+  <a href="https://github.com/elomarjc/grow-a-fish-case-study">
+    <img src="assets/grow_a_fish_banner.gif" alt="Grow A Fish Live Aquarium Simulation Engine" width="100%" />
+  </a>
 </p>
 
 </div>
@@ -103,6 +107,8 @@ DATA / CLOUD    :: Supabase Realtime, PostgreSQL, InfluxDB v2, Hive NoSQL, Docke
         <img src="assets/screenshots/openmath_desktop_calculus.png" width="400" alt="OpenMath Desktop UI" style="border-radius: 12px; border: 1px solid #334155; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
       </a>
       <br/><sub><i>OpenMath Academic Light Theme with Dynamic 2D Plotter &amp; Matrix Wizard</i></sub>
+      <br/><br/>
+      <img src="assets/openmath_live_eval.svg" width="400" alt="OpenMath Live Symbolic CAS Evaluator" />
     </td>
   </tr>
 </table>
