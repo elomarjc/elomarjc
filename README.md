@@ -107,22 +107,7 @@ As a person, I am outgoing, hardworking, and motivating. My positive attitude, h
       <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
       <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
       <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-      <img src="https://img.shields.io/badge/Altium_Designer-A5915F?style=flat-square&logo=altiumdesigner&logoColor=white" alt="Altium" />
-    </td>
-  </tr>
-</table>
-
-## Contact
-
-<table width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <b>Email</b><br/>
-      <a href="mailto:elomarjc@gmail.com">elomarjc@gmail.com</a>
-    </td>
-    <td width="50%" align="center">
-      <b>LinkedIn</b><br/>
-      <a href="https://www.linkedin.com/in/jacob-el-omar/">linkedin.com/in/jacob-el-omar</a>
+       <img src="https://img.shields.io/badge/Altium_Designer-A5915F?style=flat-square&logo=altiumdesigner&logoColor=white" alt="Altium" />
     </td>
   </tr>
 </table>
