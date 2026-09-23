@@ -114,8 +114,19 @@ As a person, I am outgoing, hardworking, and motivating. My positive attitude, h
 
 ## Contact
 
-<p align="center">
-  <a href="mailto:elomarjc@gmail.com"><img src="https://img.shields.io/badge/Email-elomarjc%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/jacob-el-omar/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/elomarjc"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-</p>
+<table width="100%">
+  <tr>
+    <td width="33%" align="center">
+      <b>Email</b><br/>
+      <a href="mailto:elomarjc@gmail.com">elomarjc@gmail.com</a>
+    </td>
+    <td width="33%" align="center">
+      <b>LinkedIn</b><br/>
+      <a href="https://www.linkedin.com/in/jacob-el-omar/">linkedin.com/in/jacob-el-omar</a>
+    </td>
+    <td width="34%" align="center">
+      <b>Location</b><br/>
+      Aalborg, Denmark
+    </td>
+  </tr>
+</table>
