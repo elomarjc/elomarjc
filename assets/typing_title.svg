@@ -11,41 +11,31 @@
         text-anchor: middle;
         dominant-baseline: central;
       }
-      
-      .cursor {
-        fill: #38bdf8;
-        animation: blink 0.8s infinite;
-      }
-      
-      @keyframes blink {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0; }
-      }
 
-      /* Cycle through 4 phrases smoothly over 16s (4s each) */
-      .phrase-1 { animation: cycle1 16s infinite; }
-      .phrase-2 { animation: cycle2 16s infinite; }
-      .phrase-3 { animation: cycle3 16s infinite; }
-      .phrase-4 { animation: cycle4 16s infinite; }
+      /* Cycle through 4 punchy phrases smoothly over 14s (3.5s each) */
+      .phrase-1 { animation: cycle1 14s infinite; }
+      .phrase-2 { animation: cycle2 14s infinite; }
+      .phrase-3 { animation: cycle3 14s infinite; }
+      .phrase-4 { animation: cycle4 14s infinite; }
 
       @keyframes cycle1 {
-        0%, 22% { opacity: 1; transform: translateY(0); }
-        25%, 97% { opacity: 0; transform: translateY(-4px); }
+        0%, 21% { opacity: 1; transform: translateY(0); }
+        25%, 96% { opacity: 0; transform: translateY(-4px); }
         100% { opacity: 1; transform: translateY(0); }
       }
       @keyframes cycle2 {
-        0%, 22% { opacity: 0; transform: translateY(4px); }
-        25%, 47% { opacity: 1; transform: translateY(0); }
+        0%, 21% { opacity: 0; transform: translateY(4px); }
+        25%, 46% { opacity: 1; transform: translateY(0); }
         50%, 100% { opacity: 0; transform: translateY(-4px); }
       }
       @keyframes cycle3 {
-        0%, 47% { opacity: 0; transform: translateY(4px); }
-        50%, 72% { opacity: 1; transform: translateY(0); }
+        0%, 46% { opacity: 0; transform: translateY(4px); }
+        50%, 71% { opacity: 1; transform: translateY(0); }
         75%, 100% { opacity: 0; transform: translateY(-4px); }
       }
       @keyframes cycle4 {
-        0%, 72% { opacity: 0; transform: translateY(4px); }
-        75%, 97% { opacity: 1; transform: translateY(0); }
+        0%, 71% { opacity: 0; transform: translateY(4px); }
+        75%, 96% { opacity: 1; transform: translateY(0); }
         100% { opacity: 0; transform: translateY(-4px); }
       }
     </style>
@@ -53,16 +43,16 @@
 
   <g transform="translate(400, 24)">
     <g class="phrase-1">
-      <text class="text" x="0" y="0">Software Engineer &amp; Systems Architect</text>
+      <text class="text" x="0" y="0">MSc in Electronic Systems (Civilingeniør)</text>
     </g>
     <g class="phrase-2">
-      <text class="text" x="0" y="0">Cross-Platform Mobile &amp; Desktop Engines</text>
+      <text class="text" x="0" y="0">Embedded Systems &amp; Signal Processing</text>
     </g>
     <g class="phrase-3">
-      <text class="text" x="0" y="0">Medical AI/ML &amp; Real-Time Signal Processing</text>
+      <text class="text" x="0" y="0">Mobile &amp; Desktop Software Development</text>
     </g>
     <g class="phrase-4">
-      <text class="text" x="0" y="0">Autonomous Robotics &amp; Sensor Fusion</text>
+      <text class="text" x="0" y="0">Hardware, Control &amp; Digital Design</text>
     </g>
   </g>
 </svg>
