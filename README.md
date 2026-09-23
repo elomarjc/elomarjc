@@ -23,7 +23,7 @@
 
 ## About Me
 
-I hold an M.Sc. in Engineering (Electronic Systems) and a B.Sc. in Engineering (Electronic Engineering and IT) from Aalborg University. My background combines electronics, embedded hardware, and software development—from low-level systems and signal processing to building desktop applications and shipping a production mobile game. I enjoy working at the intersection of hardware, math, and software to build functional, well-crafted systems.
+I hold a Master of Science (MSc) in Engineering in Electronic Systems and a Bachelor of Science (BSc) in Engineering in Electronic Engineering and IT (specializing in Process Control) from Aalborg University. My foundation is built on signal processing, control systems, and embedded hardware, combined with practical experience developing desktop applications and shipping a production mobile game. I enjoy applying engineering and mathematics to build reliable, performant systems.
 
 ## Flagship Products & Visual Showcase
 
