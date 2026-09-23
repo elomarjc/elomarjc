@@ -23,7 +23,9 @@
 
 ## About Me
 
-I hold an M.Sc. in Electronic Systems (Civilingeniør) and a B.Sc. in Electronic Engineering and IT (Process Control) from Aalborg University. Across my studies and projects, I have designed, implemented, and tested both hardware and software—spanning embedded systems, digital electronics, network communication, and applications. As a recent graduate, I am eager to tackle new technical challenges. As a person, I am outgoing, structured, and collaborative, with a positive mindset and a high sense of responsibility whether working independently or in teams.
+I hold an M.Sc. in Electronic Systems (Civilingeniør) from Aalborg University, with strong competencies in software development, advanced electronics, embedded systems, digital technologies, as well as networks and communication. Throughout my education, I have designed, implemented, and tested both hardware and software. I am therefore a recent graduate engineer who is passionate about taking on new and exciting challenges.
+
+As a person, I am outgoing, hardworking, and motivating. My positive attitude, helpfulness, and open mind make me a well-liked colleague, and I thrive both independently and in teams. I work in a structured manner, with good perspective and a high sense of responsibility.
 
 ## Flagship Products & Visual Showcase
 
