@@ -1,133 +1,178 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 180" width="100%" height="180">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 220" width="100%" height="220">
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070b14"/>
-      <stop offset="50%" stop-color="#0c1322"/>
-      <stop offset="100%" stop-color="#0a101d"/>
+      <stop offset="0%" stop-color="#050811"/>
+      <stop offset="50%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#080d1a"/>
     </linearGradient>
 
     <!-- Signal Gradients -->
-    <linearGradient id="cyanWaveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.2"/>
-      <stop offset="30%" stop-color="#06b6d4" stop-opacity="1"/>
-      <stop offset="70%" stop-color="#38bdf8" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.2"/>
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.1"/>
+      <stop offset="30%" stop-color="#38bdf8" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#818cf8" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.1"/>
     </linearGradient>
 
-    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="emeraldGlow" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#10b981" stop-opacity="0.1"/>
-      <stop offset="50%" stop-color="#10b981" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#34d399" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#34d399" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <linearGradient id="amberGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#fbbf24" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.2"/>
     </linearGradient>
 
     <!-- Grid Pattern -->
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.75" stroke-dasharray="2,2"/>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1e293b" stroke-width="0.6" stroke-dasharray="2,2"/>
     </pattern>
 
     <style>
       @keyframes waveScroll1 {
         0% { transform: translateX(0); }
-        100% { transform: translateX(-400px); }
+        100% { transform: translateX(-480px); }
       }
       @keyframes waveScroll2 {
         0% { transform: translateX(0); }
-        100% { transform: translateX(400px); }
+        100% { transform: translateX(480px); }
       }
-      @keyframes blink {
+      @keyframes pulseBeam {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 0.9; }
+      }
+      @keyframes blinkFast {
         0%, 100% { opacity: 1; }
         50% { opacity: 0.2; }
       }
-      .wave1 {
-        animation: waveScroll1 10s linear infinite;
+      @keyframes spectrumAnim1 {
+        0%, 100% { height: 12px; y: 108px; }
+        50% { height: 42px; y: 78px; }
       }
-      .wave2 {
-        animation: waveScroll2 14s linear infinite;
+      @keyframes spectrumAnim2 {
+        0%, 100% { height: 35px; y: 85px; }
+        50% { height: 18px; y: 102px; }
       }
-      .blinker {
-        animation: blink 1.2s ease-in-out infinite;
+      @keyframes spectrumAnim3 {
+        0%, 100% { height: 22px; y: 98px; }
+        50% { height: 48px; y: 72px; }
       }
+      @keyframes spectrumAnim4 {
+        0%, 100% { height: 40px; y: 80px; }
+        50% { height: 15px; y: 105px; }
+      }
+      .wave1 { animation: waveScroll1 10s linear infinite; }
+      .wave2 { animation: waveScroll2 14s linear infinite; }
+      .blinker { animation: blinkFast 1.2s ease-in-out infinite; }
+      .bar1 { animation: spectrumAnim1 1.6s ease-in-out infinite; }
+      .bar2 { animation: spectrumAnim2 1.3s ease-in-out infinite; }
+      .bar3 { animation: spectrumAnim3 1.8s ease-in-out infinite; }
+      .bar4 { animation: spectrumAnim4 1.4s ease-in-out infinite; }
       .terminal-font {
         font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
       }
     </style>
   </defs>
 
-  <!-- Background Card with Border -->
-  <rect x="2" y="2" width="896" height="176" rx="14" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="1.5"/>
-  <rect x="2" y="2" width="896" height="176" rx="14" fill="url(#grid)" opacity="0.65"/>
+  <!-- Base Card -->
+  <rect x="2" y="2" width="916" height="216" rx="16" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="2" y="2" width="916" height="216" rx="16" fill="url(#grid)" opacity="0.7"/>
 
-  <!-- Top Status Bar -->
-  <g class="terminal-font" font-size="10" fill="#64748b">
-    <circle cx="24" cy="22" r="4.5" fill="#ef4444"/>
-    <circle cx="38" cy="22" r="4.5" fill="#f59e0b"/>
-    <circle cx="52" cy="22" r="4.5" fill="#10b981"/>
+  <!-- Top Title / Status Bar -->
+  <g class="terminal-font" font-size="10.5">
+    <circle cx="26" cy="24" r="5" fill="#ef4444"/>
+    <circle cx="42" cy="24" r="5" fill="#f59e0b"/>
+    <circle cx="58" cy="24" r="5" fill="#10b981"/>
     
-    <text x="75" y="25" fill="#94a3b8" font-weight="600" letter-spacing="1">ELOMARJC // REAL-TIME SYSTEM ARCHITECTURE &amp; TELEMETRY</text>
+    <text x="82" y="28" fill="#94a3b8" font-weight="700" letter-spacing="1.2">SYSTEM TELEMETRY ENGINE // REAL-TIME DISP &amp; SENSOR PIPELINE</text>
     
-    <circle cx="780" cy="22" r="3.5" fill="#10b981" class="blinker"/>
-    <text x="792" y="25" fill="#10b981" font-weight="700">KERNEL ONLINE</text>
+    <circle cx="782" cy="24" r="4" fill="#10b981" class="blinker"/>
+    <text x="796" y="28" fill="#10b981" font-weight="700" letter-spacing="0.8">CORE ONLINE</text>
+    <text x="880" y="28" fill="#64748b" font-size="9">60 FPS</text>
   </g>
 
-  <!-- Horizontal Center Line -->
-  <line x1="20" y1="100" x2="880" y2="100" stroke="#334155" stroke-width="0.8" stroke-dasharray="4,4"/>
+  <!-- Horizontal Axis Lines -->
+  <line x1="20" y1="110" x2="680" y2="110" stroke="#334155" stroke-width="0.8" stroke-dasharray="4,4"/>
 
-  <!-- Animated Waveform 1: Audio / DSP Carrier Sine Wave -->
+  <!-- Wave 1: Carrier / Continuous Audio DSP Sine Wave -->
   <g class="wave1">
-    <path d="M 0 100 
-             Q 50 45, 100 100 T 200 100 T 300 100 T 400 100 
-             T 500 100 T 600 100 T 700 100 T 800 100 
-             T 900 100 T 1000 100 T 1100 100 T 1200 100 
-             T 1300 100 T 1400 100 T 1500 100 T 1600 100 
-             T 1700 100 T 1800 100" 
-          fill="none" stroke="url(#cyanWaveGrad)" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 0 110 
+             Q 60 40, 120 110 T 240 110 T 360 110 T 480 110 
+             T 600 110 T 720 110 T 840 110 T 960 110 
+             T 1080 110 T 1200 110 T 1320 110 T 1440 110 
+             T 1560 110 T 1680 110 T 1800 110 T 1920 110" 
+          fill="none" stroke="url(#cyanGlow)" stroke-width="2.6" stroke-linecap="round"/>
   </g>
 
-  <!-- Animated Waveform 2: State Estimation / Closed-Loop Feedback Wave -->
+  <!-- Wave 2: Discrete State Estimation / Kalman Tracking Wave -->
   <g class="wave2">
-    <path d="M -400 100 
-             C -340 140, -300 60, -240 100 
-             S -180 140, -120 100 
-             S -60 50, 0 100 
-             S 60 150, 120 100 
-             S 180 50, 240 100 
-             S 300 150, 360 100 
-             S 420 50, 480 100 
-             S 540 150, 600 100 
-             S 660 50, 720 100 
-             S 780 150, 840 100 
-             S 900 50, 960 100 
-             S 1020 150, 1080 100 
-             S 1140 50, 1200 100 
-             S 1260 150, 1320 100" 
-          fill="none" stroke="url(#emeraldGrad)" stroke-width="1.8" stroke-dasharray="6,4"/>
+    <path d="M -480 110 
+             C -410 160, -360 60, -290 110 
+             S -220 160, -150 110 
+             S -80 50, 0 110 
+             S 70 170, 140 110 
+             S 210 50, 280 110 
+             S 350 170, 420 110 
+             S 490 50, 560 110 
+             S 630 170, 700 110 
+             S 770 50, 840 110 
+             S 910 170, 980 110 
+             S 1050 50, 1120 110 
+             S 1190 170, 1260 110 
+             S 1330 50, 1400 110" 
+          fill="none" stroke="url(#emeraldGlow)" stroke-width="2" stroke-dasharray="7,5"/>
   </g>
 
-  <!-- Digital Pulse Train (Clock/Bus) in Background -->
-  <path d="M 20 135 L 70 135 L 70 120 L 120 120 L 120 135 L 170 135 L 170 120 L 220 120 L 220 135 L 270 135 L 270 120 L 320 120 L 320 135 L 370 135 L 370 120 L 420 120 L 420 135 L 470 135 L 470 120 L 520 120 L 520 135 L 570 135 L 570 120 L 620 120 L 620 135 L 670 135 L 670 120 L 720 120 L 720 135 L 770 135 L 770 120 L 820 120 L 820 135 L 880 135" 
-        fill="none" stroke="#3b82f6" stroke-width="1.2" opacity="0.35"/>
+  <!-- Digital Pulse Train (Bus/Clock Telemetry) -->
+  <path d="M 20 148 L 65 148 L 65 136 L 110 136 L 110 148 L 155 148 L 155 136 L 200 136 L 200 148 L 245 148 L 245 136 L 290 136 L 290 148 L 335 148 L 335 136 L 380 136 L 380 148 L 425 148 L 425 136 L 470 136 L 470 148 L 515 148 L 515 136 L 560 136 L 560 148 L 605 148 L 605 136 L 650 136 L 650 148 L 695 148" 
+        fill="none" stroke="#6366f1" stroke-width="1.2" opacity="0.45"/>
 
-  <!-- Telemetry Pills Footer -->
-  <g class="terminal-font" font-size="9.5" font-weight="600">
-    <!-- Tag 1 -->
-    <rect x="22" y="148" width="168" height="20" rx="5" fill="#0f172a" stroke="#334155" stroke-width="1"/>
-    <circle cx="34" cy="158" r="3" fill="#38bdf8"/>
-    <text x="44" y="162" fill="#cbd5e1">DSP // SNR GAIN: +34 dB</text>
+  <!-- Live Mini Spectrum Analyzer on the Right Side -->
+  <g class="terminal-font">
+    <rect x="705" y="52" width="190" height="98" rx="8" fill="#090e1a" stroke="#1e293b" stroke-width="1"/>
+    <text x="718" y="70" fill="#64748b" font-size="9" font-weight="700">FFT SPECTRUM (Hz)</text>
+    
+    <!-- Spectrum Bars -->
+    <rect x="718" y="85" width="14" height="35" rx="3" fill="#38bdf8" class="bar1"/>
+    <rect x="738" y="102" width="14" height="18" rx="3" fill="#60a5fa" class="bar2"/>
+    <rect x="758" y="72" width="14" height="48" rx="3" fill="#818cf8" class="bar3"/>
+    <rect x="778" y="80" width="14" height="40" rx="3" fill="#34d399" class="bar4"/>
+    <rect x="798" y="90" width="14" height="30" rx="3" fill="#10b981" class="bar1"/>
+    <rect x="818" y="98" width="14" height="22" rx="3" fill="#f59e0b" class="bar2"/>
+    <rect x="838" y="75" width="14" height="45" rx="3" fill="#fbbf24" class="bar3"/>
+    <rect x="858" y="105" width="14" height="15" rx="3" fill="#ec4899" class="bar4"/>
 
-    <!-- Tag 2 -->
-    <rect x="200" y="148" width="205" height="20" rx="5" fill="#0f172a" stroke="#334155" stroke-width="1"/>
-    <circle cx="212" cy="158" r="3" fill="#10b981"/>
-    <text x="222" y="162" fill="#cbd5e1">MOBILE // DART FFI + C++ SOLOUD</text>
+    <line x1="714" y1="126" x2="885" y2="126" stroke="#334155" stroke-width="0.8"/>
+    <text x="718" y="140" fill="#94a3b8" font-size="8.5">0.1k</text>
+    <text x="760" y="140" fill="#94a3b8" font-size="8.5">1.2k</text>
+    <text x="805" y="140" fill="#94a3b8" font-size="8.5">4.8k</text>
+    <text x="850" y="140" fill="#94a3b8" font-size="8.5">20k</text>
+  </g>
 
-    <!-- Tag 3 -->
-    <rect x="415" y="148" width="210" height="20" rx="5" fill="#0f172a" stroke="#334155" stroke-width="1"/>
-    <circle cx="427" cy="158" r="3" fill="#f59e0b"/>
-    <text x="437" y="162" fill="#cbd5e1">ROBOTICS // UWB + CV FUSION</text>
+  <!-- Telemetry Badge Bar at the Bottom -->
+  <g class="terminal-font" font-size="9.5" font-weight="700">
+    <!-- Pill 1 -->
+    <rect x="22" y="174" width="170" height="24" rx="6" fill="#090e1a" stroke="#1e293b" stroke-width="1"/>
+    <circle cx="36" cy="186" r="3.5" fill="#38bdf8"/>
+    <text x="48" y="190" fill="#cbd5e1">DSP SNR GAIN: +34 dB</text>
 
-    <!-- Tag 4 -->
-    <rect x="635" y="148" width="242" height="20" rx="5" fill="#0f172a" stroke="#334155" stroke-width="1"/>
-    <circle cx="647" cy="158" r="3" fill="#ec4899"/>
-    <text x="657" y="162" fill="#cbd5e1">SECURITY // X25519 + AES-256-GCM</text>
+    <!-- Pill 2 -->
+    <rect x="204" y="174" width="215" height="24" rx="6" fill="#090e1a" stroke="#1e293b" stroke-width="1"/>
+    <circle cx="218" cy="186" r="3.5" fill="#10b981"/>
+    <text x="230" y="190" fill="#cbd5e1">MOBILE: C++ SOLOUD FFI</text>
+
+    <!-- Pill 3 -->
+    <rect x="431" y="174" width="220" height="24" rx="6" fill="#090e1a" stroke="#1e293b" stroke-width="1"/>
+    <circle cx="445" cy="186" r="3.5" fill="#fbbf24"/>
+    <text x="457" y="190" fill="#cbd5e1">ROBOTICS: UWB + CV FUSION</text>
+
+    <!-- Pill 4 -->
+    <rect x="663" y="174" width="235" height="24" rx="6" fill="#090e1a" stroke="#1e293b" stroke-width="1"/>
+    <circle cx="677" cy="186" r="3.5" fill="#ec4899"/>
+    <text x="689" y="190" fill="#cbd5e1">E2EE: X25519 + AES-256-GCM</text>
   </g>
 </svg>
