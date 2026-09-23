@@ -27,52 +27,50 @@
 
 ---
 
-## Interactive Workstation Console
+## Engineering Profile & Core Highlights
 
-<details open>
-<summary><b>▶ Terminal: <code>jacob --status --overview</code></b> <i>(Click to expand/collapse system profile)</i></summary>
-
-```text
-┌──[guest@jacob-workstation]─[~]
-└──$ jacob --status --overview
-[● ONLINE     ] Jacob El-Omar — M.Sc. in Electronic Systems | Aalborg University, Denmark
-[● DISCIPLINES] Full-Stack Software • Mobile Engines • Medical AI/ML & DSP • Robotics
-[● CO-DEV     ] OpenMath CAS (Desktop + Web) & Grow A Fish (Google Play) w/ @J2KJonas
-[● PERFORMANCE] +34 dB Medical Audio SNR | Sub-1ms Binary Chunks | Zero-Lag C++ Audio FFI
-[● ARCHITECTURE] 330+ Dart Modules | 9 Real-Time Digital Twins | FreeRTOS & Cyclone V FPGA
-```
-
-</details>
-
-<details>
-<summary><b>▶ Terminal: <code>jacob --skills --matrix</code></b> <i>(Click to view full stack & tooling breakdown)</i></summary>
-
-```text
-┌──[guest@jacob-workstation]─[~]
-└──$ jacob --skills --matrix
-LANGUAGES       :: Python, C/C++, Dart, C#/.NET Core, TypeScript/JavaScript, VHDL, SQL, MATLAB
-FRAMEWORKS      :: PyQt6, Flutter, Flame Engine, Dart FFI (Native C++), Streamlit, Node.js
-AI / ML & DSP   :: Adaptive Filtering (LMS/NLMS/RLS), FastICA, STFT, RapidOCR, LLM APIs / Ollama
-ROBOTICS / CTRL :: Mobile Robots (MiR200), State-Space MIMO, Cascaded PID, LQR/LQG, Kalman (EKF/UKF)
-EMBEDDED / IOT  :: FreeRTOS, ARM Cortex-M, Intel Cyclone V FPGA, ESP32, ATmega2560, Modbus, MQTT
-DATA / CLOUD    :: Supabase Realtime, PostgreSQL, InfluxDB v2, Hive NoSQL, Docker, Git, CI/CD
-```
-
-</details>
-
-<details>
-<summary><b>▶ Terminal: <code>jacob --achievements --awards</code></b> <i>(Click to view honors and milestones)</i></summary>
-
-```text
-┌──[guest@jacob-workstation]─[~]
-└──$ jacob --achievements --awards
-[★ 1ST PLACE ] AAU RoboCup Autonomous Robotics Tournament Champion
-[★ MASTER'S  ] 50 ECTS Thesis R&D with Ai Health Highway: Real-Time Adaptive Noise Cancellation (+34dB SNR)
-[★ SHIPPED   ] Grow A Fish: Commercial Mobile Game & Real-Time Multiplayer Ecosystem on Google Play
-[★ HARDWARE  ] Full PLC IEC 61131-3 Equivalence on Cypress PSoC 5LP UDBs & Intel Cyclone V FPGA
-```
-
-</details>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>Full-Stack Software &amp; Systems Architecture</h4>
+      <p><b>M.Sc. (Civilingeniør, cand.polyt.) in Electronic Systems</b> and <b>B.Sc. in Electronics &amp; IT (Process Control)</b> from Aalborg University. Bridges the complete engineering lifecycle from bare-metal silicon registers, real-time operating systems, and industrial protocols up to high-performance desktop and mobile applications.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Degree-Cand.polyt._M.Sc.-0284C7?style=flat-square" />
+        <img src="https://img.shields.io/badge/University-Aalborg_University-1E293B?style=flat-square" />
+        <img src="https://img.shields.io/badge/ECTS-300_Total-10B981?style=flat-square" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>Production Mobile &amp; Desktop Engines</h4>
+      <p>Shipped <b>Grow A Fish</b> on Google Play featuring 330+ Dart modules, zero-lag C++ <code>SoLoud</code> audio engine integration via Dart FFI, deterministic WebSocket multiplayer netcode, and hardware-backed E2EE. Co-developed <b>OpenMath</b>, a cross-platform desktop CAS and technical worksheet environment.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Google_Play-Live_App-34A853?style=flat-square&logo=googleplay&logoColor=white" />
+        <img src="https://img.shields.io/badge/Architecture-330%2B_Dart_Modules-02569B?style=flat-square" />
+        <img src="https://img.shields.io/badge/Audio-C%2B%2B_Native_FFI-FF6F00?style=flat-square" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>Medical DSP &amp; Signal Intelligence</h4>
+      <p>50 ECTS Master's Thesis R&D in collaboration with <b>Ai Health Highway</b>. Engineered real-time adaptive noise cancellation filters (LMS, NLMS, RLS) and FastICA for smart electronic stethoscopes (<b>AiSteth</b>), achieving up to <b>+34 dB SNR improvements</b> with deterministic sub-millisecond execution targets on ARM Cortex-M4.</p>
+      <p>
+        <img src="https://img.shields.io/badge/SNR_Gain-+34_dB-10B981?style=flat-square" />
+        <img src="https://img.shields.io/badge/Target-ARM_Cortex--M4-0091BD?style=flat-square" />
+        <img src="https://img.shields.io/badge/Algorithms-LMS_%2F_NLMS_%2F_RLS-6366F1?style=flat-square" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>Autonomous Robotics &amp; Industrial Control</h4>
+      <p><b>1st Place Champion in AAU RoboCup Tournament</b>. Engineered a 9-thread concurrent Python sensor fusion engine fusing active Ultra-Wideband (UWB) RF tags, overhead Computer Vision, and industrial <b>MiR200 AMRs</b>. Designed discrete anti-sway LQR gantry crane control and implemented IEC 61131-3 logic on FPGA/PSoC.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Award-1st_Place_RoboCup-EAB308?style=flat-square" />
+        <img src="https://img.shields.io/badge/Robotics-MiR200_AMR-EF4444?style=flat-square" />
+        <img src="https://img.shields.io/badge/Control-LQR_%2B_Cascaded_PID-8B5CF6?style=flat-square" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -219,31 +217,61 @@ A suite of 9 real-time mathematical digital twins, physical modeling testbenches
 
 <div align="center">
 
-### Languages & Systems Core
+### Core Programming Languages
+[![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://isocpp.org/)
+[![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)](https://docs.microsoft.com/en-us/dotnet/csharp/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
 [![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
-[![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)](https://docs.microsoft.com/en-us/dotnet/csharp/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![VHDL](https://img.shields.io/badge/VHDL-5C6BC0?style=for-the-badge)](https://en.wikipedia.org/wiki/VHDL)
 [![MATLAB](https://img.shields.io/badge/MATLAB-ED8B00?style=for-the-badge&logo=mathworks&logoColor=white)](https://mathworks.com/)
+[![Maple](https://img.shields.io/badge/Maple-D32F2F?style=for-the-badge)](https://www.maplesoft.com/)
+[![Structured Text](https://img.shields.io/badge/Structured_Text_(ST)-1B365D?style=for-the-badge)](https://en.wikipedia.org/wiki/Structured_text)
 [![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://en.wikipedia.org/wiki/HTML5)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://en.wikipedia.org/wiki/CSS)
+[![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)](https://www.latex-project.org/)
 
-### Frameworks, Engines & Real-Time Systems
+### Frameworks, Engines & Real-Time Kernels
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
-[![PyQt6](https://img.shields.io/badge/PyQt6-41CD52?style=for-the-badge&logo=qt&logoColor=white)](https://riverbankcomputing.com/software/pyqt/)
 [![Flame Engine](https://img.shields.io/badge/Flame_Engine-FF6F00?style=for-the-badge)](https://flame-engine.org/)
+[![PyQt6](https://img.shields.io/badge/PyQt6-41CD52?style=for-the-badge&logo=qt&logoColor=white)](https://riverbankcomputing.com/software/pyqt/)
+[![.NET Core](https://img.shields.io/badge/.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![FreeRTOS](https://img.shields.io/badge/FreeRTOS-2E7D32?style=for-the-badge)](https://www.freertos.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://pytest.org/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
+[![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)](https://ffmpeg.org/)
 
-### Hardware, Cloud & Infrastructure
+### Embedded, Industrial Hardware & Protocols
 [![Intel FPGA](https://img.shields.io/badge/Intel_Cyclone_V-0071C5?style=for-the-badge&logo=intel&logoColor=white)](https://www.intel.com/)
+[![Cypress PSoC](https://img.shields.io/badge/Cypress_PSoC_5LP-003366?style=for-the-badge)](https://www.infineon.com/)
 [![ARM Cortex](https://img.shields.io/badge/ARM_Cortex--M-0091BD?style=for-the-badge&logo=arm&logoColor=white)](https://www.arm.com/)
-[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
+[![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)](https://www.espressif.com/)
+[![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/)
+[![MiR200](https://img.shields.io/badge/MiR200_AMR-EF4444?style=for-the-badge)](https://www.mobile-industrial-robots.com/)
+[![Modbus](https://img.shields.io/badge/Modbus_TCP%2FRTU-005B94?style=for-the-badge)](https://modbus.org/)
+[![CAN Bus](https://img.shields.io/badge/CAN_Bus-FF8C00?style=for-the-badge)](https://en.wikipedia.org/wiki/CAN_bus)
+[![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white)](https://websockets.spec.whatwg.org/)
+[![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=eclipsemqtt&logoColor=white)](https://mqtt.org/)
+
+### Cloud, EDA, Tooling & DevOps
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://www.kernel.org/)
 [![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/features/actions)
+[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+[![PlatformIO](https://img.shields.io/badge/PlatformIO-F3811E?style=for-the-badge&logo=platformio&logoColor=white)](https://platformio.org/)
+[![Quartus Prime](https://img.shields.io/badge/Quartus_Prime-0071C5?style=for-the-badge&logo=intel&logoColor=white)](https://www.intel.com/)
+[![Onshape](https://img.shields.io/badge/Onshape_3D_CAD-1B72E8?style=for-the-badge)](https://www.onshape.com/)
+[![Altium](https://img.shields.io/badge/Altium_Designer-A5915F?style=for-the-badge&logo=altiumdesigner&logoColor=white)](https://www.altium.com/)
+[![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)](https://www.wireshark.org/)
 
 </div>
 
