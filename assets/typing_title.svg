@@ -12,7 +12,7 @@
         dominant-baseline: central;
       }
 
-      /* Cycle through 4 punchy phrases smoothly over 14s (3.5s each) */
+      /* Cycle through 4 coherent engineering roles over 14s (3.5s each) */
       .phrase-1 { animation: cycle1 14s infinite; }
       .phrase-2 { animation: cycle2 14s infinite; }
       .phrase-3 { animation: cycle3 14s infinite; }
@@ -46,13 +46,13 @@
       <text class="text" x="0" y="0">MSc in Electronic Systems (Civilingeniør)</text>
     </g>
     <g class="phrase-2">
-      <text class="text" x="0" y="0">Embedded Systems &amp; Signal Processing</text>
+      <text class="text" x="0" y="0">Embedded Systems Engineer</text>
     </g>
     <g class="phrase-3">
-      <text class="text" x="0" y="0">Mobile &amp; Desktop Software Development</text>
+      <text class="text" x="0" y="0">Signal Processing &amp; Control Engineer</text>
     </g>
     <g class="phrase-4">
-      <text class="text" x="0" y="0">Hardware, Control &amp; Digital Design</text>
+      <text class="text" x="0" y="0">BSc in Electronics &amp; IT (Process Control)</text>
     </g>
   </g>
 </svg>
