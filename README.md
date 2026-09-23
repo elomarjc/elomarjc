@@ -23,7 +23,7 @@
 
 ## About Me
 
-I hold a Master of Science (MSc) in Engineering in Electronic Systems and a Bachelor of Science (BSc) in Engineering in Electronic Engineering and IT (specializing in Process Control) from Aalborg University. My foundation is built on signal processing, control systems, and embedded hardware, combined with practical experience developing desktop applications and shipping a production mobile game. I enjoy applying engineering and mathematics to build reliable, performant systems.
+I hold an M.Sc. in Electronic Systems (Civilingeniør) and a B.Sc. in Electronic Engineering and IT (Process Control) from Aalborg University. Across my studies and projects, I have designed, implemented, and tested both hardware and software—spanning embedded systems, digital electronics, network communication, and applications. As a recent graduate, I am eager to tackle new technical challenges. As a person, I am outgoing, structured, and collaborative, with a positive mindset and a high sense of responsibility whether working independently or in teams.
 
 ## Flagship Products & Visual Showcase
 
